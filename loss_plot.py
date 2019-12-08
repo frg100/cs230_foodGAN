@@ -10,7 +10,7 @@ loss_filenames = ["losses_sim_1575781367.650115.txt", "losses_vgg_1575624281.130
 
 for loss_filename in loss_filenames:
 
-  rgx = r'\[[0-9.]*\]'
+  rgx = r'\[[-?0-9.]*\]'
 
   disc_loss = []
   gen_loss = []
