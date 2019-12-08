@@ -152,6 +152,8 @@ discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
 generator = make_sr_generator_model('generator')
 #generator.summary()
 
+models = ['./training_checkpoints', './vggan_training_checkpoints']
+
 checkpoint_dir = './training_checkpoints'
 checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
 checkpoint = tf.train.Checkpoint(generator_optimizer=generator_optimizer,
@@ -164,7 +166,7 @@ vgg_generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 vgg_discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
 vgg_generator = make_sr_generator_model('vgg_generator')
 
-vgg_checkpoint_dir = './vgg_training_checkpoints'
+vgg_checkpoint_dir = './vggan_training_checkpoints'
 vgg_checkpoint_prefix = os.path.join(vgg_checkpoint_dir, "ckpt")
 vgg_checkpoint = tf.train.Checkpoint(generator_optimizer=vgg_generator_optimizer,
                                   discriminator_optimizer=vgg_discriminator_optimizer,
