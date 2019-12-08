@@ -1,0 +1,2753 @@
+2019-12-04 09:02:58.735085: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-04 09:02:58.740637: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
+2019-12-04 09:02:58.740829: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55f29c0d36d0 executing computations on platform Host. Devices:
+2019-12-04 09:02:58.740850: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+There are 6777 images
+Loading dataset
+Preparing dataset for training
+Batch #0
+Batch #1
+Batch #2
+Batch #3
+Batch #4
+Batch #5
+Batch #6
+Batch #7
+Batch #8
+Batch #9
+Batch #10
+Batch #11
+Batch #12
+Batch #13
+Batch #14
+Batch #15
+Batch #16
+Batch #17
+Batch #18
+Batch #19
+Batch #20
+Batch #21
+Batch #22
+Batch #23
+Batch #24
+Batch #25
+Batch #26
+Batch #27
+Batch #28
+Batch #29
+Batch #30
+Batch #31
+Batch #32
+Batch #33
+Batch #34
+Batch #35
+Batch #36
+Batch #37
+Batch #38
+Batch #39
+Batch #40
+Batch #41
+Batch #42
+Batch #43
+Batch #44
+Batch #45
+Batch #46
+Batch #47
+Batch #48
+Batch #49
+Batch #50
+Batch #51
+Batch #52
+Batch #53
+Batch #54
+Batch #55
+Batch #56
+Batch #57
+Batch #58
+Batch #59
+Batch #60
+Batch #61
+Batch #62
+Batch #63
+Batch #64
+Batch #65
+Batch #66
+Batch #67
+Batch #68
+Batch #69
+Batch #70
+Batch #71
+Batch #72
+Batch #73
+Batch #74
+Batch #75
+Batch #76
+Batch #77
+Batch #78
+Batch #79
+Batch #80
+Batch #81
+Batch #82
+Batch #83
+Batch #84
+Batch #85
+Batch #86
+Batch #87
+Batch #88
+Batch #89
+Batch #90
+Batch #91
+Batch #92
+Batch #93
+Batch #94
+Batch #95
+Batch #96
+Batch #97
+Batch #98
+Batch #99
+Batch #100
+Batch #101
+Batch #102
+Batch #103
+Batch #104
+Batch #105
+Batch #106
+Batch #107
+Batch #108
+Batch #109
+Batch #110
+Batch #111
+Batch #112
+Batch #113
+Batch #114
+Batch #115
+Batch #116
+Batch #117
+Batch #118
+Batch #119
+Batch #120
+Batch #121
+Batch #122
+Batch #123
+Batch #124
+Batch #125
+Batch #126
+Batch #127
+Batch #128
+Batch #129
+Batch #130
+Batch #131
+Batch #132
+Batch #133
+Batch #134
+Batch #135
+Batch #136
+Batch #137
+Batch #138
+Batch #139
+Batch #140
+Batch #141
+Batch #142
+Batch #143
+Batch #144
+Batch #145
+Batch #146
+Batch #147
+Batch #148
+Batch #149
+Batch #150
+Batch #151
+Batch #152
+Batch #153
+Batch #154
+Batch #155
+Batch #156
+Batch #157
+Batch #158
+Batch #159
+Batch #160
+Batch #161
+Batch #162
+Batch #163
+Batch #164
+Batch #165
+Batch #166
+Batch #167
+Batch #168
+Batch #169
+Batch #170
+Batch #171
+Batch #172
+Batch #173
+Batch #174
+Batch #175
+Batch #176
+Batch #177
+Batch #178
+Batch #179
+Batch #180
+Batch #181
+Batch #182
+Batch #183
+Batch #184
+Batch #185
+Batch #186
+Batch #187
+Batch #188
+Batch #189
+Batch #190
+Batch #191
+Batch #192
+Batch #193
+Batch #194
+Batch #195
+Batch #196
+Batch #197
+Batch #198
+Batch #199
+Batch #200
+Batch #201
+Batch #202
+Batch #203
+Batch #204
+Batch #205
+Batch #206
+Batch #207
+Batch #208
+Batch #209
+Batch #210
+Batch #211
+Batch #212
+Batch #213
+Batch #214
+Batch #215
+Batch #216
+Batch #217
+Batch #218
+Batch #219
+Batch #220
+Batch #221
+Batch #222
+Batch #223
+Batch #224
+Batch #225
+Batch #226
+Batch #227
+Batch #228
+Batch #229
+Batch #230
+Batch #231
+Batch #232
+Batch #233
+Batch #234
+Batch #235
+Batch #236
+Batch #237
+Batch #238
+Batch #239
+Batch #240
+Batch #241
+Batch #242
+Batch #243
+Batch #244
+Batch #245
+Batch #246
+Batch #247
+Batch #248
+Batch #249
+Batch #250
+Batch #251
+Batch #252
+Batch #253
+Batch #254
+Batch #255
+Batch #256
+Batch #257
+Batch #258
+Batch #259
+Batch #260
+Batch #261
+Batch #262
+Batch #263
+Batch #264
+Batch #265
+Batch #266
+Batch #267
+Batch #268
+Batch #269
+Batch #270
+Batch #271
+Batch #272
+Batch #273
+Batch #274
+Batch #275
+Batch #276
+Batch #277
+Batch #278
+Batch #279
+Batch #280
+Batch #281
+Batch #282
+Batch #283
+Batch #284
+Batch #285
+Batch #286
+Batch #287
+Batch #288
+Batch #289
+Batch #290
+Batch #291
+Batch #292
+Batch #293
+Batch #294
+Batch #295
+Batch #296
+Batch #297
+Batch #298
+Batch #299
+Batch #300
+Batch #301
+Batch #302
+Batch #303
+Batch #304
+Batch #305
+Batch #306
+Batch #307
+Batch #308
+Batch #309
+Batch #310
+Batch #311
+Batch #312
+Batch #313
+Batch #314
+Batch #315
+Batch #316
+Batch #317
+Batch #318
+Batch #319
+Batch #320
+Batch #321
+Batch #322
+Batch #323
+Batch #324
+Batch #325
+Batch #326
+Batch #327
+Batch #328
+Batch #329
+Batch #330
+Batch #331
+Batch #332
+Batch #333
+Batch #334
+Batch #335
+Batch #336
+Batch #337
+Batch #338
+Batch #339
+Batch #340
+Batch #341
+Batch #342
+Batch #343
+Batch #344
+Batch #345
+Batch #346
+Batch #347
+Batch #348
+Batch #349
+Batch #350
+Batch #351
+Batch #352
+Batch #353
+Batch #354
+Batch #355
+Batch #356
+Batch #357
+Batch #358
+Batch #359
+Batch #360
+Batch #361
+Batch #362
+Batch #363
+Batch #364
+Batch #365
+Batch #366
+Batch #367
+Batch #368
+Batch #369
+Batch #370
+Batch #371
+Batch #372
+Batch #373
+Batch #374
+Batch #375
+Batch #376
+Batch #377
+Batch #378
+Batch #379
+Batch #380
+Batch #381
+Batch #382
+Batch #383
+Batch #384
+Batch #385
+Batch #386
+Batch #387
+Batch #388
+Batch #389
+Batch #390
+Batch #391
+Batch #392
+Batch #393
+Batch #394
+Batch #395
+Batch #396
+Batch #397
+Batch #398
+Batch #399
+Batch #400
+Batch #401
+Batch #402
+Batch #403
+Batch #404
+Batch #405
+Batch #406
+Batch #407
+Batch #408
+Batch #409
+Batch #410
+Batch #411
+Batch #412
+Batch #413
+Batch #414
+Batch #415
+Batch #416
+Batch #417
+Batch #418
+Batch #419
+Batch #420
+Batch #421
+Batch #422
+Batch #423
+There are 6777 images
+Model: "generator"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to                     
+==================================================================================================
+input_2 (InputLayer)            [(None, 24, 24, 3)]  0                                            
+__________________________________________________________________________________________________
+conv2d (Conv2D)                 (None, 24, 24, 64)   15616       input_2[0][0]                    
+__________________________________________________________________________________________________
+p_re_lu (PReLU)                 (None, 24, 24, 64)   36864       conv2d[0][0]                     
+__________________________________________________________________________________________________
+conv2d_1 (Conv2D)               (None, 24, 24, 64)   36928       p_re_lu[0][0]                    
+__________________________________________________________________________________________________
+batch_normalization (BatchNorma (None, 24, 24, 64)   256         conv2d_1[0][0]                   
+__________________________________________________________________________________________________
+p_re_lu_1 (PReLU)               (None, 24, 24, 64)   36864       batch_normalization[0][0]        
+__________________________________________________________________________________________________
+conv2d_2 (Conv2D)               (None, 24, 24, 64)   36928       p_re_lu_1[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_1 (BatchNor (None, 24, 24, 64)   256         conv2d_2[0][0]                   
+__________________________________________________________________________________________________
+add (Add)                       (None, 24, 24, 64)   0           p_re_lu[0][0]                    
+                                                                 batch_normalization_1[0][0]      
+__________________________________________________________________________________________________
+conv2d_3 (Conv2D)               (None, 24, 24, 64)   36928       add[0][0]                        
+__________________________________________________________________________________________________
+batch_normalization_2 (BatchNor (None, 24, 24, 64)   256         conv2d_3[0][0]                   
+__________________________________________________________________________________________________
+p_re_lu_2 (PReLU)               (None, 24, 24, 64)   36864       batch_normalization_2[0][0]      
+__________________________________________________________________________________________________
+conv2d_4 (Conv2D)               (None, 24, 24, 64)   36928       p_re_lu_2[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_3 (BatchNor (None, 24, 24, 64)   256         conv2d_4[0][0]                   
+__________________________________________________________________________________________________
+add_1 (Add)                     (None, 24, 24, 64)   0           add[0][0]                        
+                                                                 batch_normalization_3[0][0]      
+__________________________________________________________________________________________________
+conv2d_5 (Conv2D)               (None, 24, 24, 64)   36928       add_1[0][0]                      Using TensorFlow backend.
+WARNING:tensorflow:Entity <function VGG_static.<locals>.<lambda> at 0x7f1259c81268> could not be transformed and will be executed as-is. Please report this to the AutoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: Failed to parse source code of <function VGG_static.<locals>.<lambda> at 0x7f1259c81268>, which Python reported as:
+        lambda x: x * 255 - np.array([123.68, 116.779, 103.939], dtype=np.float32).reshape([1, 1, 1, 3]), name='scale'
+
+If this is a lambda function, the error may be avoided by creating the lambda in a standalone statement.
+
+__________________________________________________________________________________________________
+batch_normalization_4 (BatchNor (None, 24, 24, 64)   256         conv2d_5[0][0]                   
+__________________________________________________________________________________________________
+p_re_lu_3 (PReLU)               (None, 24, 24, 64)   36864       batch_normalization_4[0][0]      
+__________________________________________________________________________________________________
+conv2d_6 (Conv2D)               (None, 24, 24, 64)   36928       p_re_lu_3[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_5 (BatchNor (None, 24, 24, 64)   256         conv2d_6[0][0]                   
+__________________________________________________________________________________________________
+add_2 (Add)                     (None, 24, 24, 64)   0           add_1[0][0]                      
+                                                                 batch_normalization_5[0][0]      
+__________________________________________________________________________________________________
+conv2d_7 (Conv2D)               (None, 24, 24, 64)   36928       add_2[0][0]                      
+__________________________________________________________________________________________________
+batch_normalization_6 (BatchNor (None, 24, 24, 64)   256         conv2d_7[0][0]                   
+__________________________________________________________________________________________________
+p_re_lu_4 (PReLU)               (None, 24, 24, 64)   36864       batch_normalization_6[0][0]      
+__________________________________________________________________________________________________
+conv2d_8 (Conv2D)               (None, 24, 24, 64)   36928       p_re_lu_4[0][0]                  
+__________________________________________________________________________________________________
+batch_normalization_7 (BatchNor (None, 24, 24, 64)   256         conv2d_8[0][0]                   
+__________________________________________________________________________________________________
+add_3 (Add)                     (None, 24, 24, 64)   0           add_2[0][0]                      
+                                                                 batch_normalization_7[0][0]      
+__________________________________________________________________________________________________
+conv2d_10 (Conv2D)              (None, 24, 24, 256)  147712      add_3[0][0]                      
+__________________________________________________________________________________________________
+subpixel_0 (Lambda)             (None, 48, 48, 64)   0           conv2d_10[0][0]                  
+__________________________________________________________________________________________________
+p_re_lu_5 (PReLU)               (None, 48, 48, 64)   147456      subpixel_0[0][0]                 
+__________________________________________________________________________________________________
+conv2d_11 (Conv2D)              (None, 48, 48, 256)  147712      p_re_lu_5[0][0]                  
+__________________________________________________________________________________________________
+subpixel_1 (Lambda)             (None, 96, 96, 64)   0           conv2d_11[0][0]                  
+__________________________________________________________________________________________________
+p_re_lu_6 (PReLU)               (None, 96, 96, 64)   589824      subpixel_1[0][0]                 
+__________________________________________________________________________________________________
+conv2d_12 (Conv2D)              (None, 96, 96, 3)    15555       p_re_lu_6[0][0]                  
+==================================================================================================
+Total params: 1,545,667
+Trainable params: 1,544,643
+Non-trainable params: 1,024
+__________________________________________________________________________________________________
+Starting to train
+Loading VGG model
+Starting main train loop
+Training on Batch 0
+Discriminator Loss: 1.458572268486023  | Generator Loss: 0.6111414432525635
+Training on Batch 1
+Discriminator Loss: 1.4317445755004883  | Generator Loss: 0.5283724069595337
+Training on Batch 2
+Discriminator Loss: 1.4121841192245483  | Generator Loss: 0.45945990085601807
+Training on Batch 3
+Discriminator Loss: 1.3940749168395996  | Generator Loss: 0.41631823778152466
+Training on Batch 4
+Discriminator Loss: 1.3795726299285889  | Generator Loss: 0.3908148407936096
+Training on Batch 5
+Discriminator Loss: 1.3664828538894653  | Generator Loss: 0.3785460889339447
+Training on Batch 6
+Discriminator Loss: 1.3528810739517212  | Generator Loss: 0.3580153286457062
+Training on Batch 7
+Discriminator Loss: 1.3418664932250977  | Generator Loss: 0.34432452917099
+Training on Batch 8
+Discriminator Loss: 1.3310949802398682  | Generator Loss: 0.3324548900127411
+Training on Batch 9
+Discriminator Loss: 1.3226553201675415  | Generator Loss: 0.32453158497810364
+Training on Batch 10
+Discriminator Loss: 1.312048316001892  | Generator Loss: 0.3128514587879181
+Training on Batch 11
+Discriminator Loss: 1.3046929836273193  | Generator Loss: 0.3040434420108795
+Training on Batch 12
+Discriminator Loss: 1.295451283454895  | Generator Loss: 0.29644158482551575
+Training on Batch 13
+Discriminator Loss: 1.2880295515060425  | Generator Loss: 0.29076218605041504
+Training on Batch 14
+Discriminator Loss: 1.278905987739563  | Generator Loss: 0.2825603485107422
+Training on Batch 15
+Discriminator Loss: 1.2720215320587158  | Generator Loss: 0.277468204498291
+Training on Batch 16
+Discriminator Loss: 1.264301061630249  | Generator Loss: 0.27100810408592224
+Training on Batch 17
+Discriminator Loss: 1.258267879486084  | Generator Loss: 0.26402077078819275
+Training on Batch 18
+Discriminator Loss: 1.2505156993865967  | Generator Loss: 0.25854817032814026
+Training on Batch 19
+Discriminator Loss: 1.2434769868850708  | Generator Loss: 0.25333210825920105
+Training on Batch 20
+Discriminator Loss: 1.2364155054092407  | Generator Loss: 0.2480812966823578
+Training on Batch 21
+Discriminator Loss: 1.2298256158828735  | Generator Loss: 0.2427143156528473
+Training on Batch 22
+Discriminator Loss: 1.223111867904663  | Generator Loss: 0.23882459104061127
+Training on Batch 23
+Discriminator Loss: 1.2166098356246948  | Generator Loss: 0.23503005504608154
+Training on Batch 24
+Discriminator Loss: 1.2112897634506226  | Generator Loss: 0.23070396482944489
+Training on Batch 25
+Discriminator Loss: 1.2056262493133545  | Generator Loss: 0.2273934930562973
+Training on Batch 26
+Discriminator Loss: 1.2002264261245728  | Generator Loss: 0.22324413061141968
+Training on Batch 27
+Discriminator Loss: 1.1947699785232544  | Generator Loss: 0.21898886561393738
+Training on Batch 28
+Discriminator Loss: 1.1900639533996582  | Generator Loss: 0.21581517159938812
+Training on Batch 29
+Discriminator Loss: 1.1852107048034668  | Generator Loss: 0.21318207681179047
+Training on Batch 30
+Discriminator Loss: 1.180757761001587  | Generator Loss: 0.21028250455856323
+Training on Batch 31
+Discriminator Loss: 1.1764931678771973  | Generator Loss: 0.20790575444698334
+Training on Batch 32
+Discriminator Loss: 1.1722581386566162  | Generator Loss: 0.20507386326789856
+Training on Batch 33
+Discriminator Loss: 1.168237328529358  | Generator Loss: 0.20246629416942596
+Training on Batch 34
+Discriminator Loss: 1.1642050743103027  | Generator Loss: 0.1999712586402893
+Training on Batch 35
+Discriminator Loss: 1.1604430675506592  | Generator Loss: 0.19731584191322327
+Training on Batch 36
+Discriminator Loss: 1.1573964357376099  | Generator Loss: 0.19554202258586884
+Training on Batch 37
+Discriminator Loss: 1.153908610343933  | Generator Loss: 0.19291357696056366
+Training on Batch 38
+Discriminator Loss: 1.1510056257247925  | Generator Loss: 0.19161716103553772
+Training on Batch 39
+Discriminator Loss: 1.1479798555374146  | Generator Loss: 0.18947601318359375
+Training on Batch 40
+Discriminator Loss: 1.1451643705368042  | Generator Loss: 0.18787437677383423
+Training on Batch 41
+Discriminator Loss: 1.142316222190857  | Generator Loss: 0.18589287996292114
+Training on Batch 42
+Discriminator Loss: 1.1395210027694702  | Generator Loss: 0.18387387692928314
+Training on Batch 43
+Discriminator Loss: 1.1368227005004883  | Generator Loss: 0.18220745027065277
+Training on Batch 44
+Discriminator Loss: 1.1342387199401855  | Generator Loss: 0.18119415640830994
+Training on Batch 45
+Discriminator Loss: 1.131905198097229  | Generator Loss: 0.17983832955360413
+Training on Batch 46
+Discriminator Loss: 1.1294599771499634  | Generator Loss: 0.17828816175460815
+Training on Batch 47
+Discriminator Loss: 1.1272379159927368  | Generator Loss: 0.1774659901857376
+Training on Batch 48
+Discriminator Loss: 1.1250669956207275  | Generator Loss: 0.1759497970342636
+Training on Batch 49
+Discriminator Loss: 1.1229804754257202  | Generator Loss: 0.17494609951972961
+Training on Batch 50
+Discriminator Loss: 1.12093985080719  | Generator Loss: 0.17375728487968445
+Training on Batch 51
+Discriminator Loss: 1.1190282106399536  | Generator Loss: 0.1722841113805771
+Training on Batch 52
+Discriminator Loss: 1.1171176433563232  | Generator Loss: 0.17115066945552826
+Training on Batch 53
+Discriminator Loss: 1.1152986288070679  | Generator Loss: 0.16994228959083557
+Training on Batch 54
+Discriminator Loss: 1.1135371923446655  | Generator Loss: 0.16876675188541412
+Training on Batch 55
+Discriminator Loss: 1.1117942333221436  | Generator Loss: 0.16742320358753204
+Training on Batch 56
+Discriminator Loss: 1.1100794076919556  | Generator Loss: 0.16614077985286713
+Training on Batch 57
+Discriminator Loss: 1.108468770980835  | Generator Loss: 0.16512785851955414
+Training on Batch 58
+Discriminator Loss: 1.1069457530975342  | Generator Loss: 0.16422992944717407
+Training on Batch 59
+Discriminator Loss: 1.1054588556289673  | Generator Loss: 0.1635226607322693
+Training on Batch 60
+Discriminator Loss: 1.10395085811615  | Generator Loss: 0.16280992329120636
+Training on Batch 61
+Discriminator Loss: 1.1024962663650513  | Generator Loss: 0.16174140572547913
+Training on Batch 62
+Discriminator Loss: 1.1011042594909668  | Generator Loss: 0.1607782393693924
+Training on Batch 63
+Discriminator Loss: 1.0997463464736938  | Generator Loss: 0.16013047099113464
+Training on Batch 64
+Discriminator Loss: 1.0984216928482056  | Generator Loss: 0.15916688740253448
+Training on Batch 65
+Discriminator Loss: 1.0971190929412842  | Generator Loss: 0.15819260478019714
+Training on Batch 66
+Discriminator Loss: 1.095877766609192  | Generator Loss: 0.15727660059928894
+Training on Batch 67
+Discriminator Loss: 1.0946393013000488  | Generator Loss: 0.15664811432361603
+Training on Batch 68
+Discriminator Loss: 1.0934946537017822  | Generator Loss: 0.15584783256053925
+Training on Batch 69
+Discriminator Loss: 1.0923205614089966  | Generator Loss: 0.154750794172287
+Training on Batch 70
+Discriminator Loss: 1.0911729335784912  | Generator Loss: 0.15373152494430542
+Training on Batch 71
+Discriminator Loss: 1.0900800228118896  | Generator Loss: 0.1532190591096878
+Training on Batch 72
+Discriminator Loss: 1.0895096063613892  | Generator Loss: 0.1526057869195938
+Training on Batch 73
+Discriminator Loss: 1.0885447263717651  | Generator Loss: 0.15198422968387604
+Training on Batch 74
+Discriminator Loss: 1.0898809432983398  | Generator Loss: 0.15100309252738953
+Training on Batch 75
+Discriminator Loss: 1.088839054107666  | Generator Loss: 0.15020303428173065
+Training on Batch 76
+Discriminator Loss: 1.0879700183868408  | Generator Loss: 0.15002132952213287
+Training on Batch 77
+Discriminator Loss: 1.0879497528076172  | Generator Loss: 0.14931929111480713
+Training on Batch 78
+Discriminator Loss: 1.0870362520217896  | Generator Loss: 0.148708313703537
+Training on Batch 79
+Discriminator Loss: 1.086206316947937  | Generator Loss: 0.14833875000476837
+Training on Batch 80
+Discriminator Loss: 1.0853166580200195  | Generator Loss: 0.14764495193958282
+Training on Batch 81
+Discriminator Loss: 1.084415078163147  | Generator Loss: 0.1468837559223175
+Training on Batch 82
+Discriminator Loss: 1.0835716724395752  | Generator Loss: 0.14594358205795288
+Training on Batch 83
+Discriminator Loss: 1.0827410221099854  | Generator Loss: 0.1452014446258545
+Training on Batch 84
+Discriminator Loss: 1.0819472074508667  | Generator Loss: 0.14473117887973785
+Training on Batch 85
+Discriminator Loss: 1.0812705755233765  | Generator Loss: 0.1443684697151184
+Training on Batch 86
+Discriminator Loss: 1.0806448459625244  | Generator Loss: 0.14375899732112885
+Training on Batch 87
+Discriminator Loss: 1.0798910856246948  | Generator Loss: 0.14311395585536957
+Training on Batch 88
+Discriminator Loss: 1.0791670083999634  | Generator Loss: 0.14251624047756195
+Training on Batch 89
+Discriminator Loss: 1.0784400701522827  | Generator Loss: 0.14188392460346222
+Training on Batch 90
+Discriminator Loss: 1.077778935432434  | Generator Loss: 0.1414358764886856
+Training on Batch 91
+Discriminator Loss: 1.0770957469940186  | Generator Loss: 0.14087507128715515
+Training on Batch 92
+Discriminator Loss: 1.0764243602752686  | Generator Loss: 0.14037169516086578
+Training on Batch 93
+Discriminator Loss: 1.0757343769073486  | Generator Loss: 0.13969649374485016
+Training on Batch 94
+Discriminator Loss: 1.075085163116455  | Generator Loss: 0.1390661597251892
+Training on Batch 95
+Discriminator Loss: 1.0744463205337524  | Generator Loss: 0.13839681446552277
+Training on Batch 96
+Discriminator Loss: 1.073848843574524  | Generator Loss: 0.13788487017154694
+Training on Batch 97
+Discriminator Loss: 1.07331383228302  | Generator Loss: 0.13770660758018494
+Training on Batch 98
+Discriminator Loss: 1.0726927518844604  | Generator Loss: 0.13717564940452576
+Training on Batch 99
+Discriminator Loss: 1.0720950365066528  | Generator Loss: 0.13681264221668243
+Training on Batch 100
+Discriminator Loss: 1.0714985132217407  | Generator Loss: 0.13627567887306213
+Training on Batch 101
+Discriminator Loss: 1.070924997329712  | Generator Loss: 0.13585264980793
+Training on Batch 102
+Discriminator Loss: 1.0703678131103516  | Generator Loss: 0.13553644716739655
+Training on Batch 103
+Discriminator Loss: 1.0698453187942505  | Generator Loss: 0.13491679728031158
+Training on Batch 104
+Discriminator Loss: 1.069305419921875  | Generator Loss: 0.13453693687915802
+Training on Batch 105
+Discriminator Loss: 1.0687587261199951  | Generator Loss: 0.13415583968162537
+Training on Batch 106
+Discriminator Loss: 1.068216323852539  | Generator Loss: 0.13376161456108093
+Training on Batch 107
+Discriminator Loss: 1.0676894187927246  | Generator Loss: 0.13321255147457123
+Training on Batch 108
+Discriminator Loss: 1.0671664476394653  | Generator Loss: 0.13289806246757507
+Training on Batch 109
+Discriminator Loss: 1.0666593313217163  | Generator Loss: 0.13271936774253845
+Training on Batch 110
+Discriminator Loss: 1.0661553144454956  | Generator Loss: 0.13222451508045197
+Training on Batch 111
+Discriminator Loss: 1.065656065940857  | Generator Loss: 0.1317330300807953
+Training on Batch 112
+Discriminator Loss: 1.0651757717132568  | Generator Loss: 0.13134928047657013
+Training on Batch 113
+Discriminator Loss: 1.0646833181381226  | Generator Loss: 0.1308126300573349
+Training on Batch 114
+Discriminator Loss: 1.0642168521881104  | Generator Loss: 0.13047920167446136
+Training on Batch 115
+Discriminator Loss: 1.0637483596801758  | Generator Loss: 0.13000276684761047
+Training on Batch 116
+Discriminator Loss: 1.0632902383804321  | Generator Loss: 0.1296997368335724
+Training on Batch 117
+Discriminator Loss: 1.0628293752670288  | Generator Loss: 0.12934324145317078
+Training on Batch 118
+Discriminator Loss: 1.062383770942688  | Generator Loss: 0.1291435956954956
+Training on Batch 119
+Discriminator Loss: 1.0619385242462158  | Generator Loss: 0.12877967953681946
+Training on Batch 120
+Discriminator Loss: 1.0615097284317017  | Generator Loss: 0.12842285633087158
+Training on Batch 121
+Discriminator Loss: 1.0610871315002441  | Generator Loss: 0.12802112102508545
+Training on Batch 122
+Discriminator Loss: 1.0607118606567383  | Generator Loss: 0.1277204006910324
+Training on Batch 123
+Discriminator Loss: 1.0602957010269165  | Generator Loss: 0.12741319835186005
+Training on Batch 124
+Discriminator Loss: 1.059885025024414  | Generator Loss: 0.12707948684692383
+Training on Batch 125
+Discriminator Loss: 1.0594779253005981  | Generator Loss: 0.1266252100467682
+Training on Batch 126
+Discriminator Loss: 1.0590804815292358  | Generator Loss: 0.12625643610954285
+Training on Batch 127
+Discriminator Loss: 1.0586885213851929  | Generator Loss: 0.12583798170089722
+Training on Batch 128
+Discriminator Loss: 1.0583115816116333  | Generator Loss: 0.12580762803554535
+Training on Batch 129
+Discriminator Loss: 1.057932734489441  | Generator Loss: 0.12543416023254395
+Training on Batch 130
+Discriminator Loss: 1.0575547218322754  | Generator Loss: 0.1251434087753296
+Training on Batch 131
+Discriminator Loss: 1.0571907758712769  | Generator Loss: 0.12482030689716339
+Training on Batch 132
+Discriminator Loss: 1.0568269491195679  | Generator Loss: 0.12442930042743683
+Training on Batch 133
+Discriminator Loss: 1.0564765930175781  | Generator Loss: 0.12395457178354263
+Training on Batch 134
+Discriminator Loss: 1.05612051486969  | Generator Loss: 0.12369856983423233
+Training on Batch 135
+Discriminator Loss: 1.0557687282562256  | Generator Loss: 0.1233627125620842
+Training on Batch 136
+Discriminator Loss: 1.055431842803955  | Generator Loss: 0.1230035200715065
+Training on Batch 137
+Discriminator Loss: 1.055088996887207  | Generator Loss: 0.12252645939588547
+Training on Batch 138
+Discriminator Loss: 1.0547764301300049  | Generator Loss: 0.1223071962594986
+Training on Batch 139
+Discriminator Loss: 1.054442286491394  | Generator Loss: 0.12186209857463837
+Training on Batch 140
+Discriminator Loss: 1.054181456565857  | Generator Loss: 0.12163054198026657
+Training on Batch 141
+Discriminator Loss: 1.053860068321228  | Generator Loss: 0.12144972383975983
+Training on Batch 142
+Discriminator Loss: 1.0535392761230469  | Generator Loss: 0.12115495651960373
+Training on Batch 143
+Discriminator Loss: 1.0532251596450806  | Generator Loss: 0.12077515572309494
+Training on Batch 144
+Discriminator Loss: 1.0529143810272217  | Generator Loss: 0.12040150165557861
+Training on Batch 145
+Discriminator Loss: 1.052610158920288  | Generator Loss: 0.12001677602529526
+Training on Batch 146
+Discriminator Loss: 1.0523169040679932  | Generator Loss: 0.11970478296279907
+Training on Batch 147
+Discriminator Loss: 1.0520230531692505  | Generator Loss: 0.11945680528879166
+Training on Batch 148
+Discriminator Loss: 1.0517408847808838  | Generator Loss: 0.1192086860537529
+Training on Batch 149
+Discriminator Loss: 1.051464557647705  | Generator Loss: 0.11901668459177017
+Training on Batch 150
+Discriminator Loss: 1.051183819770813  | Generator Loss: 0.11866738647222519
+Training on Batch 151
+Discriminator Loss: 1.0509119033813477  | Generator Loss: 0.11859104782342911
+Training on Batch 152
+Discriminator Loss: 1.050634503364563  | Generator Loss: 0.11828333884477615
+Training on Batch 153
+Discriminator Loss: 1.0503592491149902  | Generator Loss: 0.11796444654464722
+Training on Batch 154
+Discriminator Loss: 1.0500856637954712  | Generator Loss: 0.11774139106273651
+Training on Batch 155
+Discriminator Loss: 1.0498148202896118  | Generator Loss: 0.11736646294593811
+Training on Batch 156
+Discriminator Loss: 1.0495516061782837  | Generator Loss: 0.11704922467470169
+Training on Batch 157
+Discriminator Loss: 1.0492877960205078  | Generator Loss: 0.1168486550450325
+Training on Batch 158
+Discriminator Loss: 1.049032211303711  | Generator Loss: 0.11658037453889847
+Training on Batch 159
+Discriminator Loss: 1.0487823486328125  | Generator Loss: 0.11632218211889267
+Training on Batch 160
+Discriminator Loss: 1.048532485961914  | Generator Loss: 0.11617597937583923
+Training on Batch 161
+Discriminator Loss: 1.048282504081726  | Generator Loss: 0.1159663274884224
+Training on Batch 162
+Discriminator Loss: 1.048038363456726  | Generator Loss: 0.11569847166538239
+Training on Batch 163
+Discriminator Loss: 1.0477983951568604  | Generator Loss: 0.11545173078775406
+Training on Batch 164
+Discriminator Loss: 1.0475599765777588  | Generator Loss: 0.11530163884162903
+Training on Batch 165
+Discriminator Loss: 1.0473237037658691  | Generator Loss: 0.11521530151367188
+Training on Batch 166
+Discriminator Loss: 1.0470893383026123  | Generator Loss: 0.11501266807317734
+Training on Batch 167
+Discriminator Loss: 1.0468559265136719  | Generator Loss: 0.11480959504842758
+Training on Batch 168
+Discriminator Loss: 1.0466240644454956  | Generator Loss: 0.11449699848890305
+Training on Batch 169
+Discriminator Loss: 1.046402096748352  | Generator Loss: 0.11424088478088379
+Training on Batch 170
+Discriminator Loss: 1.0461870431900024  | Generator Loss: 0.11406438797712326
+Training on Batch 171
+Discriminator Loss: 1.0459754467010498  | Generator Loss: 0.11391464620828629
+Training on Batch 172
+Discriminator Loss: 1.0457645654678345  | Generator Loss: 0.11379775404930115
+Training on Batch 173
+Discriminator Loss: 1.045546293258667  | Generator Loss: 0.11356199532747269
+Training on Batch 174
+Discriminator Loss: 1.0453356504440308  | Generator Loss: 0.11339129507541656
+Training on Batch 175
+Discriminator Loss: 1.0451263189315796  | Generator Loss: 0.11320395767688751
+Training on Batch 176
+Discriminator Loss: 1.044920802116394  | Generator Loss: 0.1130002960562706
+Training on Batch 177
+Discriminator Loss: 1.0447139739990234  | Generator Loss: 0.1126897782087326
+Training on Batch 178
+Discriminator Loss: 1.0445088148117065  | Generator Loss: 0.11245400458574295
+Training on Batch 179
+Discriminator Loss: 1.0443084239959717  | Generator Loss: 0.11225222796201706
+Training on Batch 180
+Discriminator Loss: 1.0441067218780518  | Generator Loss: 0.1120157390832901
+Training on Batch 181
+Discriminator Loss: 1.0439085960388184  | Generator Loss: 0.11176026612520218
+Training on Batch 182
+Discriminator Loss: 1.0437113046646118  | Generator Loss: 0.11159107089042664
+Training on Batch 183
+Discriminator Loss: 1.043521761894226  | Generator Loss: 0.1113719493150711
+Training on Batch 184
+Discriminator Loss: 1.043338656425476  | Generator Loss: 0.11120084673166275
+Training on Batch 185
+Discriminator Loss: 1.0431538820266724  | Generator Loss: 0.11097956448793411
+Training on Batch 186
+Discriminator Loss: 1.0429646968841553  | Generator Loss: 0.1107150986790657
+Training on Batch 187
+Discriminator Loss: 1.0427767038345337  | Generator Loss: 0.11041096597909927
+Training on Batch 188
+Discriminator Loss: 1.0425896644592285  | Generator Loss: 0.11017590761184692
+Training on Batch 189
+Discriminator Loss: 1.042409062385559  | Generator Loss: 0.1099880039691925
+Training on Batch 190
+Discriminator Loss: 1.042241096496582  | Generator Loss: 0.1098482757806778
+Training on Batch 191
+Discriminator Loss: 1.0424383878707886  | Generator Loss: 0.10973069071769714
+Training on Batch 192
+Discriminator Loss: 1.0424151420593262  | Generator Loss: 0.10962607711553574
+Training on Batch 193
+Discriminator Loss: 1.0434879064559937  | Generator Loss: 0.10937948524951935
+Training on Batch 194
+Discriminator Loss: 1.0433425903320312  | Generator Loss: 0.10924610495567322
+Training on Batch 195
+Discriminator Loss: 1.0438957214355469  | Generator Loss: 0.10906986147165298
+Training on Batch 196
+Discriminator Loss: 1.0440514087677002  | Generator Loss: 0.10885484516620636
+Training on Batch 197
+Discriminator Loss: 1.0439934730529785  | Generator Loss: 0.10870404541492462
+Training on Batch 198
+Discriminator Loss: 1.0438461303710938  | Generator Loss: 0.10848172008991241
+Training on Batch 199
+Discriminator Loss: 1.0437613725662231  | Generator Loss: 0.10825483500957489
+Training on Batch 200
+Discriminator Loss: 1.0436819791793823  | Generator Loss: 0.10807835310697556
+Training on Batch 201
+Discriminator Loss: 1.04354989528656  | Generator Loss: 0.10793132334947586
+Training on Batch 202
+Discriminator Loss: 1.0434136390686035  | Generator Loss: 0.10774602741003036
+Training on Batch 203
+Discriminator Loss: 1.0432695150375366  | Generator Loss: 0.10755643993616104
+Training on Batch 204
+Discriminator Loss: 1.0432018041610718  | Generator Loss: 0.1074787899851799
+Training on Batch 205
+Discriminator Loss: 1.0430562496185303  | Generator Loss: 0.1073143258690834
+Training on Batch 206
+Discriminator Loss: 1.042902946472168  | Generator Loss: 0.10709509253501892
+Training on Batch 207
+Discriminator Loss: 1.0427629947662354  | Generator Loss: 0.10694663971662521
+Training on Batch 208
+Discriminator Loss: 1.0426316261291504  | Generator Loss: 0.10672353208065033
+Training on Batch 209
+Discriminator Loss: 1.042505145072937  | Generator Loss: 0.1064937487244606
+Training on Batch 210
+Discriminator Loss: 1.0423784255981445  | Generator Loss: 0.10638478398323059
+Training on Batch 211
+Discriminator Loss: 1.0422346591949463  | Generator Loss: 0.10633405297994614
+Training on Batch 212
+Discriminator Loss: 1.0420799255371094  | Generator Loss: 0.1061154454946518
+Training on Batch 213
+Discriminator Loss: 1.0419325828552246  | Generator Loss: 0.10587994754314423
+Training on Batch 214
+Discriminator Loss: 1.0417981147766113  | Generator Loss: 0.1057073175907135
+Training on Batch 215
+Discriminator Loss: 1.041649580001831  | Generator Loss: 0.10551590472459793
+Training on Batch 216
+Discriminator Loss: 1.0415023565292358  | Generator Loss: 0.10528387874364853
+Training on Batch 217
+Discriminator Loss: 1.0413886308670044  | Generator Loss: 0.10507454723119736
+Training on Batch 218
+Discriminator Loss: 1.0412462949752808  | Generator Loss: 0.10506577789783478
+Training on Batch 219
+Discriminator Loss: 1.0411018133163452  | Generator Loss: 0.10492436587810516
+Training on Batch 220
+Discriminator Loss: 1.0409592390060425  | Generator Loss: 0.10478100180625916
+Training on Batch 221
+Discriminator Loss: 1.040825366973877  | Generator Loss: 0.10461365431547165
+Training on Batch 222
+Discriminator Loss: 1.0406827926635742  | Generator Loss: 0.10454298555850983
+Training on Batch 223
+Discriminator Loss: 1.0405393838882446  | Generator Loss: 0.10442008078098297
+Training on Batch 224
+Discriminator Loss: 1.0404565334320068  | Generator Loss: 0.10428816080093384
+Training on Batch 225
+Discriminator Loss: 1.0403406620025635  | Generator Loss: 0.10420232266187668
+Training on Batch 226
+Discriminator Loss: 1.04020094871521  | Generator Loss: 0.10409612208604813
+Training on Batch 227
+Discriminator Loss: 1.0400902032852173  | Generator Loss: 0.10391943901777267
+Training on Batch 228
+Discriminator Loss: 1.0399765968322754  | Generator Loss: 0.10370048880577087
+Training on Batch 229
+Discriminator Loss: 1.0399025678634644  | Generator Loss: 0.10352381318807602
+Training on Batch 230
+Discriminator Loss: 1.0397709608078003  | Generator Loss: 0.10335501283407211
+Training on Batch 231
+Discriminator Loss: 1.0396403074264526  | Generator Loss: 0.1031583845615387
+Training on Batch 232
+Discriminator Loss: 1.0395903587341309  | Generator Loss: 0.10298094153404236
+Training on Batch 233
+Discriminator Loss: 1.0395318269729614  | Generator Loss: 0.10279940068721771
+Training on Batch 234
+Discriminator Loss: 1.0394006967544556  | Generator Loss: 0.1026233583688736
+Training on Batch 235
+Discriminator Loss: 1.0392695665359497  | Generator Loss: 0.10245305299758911
+Training on Batch 236
+Discriminator Loss: 1.0391629934310913  | Generator Loss: 0.10224328190088272
+Training on Batch 237
+Discriminator Loss: 1.039038896560669  | Generator Loss: 0.1020374670624733
+Training on Batch 238
+Discriminator Loss: 1.038954496383667  | Generator Loss: 0.10191138833761215
+Training on Batch 239
+Discriminator Loss: 1.0388473272323608  | Generator Loss: 0.1018201932311058
+Training on Batch 240
+Discriminator Loss: 1.0387241840362549  | Generator Loss: 0.10171689838171005
+Training on Batch 241
+Discriminator Loss: 1.0386000871658325  | Generator Loss: 0.10157609730958939
+Training on Batch 242
+Discriminator Loss: 1.0384936332702637  | Generator Loss: 0.10140044242143631
+Training on Batch 243
+Discriminator Loss: 1.0383753776550293  | Generator Loss: 0.10128964483737946
+Training on Batch 244
+Discriminator Loss: 1.0382530689239502  | Generator Loss: 0.10118190944194794
+Training on Batch 245
+Discriminator Loss: 1.038132667541504  | Generator Loss: 0.10106438398361206
+Training on Batch 246
+Discriminator Loss: 1.0380154848098755  | Generator Loss: 0.10102557390928268
+Training on Batch 247
+Discriminator Loss: 1.0378965139389038  | Generator Loss: 0.10087678581476212
+Training on Batch 248
+Discriminator Loss: 1.0377788543701172  | Generator Loss: 0.10072562098503113
+Training on Batch 249
+Discriminator Loss: 1.0376733541488647  | Generator Loss: 0.10057373344898224
+Training on Batch 250
+Discriminator Loss: 1.0375583171844482  | Generator Loss: 0.10044718533754349
+Training on Batch 251
+Discriminator Loss: 1.0374464988708496  | Generator Loss: 0.10035131126642227
+Training on Batch 252
+Discriminator Loss: 1.0373313426971436  | Generator Loss: 0.10022538900375366
+Training on Batch 253
+Discriminator Loss: 1.037221908569336  | Generator Loss: 0.10013516247272491
+Training on Batch 254
+Discriminator Loss: 1.0371086597442627  | Generator Loss: 0.09998877346515656
+Training on Batch 255
+Discriminator Loss: 1.0369969606399536  | Generator Loss: 0.09985379874706268
+Training on Batch 256
+Discriminator Loss: 1.0368880033493042  | Generator Loss: 0.09972330927848816
+Training on Batch 257
+Discriminator Loss: 1.036778211593628  | Generator Loss: 0.09964204579591751
+Training on Batch 258
+Discriminator Loss: 1.0366722345352173  | Generator Loss: 0.09951823204755783
+Training on Batch 259
+Discriminator Loss: 1.0365650653839111  | Generator Loss: 0.09942130744457245
+Training on Batch 260
+Discriminator Loss: 1.0364563465118408  | Generator Loss: 0.09933792799711227
+Training on Batch 261
+Discriminator Loss: 1.036350131034851  | Generator Loss: 0.09922531992197037
+Training on Batch 262
+Discriminator Loss: 1.036241054534912  | Generator Loss: 0.09916406869888306
+Training on Batch 263
+Discriminator Loss: 1.0361326932907104  | Generator Loss: 0.09901893883943558
+Training on Batch 264
+Discriminator Loss: 1.036024570465088  | Generator Loss: 0.09886269271373749
+Training on Batch 265
+Discriminator Loss: 1.0359184741973877  | Generator Loss: 0.09877131134271622
+Training on Batch 266
+Discriminator Loss: 1.0358132123947144  | Generator Loss: 0.09860483556985855
+Training on Batch 267
+Discriminator Loss: 1.0357102155685425  | Generator Loss: 0.09857139736413956
+Training on Batch 268
+Discriminator Loss: 1.0356088876724243  | Generator Loss: 0.09845820814371109
+Training on Batch 269
+Discriminator Loss: 1.0355055332183838  | Generator Loss: 0.0983685776591301
+Training on Batch 270
+Discriminator Loss: 1.035404920578003  | Generator Loss: 0.09828876703977585
+Training on Batch 271
+Discriminator Loss: 1.0353032350540161  | Generator Loss: 0.09814911335706711
+Training on Batch 272
+Discriminator Loss: 1.035201907157898  | Generator Loss: 0.09808599948883057
+Training on Batch 273
+Discriminator Loss: 1.0351014137268066  | Generator Loss: 0.09793975949287415
+Training on Batch 274
+Discriminator Loss: 1.0350024700164795  | Generator Loss: 0.09787967056035995
+Training on Batch 275
+Discriminator Loss: 1.0349030494689941  | Generator Loss: 0.09782647341489792
+Training on Batch 276
+Discriminator Loss: 1.0348048210144043  | Generator Loss: 0.09774811565876007
+Training on Batch 277
+Discriminator Loss: 1.0347061157226562  | Generator Loss: 0.09762823581695557
+Training on Batch 278
+Discriminator Loss: 1.0346086025238037  | Generator Loss: 0.09753689169883728
+Training on Batch 279
+Discriminator Loss: 1.0345104932785034  | Generator Loss: 0.09736713767051697
+Training on Batch 280
+Discriminator Loss: 1.0344159603118896  | Generator Loss: 0.09722217917442322
+Training on Batch 281
+Discriminator Loss: 1.03432035446167  | Generator Loss: 0.09705914556980133
+Training on Batch 282
+Discriminator Loss: 1.034224271774292  | Generator Loss: 0.09687664359807968
+Training on Batch 283
+Discriminator Loss: 1.034129023551941  | Generator Loss: 0.09667793661355972
+Training on Batch 284
+Discriminator Loss: 1.0340349674224854  | Generator Loss: 0.09655999392271042
+Training on Batch 285
+Discriminator Loss: 1.0339423418045044  | Generator Loss: 0.09646004438400269
+Training on Batch 286
+Discriminator Loss: 1.0338486433029175  | Generator Loss: 0.09634441137313843
+Training on Batch 287
+Discriminator Loss: 1.0337584018707275  | Generator Loss: 0.09623819589614868
+Training on Batch 288
+Discriminator Loss: 1.0336674451828003  | Generator Loss: 0.09612252563238144
+Training on Batch 289
+Discriminator Loss: 1.0335817337036133  | Generator Loss: 0.09609038382768631
+Training on Batch 290
+Discriminator Loss: 1.0334911346435547  | Generator Loss: 0.09594996273517609
+Training on Batch 291
+Discriminator Loss: 1.0334004163742065  | Generator Loss: 0.09586364030838013
+Training on Batch 292
+Discriminator Loss: 1.0333106517791748  | Generator Loss: 0.09575166553258896
+Training on Batch 293
+Discriminator Loss: 1.033221960067749  | Generator Loss: 0.09564689546823502
+Training on Batch 294
+Discriminator Loss: 1.0331352949142456  | Generator Loss: 0.0955035611987114
+Training on Batch 295
+Discriminator Loss: 1.0330482721328735  | Generator Loss: 0.09538987278938293
+Training on Batch 296
+Discriminator Loss: 1.0329622030258179  | Generator Loss: 0.0952642634510994
+Training on Batch 297
+Discriminator Loss: 1.0328757762908936  | Generator Loss: 0.0951576977968216
+Training on Batch 298
+Discriminator Loss: 1.0327900648117065  | Generator Loss: 0.0950464978814125
+Training on Batch 299
+Discriminator Loss: 1.0327057838439941  | Generator Loss: 0.09489235281944275
+Training on Batch 300
+Discriminator Loss: 1.0326216220855713  | Generator Loss: 0.09476148337125778
+Training on Batch 301
+Discriminator Loss: 1.0325367450714111  | Generator Loss: 0.09470775723457336
+Training on Batch 302
+Discriminator Loss: 1.0324523448944092  | Generator Loss: 0.09457522630691528
+Training on Batch 303
+Discriminator Loss: 1.032368779182434  | Generator Loss: 0.09445922076702118
+Training on Batch 304
+Discriminator Loss: 1.0322881937026978  | Generator Loss: 0.09440319985151291
+Training on Batch 305
+Discriminator Loss: 1.0322073698043823  | Generator Loss: 0.09430171549320221
+Training on Batch 306
+Discriminator Loss: 1.0321253538131714  | Generator Loss: 0.094169482588768
+Training on Batch 307
+Discriminator Loss: 1.032043695449829  | Generator Loss: 0.09400130063295364
+Training on Batch 308
+Discriminator Loss: 1.0319619178771973  | Generator Loss: 0.0938650369644165
+Training on Batch 309
+Discriminator Loss: 1.0318838357925415  | Generator Loss: 0.09384717047214508
+Training on Batch 310
+Discriminator Loss: 1.0318033695220947  | Generator Loss: 0.09378834068775177
+Training on Batch 311
+Discriminator Loss: 1.031724214553833  | Generator Loss: 0.09368489682674408
+Training on Batch 312
+Discriminator Loss: 1.0316455364227295  | Generator Loss: 0.09358860552310944
+Training on Batch 313
+Discriminator Loss: 1.0315672159194946  | Generator Loss: 0.09349595010280609
+Training on Batch 314
+Discriminator Loss: 1.0314902067184448  | Generator Loss: 0.09341774880886078
+Training on Batch 315
+Discriminator Loss: 1.0314151048660278  | Generator Loss: 0.0933464840054512
+Training on Batch 316
+Discriminator Loss: 1.0313388109207153  | Generator Loss: 0.09324135631322861
+Training on Batch 317
+Discriminator Loss: 1.0312668085098267  | Generator Loss: 0.0931839644908905
+Training on Batch 318
+Discriminator Loss: 1.0311909914016724  | Generator Loss: 0.09305567294359207
+Training on Batch 319
+Discriminator Loss: 1.0311148166656494  | Generator Loss: 0.09295983612537384
+Training on Batch 320
+Discriminator Loss: 1.0310403108596802  | Generator Loss: 0.09286025911569595
+Training on Batch 321
+Discriminator Loss: 1.0309652090072632  | Generator Loss: 0.09275128692388535
+Training on Batch 322
+Discriminator Loss: 1.0308908224105835  | Generator Loss: 0.09266720712184906
+Training on Batch 323
+Discriminator Loss: 1.0308181047439575  | Generator Loss: 0.09255651384592056
+Training on Batch 324
+Discriminator Loss: 1.0307457447052002  | Generator Loss: 0.09247543662786484
+Training on Batch 325
+Discriminator Loss: 1.0306727886199951  | Generator Loss: 0.09234385937452316
+Training on Batch 326
+Discriminator Loss: 1.0306023359298706  | Generator Loss: 0.09232228994369507
+Training on Batch 327
+Discriminator Loss: 1.0305321216583252  | Generator Loss: 0.09225001186132431
+Training on Batch 328
+Discriminator Loss: 1.030460238456726  | Generator Loss: 0.09219788014888763
+Training on Batch 329
+Discriminator Loss: 1.0303895473480225  | Generator Loss: 0.0921391025185585
+Training on Batch 330
+Discriminator Loss: 1.0303192138671875  | Generator Loss: 0.09214115142822266
+Training on Batch 331
+Discriminator Loss: 1.030249834060669  | Generator Loss: 0.09203091263771057
+Training on Batch 332
+Discriminator Loss: 1.030179738998413  | Generator Loss: 0.09186508506536484
+Training on Batch 333
+Discriminator Loss: 1.0301101207733154  | Generator Loss: 0.09175091236829758
+Training on Batch 334
+Discriminator Loss: 1.0300424098968506  | Generator Loss: 0.0915927067399025
+Training on Batch 335
+Discriminator Loss: 1.0299745798110962  | Generator Loss: 0.09149864315986633
+Training on Batch 336
+Discriminator Loss: 1.029906153678894  | Generator Loss: 0.09142729640007019
+Training on Batch 337
+Discriminator Loss: 1.0298385620117188  | Generator Loss: 0.0913151279091835
+Training on Batch 338
+Discriminator Loss: 1.0297714471817017  | Generator Loss: 0.09124929457902908
+Training on Batch 339
+Discriminator Loss: 1.0297054052352905  | Generator Loss: 0.09119308739900589
+Training on Batch 340
+Discriminator Loss: 1.0296382904052734  | Generator Loss: 0.0911341980099678
+Training on Batch 341
+Discriminator Loss: 1.0295723676681519  | Generator Loss: 0.0910099670290947
+Training on Batch 342
+Discriminator Loss: 1.0295066833496094  | Generator Loss: 0.09091049432754517
+Training on Batch 343
+Discriminator Loss: 1.029440999031067  | Generator Loss: 0.09082828462123871
+Training on Batch 344
+Discriminator Loss: 1.0293757915496826  | Generator Loss: 0.09069797396659851
+Training on Batch 345
+Discriminator Loss: 1.0293163061141968  | Generator Loss: 0.09060699492692947
+Training on Batch 346
+Discriminator Loss: 1.029252052307129  | Generator Loss: 0.09052256494760513
+Training on Batch 347
+Discriminator Loss: 1.0291879177093506  | Generator Loss: 0.0904388427734375
+Training on Batch 348
+Discriminator Loss: 1.0291271209716797  | Generator Loss: 0.09044840186834335
+Training on Batch 349
+Discriminator Loss: 1.0290634632110596  | Generator Loss: 0.09035829454660416
+Training on Batch 350
+Discriminator Loss: 1.0290008783340454  | Generator Loss: 0.09025366604328156
+Training on Batch 351
+Discriminator Loss: 1.028938889503479  | Generator Loss: 0.09016922861337662
+Training on Batch 352
+Discriminator Loss: 1.0288779735565186  | Generator Loss: 0.09011318534612656
+Training on Batch 353
+Discriminator Loss: 1.028816819190979  | Generator Loss: 0.09004592150449753
+Training on Batch 354
+Discriminator Loss: 1.0287569761276245  | Generator Loss: 0.08997249603271484
+Training on Batch 355
+Discriminator Loss: 1.0286997556686401  | Generator Loss: 0.0898747369647026
+Training on Batch 356
+Discriminator Loss: 1.028639554977417  | Generator Loss: 0.08977338671684265
+Training on Batch 357
+Discriminator Loss: 1.0285791158676147  | Generator Loss: 0.08966057002544403
+Training on Batch 358
+Discriminator Loss: 1.0285190343856812  | Generator Loss: 0.08960255235433578
+Training on Batch 359
+Discriminator Loss: 1.028458833694458  | Generator Loss: 0.08954457938671112
+Training on Batch 360
+Discriminator Loss: 1.0283992290496826  | Generator Loss: 0.0894651859998703
+Training on Batch 361
+Discriminator Loss: 1.0283395051956177  | Generator Loss: 0.0893472284078598
+Training on Batch 362
+Discriminator Loss: 1.0282806158065796  | Generator Loss: 0.08926970511674881
+Training on Batch 363
+Discriminator Loss: 1.0282238721847534  | Generator Loss: 0.08914658427238464
+Training on Batch 364
+Discriminator Loss: 1.0281658172607422  | Generator Loss: 0.0890408456325531
+Training on Batch 365
+Discriminator Loss: 1.028114676475525  | Generator Loss: 0.08899011462926865
+Training on Batch 366
+Discriminator Loss: 1.0280569791793823  | Generator Loss: 0.08888044208288193
+Training on Batch 367
+Discriminator Loss: 1.0280014276504517  | Generator Loss: 0.08883137255907059
+Training on Batch 368
+Discriminator Loss: 1.0279464721679688  | Generator Loss: 0.08884547650814056
+Training on Batch 369
+Discriminator Loss: 1.0278892517089844  | Generator Loss: 0.08873487263917923
+Training on Batch 370
+Discriminator Loss: 1.0278342962265015  | Generator Loss: 0.08867648243904114
+Training on Batch 371
+Discriminator Loss: 1.0277777910232544  | Generator Loss: 0.08857045322656631
+Training on Batch 372
+Discriminator Loss: 1.0277230739593506  | Generator Loss: 0.08848877251148224
+Training on Batch 373
+Discriminator Loss: 1.0276682376861572  | Generator Loss: 0.0884229764342308
+Training on Batch 374
+Discriminator Loss: 1.027613878250122  | Generator Loss: 0.08833396434783936
+Training on Batch 375
+Discriminator Loss: 1.0275614261627197  | Generator Loss: 0.08821002393960953
+Training on Batch 376
+Discriminator Loss: 1.027509093284607  | Generator Loss: 0.08817542344331741
+Training on Batch 377
+Discriminator Loss: 1.0274549722671509  | Generator Loss: 0.0880618616938591
+Training on Batch 378
+Discriminator Loss: 1.0274006128311157  | Generator Loss: 0.088003970682621
+Training on Batch 379
+Discriminator Loss: 1.0273468494415283  | Generator Loss: 0.08790045231580734
+Training on Batch 380
+Discriminator Loss: 1.0272929668426514  | Generator Loss: 0.08780548721551895
+Training on Batch 381
+Discriminator Loss: 1.0272399187088013  | Generator Loss: 0.08773597329854965
+Training on Batch 382
+Discriminator Loss: 1.0271867513656616  | Generator Loss: 0.08765091001987457
+Training on Batch 383
+Discriminator Loss: 1.0271333456039429  | Generator Loss: 0.08750904351472855
+Training on Batch 384
+Discriminator Loss: 1.0270811319351196  | Generator Loss: 0.08743802458047867
+Training on Batch 385
+Discriminator Loss: 1.0270297527313232  | Generator Loss: 0.08742910623550415
+Training on Batch 386
+Discriminator Loss: 1.0269774198532104  | Generator Loss: 0.08733660727739334
+Training on Batch 387
+Discriminator Loss: 1.0269274711608887  | Generator Loss: 0.08729638904333115
+Training on Batch 388
+Discriminator Loss: 1.0268759727478027  | Generator Loss: 0.08725252747535706
+Training on Batch 389
+Discriminator Loss: 1.026824712753296  | Generator Loss: 0.08715402334928513
+Training on Batch 390
+Discriminator Loss: 1.0267785787582397  | Generator Loss: 0.08708979934453964
+Training on Batch 391
+Discriminator Loss: 1.0267305374145508  | Generator Loss: 0.08701887726783752
+Training on Batch 392
+Discriminator Loss: 1.0266798734664917  | Generator Loss: 0.08690433949232101
+Training on Batch 393
+Discriminator Loss: 1.0266295671463013  | Generator Loss: 0.08680805563926697
+Training on Batch 394
+Discriminator Loss: 1.0265792608261108  | Generator Loss: 0.086700439453125
+Training on Batch 395
+Discriminator Loss: 1.026530146598816  | Generator Loss: 0.08661296963691711
+Training on Batch 396
+Discriminator Loss: 1.0264812707901  | Generator Loss: 0.08657937496900558
+Training on Batch 397
+Discriminator Loss: 1.0264320373535156  | Generator Loss: 0.08646927773952484
+Training on Batch 398
+Discriminator Loss: 1.0263828039169312  | Generator Loss: 0.08647946268320084
+Training on Batch 399
+Discriminator Loss: 1.0263340473175049  | Generator Loss: 0.08639751374721527
+Training on Batch 400
+Discriminator Loss: 1.0262858867645264  | Generator Loss: 0.08632314950227737
+Training on Batch 401
+Discriminator Loss: 1.0262397527694702  | Generator Loss: 0.08625960350036621
+Training on Batch 402
+Discriminator Loss: 1.0261926651000977  | Generator Loss: 0.08620630204677582
+Training on Batch 403
+Discriminator Loss: 1.0261446237564087  | Generator Loss: 0.08614353835582733
+Training on Batch 404
+Discriminator Loss: 1.026097297668457  | Generator Loss: 0.08604501932859421
+Training on Batch 405
+Discriminator Loss: 1.026050090789795  | Generator Loss: 0.08598442375659943
+Training on Batch 406
+Discriminator Loss: 1.026003122329712  | Generator Loss: 0.08592358976602554
+Training on Batch 407
+Discriminator Loss: 1.0259588956832886  | Generator Loss: 0.08586843311786652
+Training on Batch 408
+Discriminator Loss: 1.025913953781128  | Generator Loss: 0.0858219712972641
+Training on Batch 409
+Discriminator Loss: 1.0258678197860718  | Generator Loss: 0.08571729809045792
+Training on Batch 410
+Discriminator Loss: 1.025825023651123  | Generator Loss: 0.08560923486948013
+Training on Batch 411
+Discriminator Loss: 1.025780439376831  | Generator Loss: 0.08555538952350616
+Training on Batch 412
+Discriminator Loss: 1.0257350206375122  | Generator Loss: 0.08546490222215652
+Training on Batch 413
+Discriminator Loss: 1.0256916284561157  | Generator Loss: 0.08543555438518524
+Training on Batch 414
+Discriminator Loss: 1.0256469249725342  | Generator Loss: 0.08536196500062943
+Training on Batch 415
+Discriminator Loss: 1.0256022214889526  | Generator Loss: 0.08532173186540604
+Training on Batch 416
+Discriminator Loss: 1.0255590677261353  | Generator Loss: 0.08527953922748566
+Training on Batch 417
+Discriminator Loss: 1.0255147218704224  | Generator Loss: 0.08520086109638214
+Training on Batch 418
+Discriminator Loss: 1.02548348903656  | Generator Loss: 0.08514239639043808
+Training on Batch 419
+Discriminator Loss: 1.0254392623901367  | Generator Loss: 0.08505115658044815
+Training on Batch 420
+Discriminator Loss: 1.0253949165344238  | Generator Loss: 0.08496405184268951
+Training on Batch 421
+Discriminator Loss: 1.0253514051437378  | Generator Loss: 0.08485443890094757
+Training on Batch 422
+Discriminator Loss: 1.0253082513809204  | Generator Loss: 0.08478677272796631
+Training on Batch 423
+Discriminator Loss: 1.0252646207809448  | Generator Loss: 0.08472564816474915
+Saving checkpoint for epoch 1
+Time for epoch 1/100 is 4274.173945903778 sec
+
+Training on Batch 0
+Discriminator Loss: 1.0074981451034546  | Generator Loss: 0.06469094008207321
+Training on Batch 1
+Discriminator Loss: 1.0072963237762451  | Generator Loss: 0.07145729660987854
+Training on Batch 2
+Discriminator Loss: 1.0093302726745605  | Generator Loss: 0.06389202922582626
+Training on Batch 3
+Discriminator Loss: 1.0088441371917725  | Generator Loss: 0.05750438943505287
+Training on Batch 4
+Discriminator Loss: 1.0084869861602783  | Generator Loss: 0.057167939841747284
+Training on Batch 5
+Discriminator Loss: 1.0082184076309204  | Generator Loss: 0.05476350709795952
+Training on Batch 6
+Discriminator Loss: 1.00804603099823  | Generator Loss: 0.052944887429475784
+Training on Batch 7
+Discriminator Loss: 1.0079598426818848  | Generator Loss: 0.05450376868247986
+Training on Batch 8
+Discriminator Loss: 1.0079686641693115  | Generator Loss: 0.05336512252688408
+Training on Batch 9
+Discriminator Loss: 1.008052945137024  | Generator Loss: 0.05326408892869949
+Training on Batch 10
+Discriminator Loss: 1.007951259613037  | Generator Loss: 0.054188814014196396
+Training on Batch 11
+Discriminator Loss: 1.0078493356704712  | Generator Loss: 0.054002538323402405
+Training on Batch 12
+Discriminator Loss: 1.0088233947753906  | Generator Loss: 0.05490215867757797
+Training on Batch 13
+Discriminator Loss: 1.0086852312088013  | Generator Loss: 0.05400872230529785
+Training on Batch 14
+Discriminator Loss: 1.0086824893951416  | Generator Loss: 0.053355004638433456
+Training on Batch 15
+Discriminator Loss: 1.0124857425689697  | Generator Loss: 0.053814925253391266
+Training on Batch 16
+Discriminator Loss: 1.012595534324646  | Generator Loss: 0.05404462665319443
+Training on Batch 17
+Discriminator Loss: 1.0157856941223145  | Generator Loss: 0.05412691459059715
+Training on Batch 18
+Discriminator Loss: 1.0153998136520386  | Generator Loss: 0.05372724309563637
+Training on Batch 19
+Discriminator Loss: 1.015041470527649  | Generator Loss: 0.05352483317255974
+Training on Batch 20
+Discriminator Loss: 1.0149786472320557  | Generator Loss: 0.054113905876874924
+Training on Batch 21
+Discriminator Loss: 1.015929102897644  | Generator Loss: 0.05355403199791908
+Training on Batch 22
+Discriminator Loss: 1.015586495399475  | Generator Loss: 0.05392999202013016
+Training on Batch 23
+Discriminator Loss: 1.0156370401382446  | Generator Loss: 0.05374101176857948
+Training on Batch 24
+Discriminator Loss: 1.0156394243240356  | Generator Loss: 0.053797170519828796
+Training on Batch 25
+Discriminator Loss: 1.017147421836853  | Generator Loss: 0.05414805933833122
+Training on Batch 26
+Discriminator Loss: 1.017030119895935  | Generator Loss: 0.05532665178179741
+Training on Batch 27
+Discriminator Loss: 1.0171905755996704  | Generator Loss: 0.05602598562836647
+Training on Batch 28
+Discriminator Loss: 1.0209819078445435  | Generator Loss: 0.05581733584403992
+Training on Batch 29
+Discriminator Loss: 1.0205488204956055  | Generator Loss: 0.0553729385137558
+Training on Batch 30
+Discriminator Loss: 1.0225579738616943  | Generator Loss: 0.05545327067375183
+Training on Batch 31
+Discriminator Loss: 1.0226200819015503  | Generator Loss: 0.05556172877550125
+Training on Batch 32
+Discriminator Loss: 1.0222053527832031  | Generator Loss: 0.055379949510097504
+Training on Batch 33
+Discriminator Loss: 1.0221372842788696  | Generator Loss: 0.0555683970451355
+Training on Batch 34
+Discriminator Loss: 1.0218549966812134  | Generator Loss: 0.055399395525455475
+Training on Batch 35
+Discriminator Loss: 1.0221232175827026  | Generator Loss: 0.05505463853478432
+Training on Batch 36
+Discriminator Loss: 1.0220080614089966  | Generator Loss: 0.05484086647629738
+Training on Batch 37
+Discriminator Loss: 1.021732211112976  | Generator Loss: 0.05516967177391052
+Training on Batch 38
+Discriminator Loss: 1.021468162536621  | Generator Loss: 0.05516510084271431
+Training on Batch 39
+Discriminator Loss: 1.0211620330810547  | Generator Loss: 0.05523448437452316
+Training on Batch 40
+Discriminator Loss: 1.0209542512893677  | Generator Loss: 0.05521209165453911
+Training on Batch 41
+Discriminator Loss: 1.0206648111343384  | Generator Loss: 0.05507965758442879
+Training on Batch 42
+Discriminator Loss: 1.0204129219055176  | Generator Loss: 0.054734524339437485
+Training on Batch 43
+Discriminator Loss: 1.0201457738876343  | Generator Loss: 0.054689694195985794
+Training on Batch 44
+Discriminator Loss: 1.0200026035308838  | Generator Loss: 0.05456170067191124
+Training on Batch 45
+Discriminator Loss: 1.019778847694397  | Generator Loss: 0.054354071617126465
+Training on Batch 46
+Discriminator Loss: 1.0195468664169312  | Generator Loss: 0.054305754601955414
+Training on Batch 47
+Discriminator Loss: 1.019363284111023  | Generator Loss: 0.05435161665081978
+Training on Batch 48
+Discriminator Loss: 1.0191333293914795  | Generator Loss: 0.05455431342124939
+Training on Batch 49
+Discriminator Loss: 1.0189414024353027  | Generator Loss: 0.054396290332078934
+Training on Batch 50
+Discriminator Loss: 1.0187183618545532  | Generator Loss: 0.05457095056772232
+Training on Batch 51
+Discriminator Loss: 1.018500804901123  | Generator Loss: 0.05443824082612991
+Training on Batch 52
+Discriminator Loss: 1.0183004140853882  | Generator Loss: 0.05458121746778488
+Training on Batch 53
+Discriminator Loss: 1.0180987119674683  | Generator Loss: 0.054381113499403
+Training on Batch 54
+Discriminator Loss: 1.0179173946380615  | Generator Loss: 0.054337721318006516
+Training on Batch 55
+Discriminator Loss: 1.0177282094955444  | Generator Loss: 0.05426779016852379
+Training on Batch 56
+Discriminator Loss: 1.01754629611969  | Generator Loss: 0.05407068505883217
+Training on Batch 57
+Discriminator Loss: 1.0173765420913696  | Generator Loss: 0.05399191007018089
+Training on Batch 58
+Discriminator Loss: 1.0172085762023926  | Generator Loss: 0.054130252450704575
+Training on Batch 59
+Discriminator Loss: 1.01704740524292  | Generator Loss: 0.05426911264657974
+Training on Batch 60
+Discriminator Loss: 1.0168904066085815  | Generator Loss: 0.05411256104707718
+Training on Batch 61
+Discriminator Loss: 1.016739845275879  | Generator Loss: 0.05398763716220856
+Training on Batch 62
+Discriminator Loss: 1.0165905952453613  | Generator Loss: 0.053928442299366
+Training on Batch 63
+Discriminator Loss: 1.0164462327957153  | Generator Loss: 0.05395668372511864
+Training on Batch 64
+Discriminator Loss: 1.016305923461914  | Generator Loss: 0.05446198210120201
+Training on Batch 65
+Discriminator Loss: 1.0161645412445068  | Generator Loss: 0.05432385578751564
+Training on Batch 66
+Discriminator Loss: 1.0160306692123413  | Generator Loss: 0.05425924435257912
+Training on Batch 67
+Discriminator Loss: 1.0159025192260742  | Generator Loss: 0.054120022803545
+Training on Batch 68
+Discriminator Loss: 1.0157712697982788  | Generator Loss: 0.054190561175346375
+Training on Batch 69
+Discriminator Loss: 1.015648365020752  | Generator Loss: 0.054013367742300034
+Training on Batch 70
+Discriminator Loss: 1.0155285596847534  | Generator Loss: 0.05389842018485069
+Training on Batch 71
+Discriminator Loss: 1.015411615371704  | Generator Loss: 0.0539877712726593
+Training on Batch 72
+Discriminator Loss: 1.0152947902679443  | Generator Loss: 0.05392719805240631
+Training on Batch 73
+Discriminator Loss: 1.0151805877685547  | Generator Loss: 0.05390765145421028
+Training on Batch 74
+Discriminator Loss: 1.0150755643844604  | Generator Loss: 0.054111938923597336
+Training on Batch 75
+Discriminator Loss: 1.0149707794189453  | Generator Loss: 0.05410400778055191
+Training on Batch 76
+Discriminator Loss: 1.0148698091506958  | Generator Loss: 0.05410870537161827
+Training on Batch 77
+Discriminator Loss: 1.0147658586502075  | Generator Loss: 0.054045774042606354
+Training on Batch 78
+Discriminator Loss: 1.0146657228469849  | Generator Loss: 0.05382152646780014
+Training on Batch 79
+Discriminator Loss: 1.0145666599273682  | Generator Loss: 0.053575776517391205
+Training on Batch 80
+Discriminator Loss: 1.0144716501235962  | Generator Loss: 0.05351634696125984
+Training on Batch 81
+Discriminator Loss: 1.0143773555755615  | Generator Loss: 0.0534018948674202
+Training on Batch 82
+Discriminator Loss: 1.0142872333526611  | Generator Loss: 0.0532609187066555
+Training on Batch 83
+Discriminator Loss: 1.014207124710083  | Generator Loss: 0.053181324154138565
+Training on Batch 84
+Discriminator Loss: 1.0141255855560303  | Generator Loss: 0.053174763917922974
+Training on Batch 85
+Discriminator Loss: 1.0140407085418701  | Generator Loss: 0.053247079253196716
+Training on Batch 86
+Discriminator Loss: 1.0139566659927368  | Generator Loss: 0.0531153529882431
+Training on Batch 87
+Discriminator Loss: 1.0138792991638184  | Generator Loss: 0.05293116718530655
+Training on Batch 88
+Discriminator Loss: 1.013800859451294  | Generator Loss: 0.05305737629532814
+Training on Batch 89
+Discriminator Loss: 1.0137227773666382  | Generator Loss: 0.05297515168786049
+Training on Batch 90
+Discriminator Loss: 1.0136725902557373  | Generator Loss: 0.05319717898964882
+Training on Batch 91
+Discriminator Loss: 1.0136005878448486  | Generator Loss: 0.05325277894735336
+Training on Batch 92
+Discriminator Loss: 1.013527750968933  | Generator Loss: 0.05304070934653282
+Training on Batch 93
+Discriminator Loss: 1.0134587287902832  | Generator Loss: 0.05300857126712799
+Training on Batch 94
+Discriminator Loss: 1.0133922100067139  | Generator Loss: 0.05290757864713669
+Training on Batch 95
+Discriminator Loss: 1.013332724571228  | Generator Loss: 0.05283872410655022
+Training on Batch 96
+Discriminator Loss: 1.013266921043396  | Generator Loss: 0.05292152240872383
+Training on Batch 97
+Discriminator Loss: 1.0132032632827759  | Generator Loss: 0.053028568625450134
+Training on Batch 98
+Discriminator Loss: 1.0131444931030273  | Generator Loss: 0.05304459482431412
+Training on Batch 99
+Discriminator Loss: 1.013081431388855  | Generator Loss: 0.053142447024583817
+Training on Batch 100
+Discriminator Loss: 1.01301908493042  | Generator Loss: 0.05310588702559471
+Training on Batch 101
+Discriminator Loss: 1.012961506843567  | Generator Loss: 0.053166814148426056
+Training on Batch 102
+Discriminator Loss: 1.0129023790359497  | Generator Loss: 0.05312453955411911
+Training on Batch 103
+Discriminator Loss: 1.0128525495529175  | Generator Loss: 0.0530085489153862
+Training on Batch 104
+Discriminator Loss: 1.0127946138381958  | Generator Loss: 0.05295262858271599
+Training on Batch 105
+Discriminator Loss: 1.012738823890686  | Generator Loss: 0.052997808903455734
+Training on Batch 106
+Discriminator Loss: 1.0126856565475464  | Generator Loss: 0.05300414562225342
+Training on Batch 107
+Discriminator Loss: 1.012630820274353  | Generator Loss: 0.05300864204764366
+Training on Batch 108
+Discriminator Loss: 1.0125770568847656  | Generator Loss: 0.05289531499147415
+Training on Batch 109
+Discriminator Loss: 1.0125256776809692  | Generator Loss: 0.05288507416844368
+Training on Batch 110
+Discriminator Loss: 1.0124742984771729  | Generator Loss: 0.0530729666352272
+Training on Batch 111
+Discriminator Loss: 1.0124236345291138  | Generator Loss: 0.053070519119501114
+Training on Batch 112
+Discriminator Loss: 1.012374997138977  | Generator Loss: 0.05298364534974098
+Training on Batch 113
+Discriminator Loss: 1.0123270750045776  | Generator Loss: 0.05294157192111015
+Training on Batch 114
+Discriminator Loss: 1.0122792720794678  | Generator Loss: 0.052945513278245926
+Training on Batch 115
+Discriminator Loss: 1.0122346878051758  | Generator Loss: 0.053030844777822495
+Training on Batch 116
+Discriminator Loss: 1.0121878385543823  | Generator Loss: 0.05293548107147217
+Training on Batch 117
+Discriminator Loss: 1.0121419429779053  | Generator Loss: 0.05285079777240753
+Training on Batch 118
+Discriminator Loss: 1.0120961666107178  | Generator Loss: 0.052835091948509216
+Training on Batch 119
+Discriminator Loss: 1.0120515823364258  | Generator Loss: 0.05277778208255768
+Training on Batch 120
+Discriminator Loss: 1.012008547782898  | Generator Loss: 0.052702561020851135
+Training on Batch 121
+Discriminator Loss: 1.0119658708572388  | Generator Loss: 0.052770912647247314
+Training on Batch 122
+Discriminator Loss: 1.011926531791687  | Generator Loss: 0.052775271236896515
+Training on Batch 123
+Discriminator Loss: 1.0118855237960815  | Generator Loss: 0.05267832428216934
+Training on Batch 124
+Discriminator Loss: 1.0118454694747925  | Generator Loss: 0.052578333765268326
+Training on Batch 125
+Discriminator Loss: 1.0118051767349243  | Generator Loss: 0.05249587446451187
+Training on Batch 126
+Discriminator Loss: 1.0117676258087158  | Generator Loss: 0.052521273493766785
+Training on Batch 127
+Discriminator Loss: 1.0117287635803223  | Generator Loss: 0.05247345194220543
+Training on Batch 128
+Discriminator Loss: 1.0116900205612183  | Generator Loss: 0.05241018161177635
+Training on Batch 129
+Discriminator Loss: 1.0116522312164307  | Generator Loss: 0.05235246568918228
+Training on Batch 130
+Discriminator Loss: 1.0116147994995117  | Generator Loss: 0.05234166607260704
+Training on Batch 131
+Discriminator Loss: 1.01157808303833  | Generator Loss: 0.0523005910217762
+Training on Batch 132
+Discriminator Loss: 1.0115412473678589  | Generator Loss: 0.05220858380198479
+Training on Batch 133
+Discriminator Loss: 1.011510968208313  | Generator Loss: 0.05225907638669014
+Training on Batch 134
+Discriminator Loss: 1.0114752054214478  | Generator Loss: 0.05217057093977928
+Training on Batch 135
+Discriminator Loss: 1.011440634727478  | Generator Loss: 0.052189260721206665
+Training on Batch 136
+Discriminator Loss: 1.0114072561264038  | Generator Loss: 0.05223669111728668
+Training on Batch 137
+Discriminator Loss: 1.0113760232925415  | Generator Loss: 0.052162133157253265
+Training on Batch 138
+Discriminator Loss: 1.0113426446914673  | Generator Loss: 0.05211968347430229
+Training on Batch 139
+Discriminator Loss: 1.0113086700439453  | Generator Loss: 0.05191419646143913
+Training on Batch 140
+Discriminator Loss: 1.0112757682800293  | Generator Loss: 0.05184834823012352
+Training on Batch 141
+Discriminator Loss: 1.011244535446167  | Generator Loss: 0.05181494727730751
+Training on Batch 142
+Discriminator Loss: 1.0112124681472778  | Generator Loss: 0.05168198049068451
+Training on Batch 143
+Discriminator Loss: 1.0111823081970215  | Generator Loss: 0.05179198086261749
+Training on Batch 144
+Discriminator Loss: 1.0111511945724487  | Generator Loss: 0.05185771733522415
+Training on Batch 145
+Discriminator Loss: 1.0111202001571655  | Generator Loss: 0.05176379531621933
+Training on Batch 146
+Discriminator Loss: 1.01108980178833  | Generator Loss: 0.05170522257685661
+Training on Batch 147
+Discriminator Loss: 1.011060357093811  | Generator Loss: 0.051626965403556824
+Training on Batch 148
+Discriminator Loss: 1.0110305547714233  | Generator Loss: 0.05154171213507652
+Training on Batch 149
+Discriminator Loss: 1.0110015869140625  | Generator Loss: 0.051506537944078445
+Training on Batch 150
+Discriminator Loss: 1.010972499847412  | Generator Loss: 0.051455337554216385
+Training on Batch 151
+Discriminator Loss: 1.0109450817108154  | Generator Loss: 0.051496636122465134
+Training on Batch 152
+Discriminator Loss: 1.0109176635742188  | Generator Loss: 0.051496610045433044
+Training on Batch 153
+Discriminator Loss: 1.0108920335769653  | Generator Loss: 0.05136987194418907
+Training on Batch 154
+Discriminator Loss: 1.0108648538589478  | Generator Loss: 0.051359161734580994
+Training on Batch 155
+Discriminator Loss: 1.0108376741409302  | Generator Loss: 0.051323115825653076
+Training on Batch 156
+Discriminator Loss: 1.0108115673065186  | Generator Loss: 0.0513068288564682
+Training on Batch 157
+Discriminator Loss: 1.0107871294021606  | Generator Loss: 0.05128981173038483
+Training on Batch 158
+Discriminator Loss: 1.010761022567749  | Generator Loss: 0.05123229697346687
+Training on Batch 159
+Discriminator Loss: 1.0107362270355225  | Generator Loss: 0.05118696019053459
+Training on Batch 160
+Discriminator Loss: 1.0107109546661377  | Generator Loss: 0.05111018568277359
+Training on Batch 161
+Discriminator Loss: 1.0106855630874634  | Generator Loss: 0.051093362271785736
+Training on Batch 162
+Discriminator Loss: 1.0106611251831055  | Generator Loss: 0.05103997513651848
+Training on Batch 163
+Discriminator Loss: 1.0106364488601685  | Generator Loss: 0.051008764654397964
+Training on Batch 164
+Discriminator Loss: 1.0106126070022583  | Generator Loss: 0.050930313766002655
+Training on Batch 165
+Discriminator Loss: 1.0105886459350586  | Generator Loss: 0.050904665142297745
+Training on Batch 166
+Discriminator Loss: 1.0105648040771484  | Generator Loss: 0.0508992038667202
+Training on Batch 167
+Discriminator Loss: 1.0105421543121338  | Generator Loss: 0.05089135468006134
+Training on Batch 168
+Discriminator Loss: 1.0105189085006714  | Generator Loss: 0.05082949250936508
+Training on Batch 169
+Discriminator Loss: 1.0104963779449463  | Generator Loss: 0.05085064843297005
+Training on Batch 170
+Discriminator Loss: 1.0104738473892212  | Generator Loss: 0.0508284717798233
+Training on Batch 171
+Discriminator Loss: 1.010452151298523  | Generator Loss: 0.05079890787601471
+Training on Batch 172
+Discriminator Loss: 1.0104304552078247  | Generator Loss: 0.05074430629611015
+Training on Batch 173
+Discriminator Loss: 1.0104095935821533  | Generator Loss: 0.05076851695775986
+Training on Batch 174
+Discriminator Loss: 1.0103901624679565  | Generator Loss: 0.0506490059196949
+Training on Batch 175
+Discriminator Loss: 1.0103703737258911  | Generator Loss: 0.050661202520132065
+Training on Batch 176
+Discriminator Loss: 1.0103492736816406  | Generator Loss: 0.05056973546743393
+Training on Batch 177
+Discriminator Loss: 1.0103285312652588  | Generator Loss: 0.05051782727241516
+Training on Batch 178
+Discriminator Loss: 1.0103086233139038  | Generator Loss: 0.050544921308755875
+Training on Batch 179
+Discriminator Loss: 1.0102877616882324  | Generator Loss: 0.0504668764770031
+Training on Batch 180
+Discriminator Loss: 1.0102678537368774  | Generator Loss: 0.05044194310903549
+Training on Batch 181
+Discriminator Loss: 1.0102477073669434  | Generator Loss: 0.05040331184864044
+Training on Batch 182
+Discriminator Loss: 1.010229229927063  | Generator Loss: 0.05042549967765808
+Training on Batch 183
+Discriminator Loss: 1.010209560394287  | Generator Loss: 0.05042598396539688
+Training on Batch 184
+Discriminator Loss: 1.0101903676986694  | Generator Loss: 0.05046570301055908
+Training on Batch 185
+Discriminator Loss: 1.0101710557937622  | Generator Loss: 0.0504477359354496
+Training on Batch 186
+Discriminator Loss: 1.0101524591445923  | Generator Loss: 0.05055084452033043
+Training on Batch 187
+Discriminator Loss: 1.010135531425476  | Generator Loss: 0.05055153742432594
+Training on Batch 188
+Discriminator Loss: 1.0101171731948853  | Generator Loss: 0.050461240112781525
+Training on Batch 189
+Discriminator Loss: 1.0100995302200317  | Generator Loss: 0.05050250515341759
+Training on Batch 190
+Discriminator Loss: 1.010082721710205  | Generator Loss: 0.05046806484460831
+Training on Batch 191
+Discriminator Loss: 1.0100644826889038  | Generator Loss: 0.0503745935857296
+Training on Batch 192
+Discriminator Loss: 1.0100470781326294  | Generator Loss: 0.050317563116550446
+Training on Batch 193
+Discriminator Loss: 1.0100300312042236  | Generator Loss: 0.050303470343351364
+Training on Batch 194
+Discriminator Loss: 1.0100148916244507  | Generator Loss: 0.0502389520406723
+Training on Batch 195
+Discriminator Loss: 1.0099982023239136  | Generator Loss: 0.05019785836338997
+Training on Batch 196
+Discriminator Loss: 1.0099809169769287  | Generator Loss: 0.05017901211977005
+Training on Batch 197
+Discriminator Loss: 1.009965419769287  | Generator Loss: 0.050215207040309906
+Training on Batch 198
+Discriminator Loss: 1.009948492050171  | Generator Loss: 0.0501721054315567
+Training on Batch 199
+Discriminator Loss: 1.0099319219589233  | Generator Loss: 0.05007726699113846
+Training on Batch 200
+Discriminator Loss: 1.0099155902862549  | Generator Loss: 0.05011383444070816
+Training on Batch 201
+Discriminator Loss: 1.0099023580551147  | Generator Loss: 0.050092361867427826
+Training on Batch 202
+Discriminator Loss: 1.0098861455917358  | Generator Loss: 0.05001373961567879
+Training on Batch 203
+Discriminator Loss: 1.009870171546936  | Generator Loss: 0.05001693218946457
+Training on Batch 204
+Discriminator Loss: 1.0098543167114258  | Generator Loss: 0.050021637231111526
+Training on Batch 205
+Discriminator Loss: 1.009839653968811  | Generator Loss: 0.05004601925611496
+Training on Batch 206
+Discriminator Loss: 1.0098243951797485  | Generator Loss: 0.05004964396357536
+Training on Batch 207
+Discriminator Loss: 1.0098093748092651  | Generator Loss: 0.0500093437731266
+Training on Batch 208
+Discriminator Loss: 1.0097941160202026  | Generator Loss: 0.049949683248996735
+Training on Batch 209
+Discriminator Loss: 1.009779691696167  | Generator Loss: 0.049940623342990875
+Training on Batch 210
+Discriminator Loss: 1.0097646713256836  | Generator Loss: 0.04994296282529831
+Training on Batch 211
+Discriminator Loss: 1.0097512006759644  | Generator Loss: 0.04985184222459793
+Training on Batch 212
+Discriminator Loss: 1.0097365379333496  | Generator Loss: 0.04978220537304878
+Training on Batch 213
+Discriminator Loss: 1.0097225904464722  | Generator Loss: 0.04972974956035614
+Training on Batch 214
+Discriminator Loss: 1.009708046913147  | Generator Loss: 0.04971832036972046
+Training on Batch 215
+Discriminator Loss: 1.0096940994262695  | Generator Loss: 0.049724478274583817
+Training on Batch 216
+Discriminator Loss: 1.009680151939392  | Generator Loss: 0.04966319724917412
+Training on Batch 217
+Discriminator Loss: 1.009666085243225  | Generator Loss: 0.04961954429745674
+Training on Batch 218
+Discriminator Loss: 1.0096521377563477  | Generator Loss: 0.04958708956837654
+Training on Batch 219
+Discriminator Loss: 1.0096383094787598  | Generator Loss: 0.04954823479056358
+Training on Batch 220
+Discriminator Loss: 1.0096248388290405  | Generator Loss: 0.04959758743643761
+Training on Batch 221
+Discriminator Loss: 1.0096112489700317  | Generator Loss: 0.049517568200826645
+Training on Batch 222
+Discriminator Loss: 1.0095977783203125  | Generator Loss: 0.04946521669626236
+Training on Batch 223
+Discriminator Loss: 1.009584903717041  | Generator Loss: 0.04944617301225662
+Training on Batch 224
+Discriminator Loss: 1.0095723867416382  | Generator Loss: 0.04944336414337158
+Training on Batch 225
+Discriminator Loss: 1.0095593929290771  | Generator Loss: 0.04938304051756859
+Training on Batch 226
+Discriminator Loss: 1.0095475912094116  | Generator Loss: 0.04938497394323349
+Training on Batch 227
+Discriminator Loss: 1.009535312652588  | Generator Loss: 0.049314144998788834
+Training on Batch 228
+Discriminator Loss: 1.009522795677185  | Generator Loss: 0.04923904314637184
+Training on Batch 229
+Discriminator Loss: 1.0095105171203613  | Generator Loss: 0.04919746145606041
+Training on Batch 230
+Discriminator Loss: 1.009498119354248  | Generator Loss: 0.049119818955659866
+Training on Batch 231
+Discriminator Loss: 1.0094859600067139  | Generator Loss: 0.04910527169704437
+Training on Batch 232
+Discriminator Loss: 1.009473443031311  | Generator Loss: 0.04904253035783768
+Training on Batch 233
+Discriminator Loss: 1.009461760520935  | Generator Loss: 0.049038082361221313
+Training on Batch 234
+Discriminator Loss: 1.0094497203826904  | Generator Loss: 0.048976071178913116
+Training on Batch 235
+Discriminator Loss: 1.0094377994537354  | Generator Loss: 0.04893726110458374
+Training on Batch 236
+Discriminator Loss: 1.0094257593154907  | Generator Loss: 0.048926644027233124
+Training on Batch 237
+Discriminator Loss: 1.009415864944458  | Generator Loss: 0.04890253394842148
+Training on Batch 238
+Discriminator Loss: 1.0094048976898193  | Generator Loss: 0.04884755238890648
+Training on Batch 239
+Discriminator Loss: 1.0093932151794434  | Generator Loss: 0.04880322143435478
+Training on Batch 240
+Discriminator Loss: 1.0093826055526733  | Generator Loss: 0.04878882318735123
+Training on Batch 241
+Discriminator Loss: 1.0093724727630615  | Generator Loss: 0.04879581928253174
+Training on Batch 242
+Discriminator Loss: 1.0093610286712646  | Generator Loss: 0.048750169575214386
+Training on Batch 243
+Discriminator Loss: 1.0093497037887573  | Generator Loss: 0.0487288162112236
+Training on Batch 244
+Discriminator Loss: 1.0093393325805664  | Generator Loss: 0.04874109849333763
+Training on Batch 245
+Discriminator Loss: 1.0093282461166382  | Generator Loss: 0.04870779812335968
+Training on Batch 246
+Discriminator Loss: 1.0093178749084473  | Generator Loss: 0.04867834225296974
+Training on Batch 247
+Discriminator Loss: 1.0093069076538086  | Generator Loss: 0.04861043766140938
+Training on Batch 248
+Discriminator Loss: 1.0092976093292236  | Generator Loss: 0.048657502979040146
+Training on Batch 249
+Discriminator Loss: 1.0092869997024536  | Generator Loss: 0.04865748807787895
+Training on Batch 250
+Discriminator Loss: 1.0092772245407104  | Generator Loss: 0.04867326840758324
+Training on Batch 251
+Discriminator Loss: 1.0092664957046509  | Generator Loss: 0.048630718141794205
+Training on Batch 252
+Discriminator Loss: 1.0092558860778809  | Generator Loss: 0.04855602979660034
+Training on Batch 253
+Discriminator Loss: 1.0092459917068481  | Generator Loss: 0.04851243644952774
+Training on Batch 254
+Discriminator Loss: 1.0092360973358154  | Generator Loss: 0.0484749935567379
+Training on Batch 255
+Discriminator Loss: 1.0092260837554932  | Generator Loss: 0.048434995114803314
+Training on Batch 256
+Discriminator Loss: 1.0092164278030396  | Generator Loss: 0.0484277568757534
+Training on Batch 257
+Discriminator Loss: 1.009207010269165  | Generator Loss: 0.04848621040582657
+Training on Batch 258
+Discriminator Loss: 1.0091968774795532  | Generator Loss: 0.048462215811014175
+Training on Batch 259
+Discriminator Loss: 1.00918710231781  | Generator Loss: 0.048426784574985504
+Training on Batch 260
+Discriminator Loss: 1.0091770887374878  | Generator Loss: 0.04839295148849487
+Training on Batch 261
+Discriminator Loss: 1.0091674327850342  | Generator Loss: 0.04835043475031853
+Training on Batch 262
+Discriminator Loss: 1.009157657623291  | Generator Loss: 0.04831906408071518
+Training on Batch 263
+Discriminator Loss: 1.0091485977172852  | Generator Loss: 0.04828084260225296
+Training on Batch 264
+Discriminator Loss: 1.009138822555542  | Generator Loss: 0.04820556938648224
+Training on Batch 265
+Discriminator Loss: 1.009129285812378  | Generator Loss: 0.04819415137171745
+Training on Batch 266
+Discriminator Loss: 1.009119987487793  | Generator Loss: 0.04815360903739929
+Training on Batch 267
+Discriminator Loss: 1.0091105699539185  | Generator Loss: 0.048099715262651443
+Training on Batch 268
+Discriminator Loss: 1.0091016292572021  | Generator Loss: 0.04802203178405762
+Training on Batch 269
+Discriminator Loss: 1.0090930461883545  | Generator Loss: 0.048011813312768936
+Training on Batch 270
+Discriminator Loss: 1.0090845823287964  | Generator Loss: 0.048053279519081116
+Training on Batch 271
+Discriminator Loss: 1.0090757608413696  | Generator Loss: 0.048025526106357574
+Training on Batch 272
+Discriminator Loss: 1.009067416191101  | Generator Loss: 0.04800223931670189
+Training on Batch 273
+Discriminator Loss: 1.0090594291687012  | Generator Loss: 0.0479869581758976
+Training on Batch 274
+Discriminator Loss: 1.0090503692626953  | Generator Loss: 0.04797165095806122
+Training on Batch 275
+Discriminator Loss: 1.0090415477752686  | Generator Loss: 0.04796665534377098
+Training on Batch 276
+Discriminator Loss: 1.0090335607528687  | Generator Loss: 0.047972869127988815
+Training on Batch 277
+Discriminator Loss: 1.0090250968933105  | Generator Loss: 0.047979485243558884
+Training on Batch 278
+Discriminator Loss: 1.0090166330337524  | Generator Loss: 0.04795803874731064
+Training on Batch 279
+Discriminator Loss: 1.0090078115463257  | Generator Loss: 0.0479416660964489
+Training on Batch 280
+Discriminator Loss: 1.0089995861053467  | Generator Loss: 0.04793662950396538
+Training on Batch 281
+Discriminator Loss: 1.0089915990829468  | Generator Loss: 0.04788555949926376
+Training on Batch 282
+Discriminator Loss: 1.0089832544326782  | Generator Loss: 0.04791508987545967
+Training on Batch 283
+Discriminator Loss: 1.0089749097824097  | Generator Loss: 0.04788243770599365
+Training on Batch 284
+Discriminator Loss: 1.0089664459228516  | Generator Loss: 0.047847844660282135
+Training on Batch 285
+Discriminator Loss: 1.008958339691162  | Generator Loss: 0.04782453179359436
+Training on Batch 286
+Discriminator Loss: 1.00895094871521  | Generator Loss: 0.04785405844449997
+Training on Batch 287
+Discriminator Loss: 1.0089428424835205  | Generator Loss: 0.047807443886995316
+Training on Batch 288
+Discriminator Loss: 1.0089361667633057  | Generator Loss: 0.04779866337776184
+Training on Batch 289
+Discriminator Loss: 1.0089291334152222  | Generator Loss: 0.047866370528936386
+Training on Batch 290
+Discriminator Loss: 1.0089211463928223  | Generator Loss: 0.04789839684963226
+Training on Batch 291
+Discriminator Loss: 1.0089137554168701  | Generator Loss: 0.047926027327775955
+Training on Batch 292
+Discriminator Loss: 1.0089060068130493  | Generator Loss: 0.04787435755133629
+Training on Batch 293
+Discriminator Loss: 1.0088984966278076  | Generator Loss: 0.047856803983449936
+Training on Batch 294
+Discriminator Loss: 1.0088917016983032  | Generator Loss: 0.047849804162979126
+Training on Batch 295
+Discriminator Loss: 1.0088844299316406  | Generator Loss: 0.047838564962148666
+Training on Batch 296
+Discriminator Loss: 1.0088768005371094  | Generator Loss: 0.047810934484004974
+Training on Batch 297
+Discriminator Loss: 1.0088694095611572  | Generator Loss: 0.04781721159815788
+Training on Batch 298
+Discriminator Loss: 1.0088621377944946  | Generator Loss: 0.04780519753694534
+Training on Batch 299
+Discriminator Loss: 1.008854627609253  | Generator Loss: 0.04777778685092926
+Training on Batch 300
+Discriminator Loss: 1.0088469982147217  | Generator Loss: 0.04771975427865982
+Training on Batch 301
+Discriminator Loss: 1.00883948802948  | Generator Loss: 0.04769265279173851
+Training on Batch 302
+Discriminator Loss: 1.0088324546813965  | Generator Loss: 0.0476565882563591
+Training on Batch 303
+Discriminator Loss: 1.0088263750076294  | Generator Loss: 0.047630541026592255
+Training on Batch 304
+Discriminator Loss: 1.0088189840316772  | Generator Loss: 0.04758567363023758
+Training on Batch 305
+Discriminator Loss: 1.0088119506835938  | Generator Loss: 0.04757922887802124
+Training on Batch 306
+Discriminator Loss: 1.0088046789169312  | Generator Loss: 0.04755910485982895
+Training on Batch 307
+Discriminator Loss: 1.0087978839874268  | Generator Loss: 0.047578055411577225
+Training on Batch 308
+Discriminator Loss: 1.0087909698486328  | Generator Loss: 0.04758055880665779
+Training on Batch 309
+Discriminator Loss: 1.0087836980819702  | Generator Loss: 0.04757946357131004
+Training on Batch 310
+Discriminator Loss: 1.008777141571045  | Generator Loss: 0.047523509711027145
+Training on Batch 311
+Discriminator Loss: 1.008770227432251  | Generator Loss: 0.0475156232714653
+Training on Batch 312
+Discriminator Loss: 1.008764386177063  | Generator Loss: 0.04755781963467598
+Training on Batch 313
+Discriminator Loss: 1.0087573528289795  | Generator Loss: 0.047499872744083405
+Training on Batch 314
+Discriminator Loss: 1.0087510347366333  | Generator Loss: 0.04751690477132797
+Training on Batch 315
+Discriminator Loss: 1.0087445974349976  | Generator Loss: 0.04752357676625252
+Training on Batch 316
+Discriminator Loss: 1.0087378025054932  | Generator Loss: 0.04750717058777809
+Training on Batch 317
+Discriminator Loss: 1.0087308883666992  | Generator Loss: 0.047433268278837204
+Training on Batch 318
+Discriminator Loss: 1.008724570274353  | Generator Loss: 0.047436997294425964
+Training on Batch 319
+Discriminator Loss: 1.0087182521820068  | Generator Loss: 0.04743433743715286
+Training on Batch 320
+Discriminator Loss: 1.008711814880371  | Generator Loss: 0.04744066298007965
+Training on Batch 321
+Discriminator Loss: 1.0087051391601562  | Generator Loss: 0.047440387308597565
+Training on Batch 322
+Discriminator Loss: 1.008698582649231  | Generator Loss: 0.04738648235797882
+Training on Batch 323
+Discriminator Loss: 1.0086959600448608  | Generator Loss: 0.04738788679242134
+Training on Batch 324
+Discriminator Loss: 1.0086896419525146  | Generator Loss: 0.047377731651067734
+Training on Batch 325
+Discriminator Loss: 1.0086838006973267  | Generator Loss: 0.047352440655231476
+Training on Batch 326
+Discriminator Loss: 1.0086774826049805  | Generator Loss: 0.04729250445961952
+Training on Batch 327
+Discriminator Loss: 1.0086710453033447  | Generator Loss: 0.04724961891770363
+Training on Batch 328
+Discriminator Loss: 1.008665680885315  | Generator Loss: 0.04721483960747719
+Training on Batch 329
+Discriminator Loss: 1.008659839630127  | Generator Loss: 0.04719242826104164
+Training on Batch 330
+Discriminator Loss: 1.0086537599563599  | Generator Loss: 0.047149963676929474
+Training on Batch 331
+Discriminator Loss: 1.0086474418640137  | Generator Loss: 0.04712005332112312
+Training on Batch 332
+Discriminator Loss: 1.0086414813995361  | Generator Loss: 0.04711822047829628
+Training on Batch 333
+Discriminator Loss: 1.00863516330719  | Generator Loss: 0.047100696712732315
+Training on Batch 334
+Discriminator Loss: 1.008629560470581  | Generator Loss: 0.04712415114045143
+Training on Batch 335
+Discriminator Loss: 1.0086233615875244  | Generator Loss: 0.04712478443980217
+Training on Batch 336
+Discriminator Loss: 1.0086171627044678  | Generator Loss: 0.0471436008810997
+Training on Batch 337
+Discriminator Loss: 1.0086113214492798  | Generator Loss: 0.04713085666298866
+Training on Batch 338
+Discriminator Loss: 1.0086053609848022  | Generator Loss: 0.04705563560128212
+Training on Batch 339
+Discriminator Loss: 1.0085995197296143  | Generator Loss: 0.04703593999147415
+Training on Batch 340
+Discriminator Loss: 1.0085943937301636  | Generator Loss: 0.047064051032066345
+Training on Batch 341
+Discriminator Loss: 1.0085889101028442  | Generator Loss: 0.047064073383808136
+Training on Batch 342
+Discriminator Loss: 1.0085833072662354  | Generator Loss: 0.04701728746294975
+Training on Batch 343
+Discriminator Loss: 1.0085777044296265  | Generator Loss: 0.04700775444507599
+Training on Batch 344
+Discriminator Loss: 1.0085762739181519  | Generator Loss: 0.04697491228580475
+Training on Batch 345
+Discriminator Loss: 1.008570671081543  | Generator Loss: 0.04696802422404289
+Training on Batch 346
+Discriminator Loss: 1.0085653066635132  | Generator Loss: 0.04692655801773071
+Training on Batch 347
+Discriminator Loss: 1.0085598230361938  | Generator Loss: 0.04693497344851494
+Training on Batch 348
+Discriminator Loss: 1.0085543394088745  | Generator Loss: 0.0469353087246418
+Training on Batch 349
+Discriminator Loss: 1.0085488557815552  | Generator Loss: 0.04691515117883682
+Training on Batch 350
+Discriminator Loss: 1.0085434913635254  | Generator Loss: 0.04688543826341629
+Training on Batch 351
+Discriminator Loss: 1.0085378885269165  | Generator Loss: 0.04686136171221733
+Training on Batch 352
+Discriminator Loss: 1.0085327625274658  | Generator Loss: 0.04684005305171013
+Training on Batch 353
+Discriminator Loss: 1.0085272789001465  | Generator Loss: 0.04679414629936218
+Training on Batch 354
+Discriminator Loss: 1.0085222721099854  | Generator Loss: 0.046810124069452286
+Training on Batch 355
+Discriminator Loss: 1.0085182189941406  | Generator Loss: 0.046783290803432465
+Training on Batch 356
+Discriminator Loss: 1.00851309299469  | Generator Loss: 0.04674893990159035
+Training on Batch 357
+Discriminator Loss: 1.0085077285766602  | Generator Loss: 0.04673080891370773
+Training on Batch 358
+Discriminator Loss: 1.0085053443908691  | Generator Loss: 0.04673035070300102
+Training on Batch 359
+Discriminator Loss: 1.0085010528564453  | Generator Loss: 0.04672820866107941
+Training on Batch 360
+Discriminator Loss: 1.0084959268569946  | Generator Loss: 0.04672219976782799
+Training on Batch 361
+Discriminator Loss: 1.0084906816482544  | Generator Loss: 0.04667690023779869
+Training on Batch 362
+Discriminator Loss: 1.0084853172302246  | Generator Loss: 0.04666260629892349
+Training on Batch 363
+Discriminator Loss: 1.0084800720214844  | Generator Loss: 0.04662210866808891
+Training on Batch 364
+Discriminator Loss: 1.0084755420684814  | Generator Loss: 0.0466119684278965
+Training on Batch 365
+Discriminator Loss: 1.0084702968597412  | Generator Loss: 0.046568483114242554
+Training on Batch 366
+Discriminator Loss: 1.0084656476974487  | Generator Loss: 0.04658614844083786
+Training on Batch 367
+Discriminator Loss: 1.0084604024887085  | Generator Loss: 0.04656732454895973
+Training on Batch 368
+Discriminator Loss: 1.008455753326416  | Generator Loss: 0.04658355936408043
+Training on Batch 369
+Discriminator Loss: 1.0084511041641235  | Generator Loss: 0.0465654619038105
+Training on Batch 370
+Discriminator Loss: 1.008446216583252  | Generator Loss: 0.04654420539736748
+Training on Batch 371
+Discriminator Loss: 1.0084412097930908  | Generator Loss: 0.046512480825185776
+Training on Batch 372
+Discriminator Loss: 1.0084364414215088  | Generator Loss: 0.04652228206396103
+Training on Batch 373
+Discriminator Loss: 1.008431315422058  | Generator Loss: 0.04645814374089241
+Training on Batch 374
+Discriminator Loss: 1.008426308631897  | Generator Loss: 0.04644414782524109
+Training on Batch 375
+Discriminator Loss: 1.0084216594696045  | Generator Loss: 0.0464332289993763
+Training on Batch 376
+Discriminator Loss: 1.0084168910980225  | Generator Loss: 0.046411868184804916
+Training on Batch 377
+Discriminator Loss: 1.0084120035171509  | Generator Loss: 0.04636557772755623
+Training on Batch 378
+Discriminator Loss: 1.0084073543548584  | Generator Loss: 0.04632642865180969
+Training on Batch 379
+Discriminator Loss: 1.0084028244018555  | Generator Loss: 0.04629559814929962
+Training on Batch 380
+Discriminator Loss: 1.0083980560302734  | Generator Loss: 0.04626840353012085
+Training on Batch 381
+Discriminator Loss: 1.0083932876586914  | Generator Loss: 0.0462721511721611
+Training on Batch 382
+Discriminator Loss: 1.008388638496399  | Generator Loss: 0.04631298780441284
+Training on Batch 383
+Discriminator Loss: 1.0083839893341064  | Generator Loss: 0.04627740755677223
+Training on Batch 384
+Discriminator Loss: 1.0083800554275513  | Generator Loss: 0.04628127068281174
+Training on Batch 385
+Discriminator Loss: 1.0083755254745483  | Generator Loss: 0.04626525193452835
+Training on Batch 386
+Discriminator Loss: 1.0083709955215454  | Generator Loss: 0.04624760523438454
+Training on Batch 387
+Discriminator Loss: 1.008366346359253  | Generator Loss: 0.04625864699482918
+Training on Batch 388
+Discriminator Loss: 1.0083619356155396  | Generator Loss: 0.04625837877392769
+Training on Batch 389
+Discriminator Loss: 1.0083575248718262  | Generator Loss: 0.0462343655526638
+Training on Batch 390
+Discriminator Loss: 1.0083529949188232  | Generator Loss: 0.04622911289334297
+Training on Batch 391
+Discriminator Loss: 1.0083484649658203  | Generator Loss: 0.04620259627699852
+Training on Batch 392
+Discriminator Loss: 1.0083438158035278  | Generator Loss: 0.04615062475204468
+Training on Batch 393
+Discriminator Loss: 1.0083394050598145  | Generator Loss: 0.046150680631399155
+Training on Batch 394
+Discriminator Loss: 1.0083351135253906  | Generator Loss: 0.046145591884851456
+Training on Batch 395
+Discriminator Loss: 1.0083307027816772  | Generator Loss: 0.04612606763839722
+Training on Batch 396
+Discriminator Loss: 1.0083266496658325  | Generator Loss: 0.046110183000564575
+Training on Batch 397
+Discriminator Loss: 1.0083225965499878  | Generator Loss: 0.04609105736017227
+Training on Batch 398
+Discriminator Loss: 1.008318305015564  | Generator Loss: 0.046077124774456024
+Training on Batch 399
+Discriminator Loss: 1.0083141326904297  | Generator Loss: 0.04605872929096222
+Training on Batch 400
+Discriminator Loss: 1.0083096027374268  | Generator Loss: 0.04602697119116783
+Training on Batch 401
+Discriminator Loss: 1.008305311203003  | Generator Loss: 0.04605013504624367
+Training on Batch 402
+Discriminator Loss: 1.0083038806915283  | Generator Loss: 0.04603279009461403
+Training on Batch 403
+Discriminator Loss: 1.008299469947815  | Generator Loss: 0.04602310061454773
+Training on Batch 404
+Discriminator Loss: 1.0082955360412598  | Generator Loss: 0.04599685221910477
+Training on Batch 405
+Discriminator Loss: 1.0082913637161255  | Generator Loss: 0.04600157216191292
+Training on Batch 406
+Discriminator Loss: 1.0082871913909912  | Generator Loss: 0.04600059986114502
+Training on Batch 407
+Discriminator Loss: 1.008283019065857  | Generator Loss: 0.04596727341413498
+Training on Batch 408
+Discriminator Loss: 1.008278727531433  | Generator Loss: 0.04594479501247406
+Training on Batch 409
+Discriminator Loss: 1.0082745552062988  | Generator Loss: 0.04591793566942215
+Training on Batch 410
+Discriminator Loss: 1.008270502090454  | Generator Loss: 0.04594691842794418
+Training on Batch 411
+Discriminator Loss: 1.0082666873931885  | Generator Loss: 0.04593218117952347
+Training on Batch 412
+Discriminator Loss: 1.0082626342773438  | Generator Loss: 0.04591895267367363
+Training on Batch 413
+Discriminator Loss: 1.008258581161499  | Generator Loss: 0.04591207951307297
+Training on Batch 414
+Discriminator Loss: 1.008254885673523  | Generator Loss: 0.045883309096097946
+Training on Batch 415
+Discriminator Loss: 1.0082507133483887  | Generator Loss: 0.04589863494038582
+Training on Batch 416
+Discriminator Loss: 1.008246898651123  | Generator Loss: 0.04590248689055443
+Training on Batch 417
+Discriminator Loss: 1.0082428455352783  | Generator Loss: 0.045878589153289795
+Training on Batch 418
+Discriminator Loss: 1.008238673210144  | Generator Loss: 0.04583638906478882
+Training on Batch 419
+Discriminator Loss: 1.0082355737686157  | Generator Loss: 0.04583481326699257
+Training on Batch 420
+Discriminator Loss: 1.008231520652771  | Generator Loss: 0.045794978737831116
+Training on Batch 421
+Discriminator Loss: 1.0082274675369263  | Generator Loss: 0.04575229063630104
+Training on Batch 422
+Discriminator Loss: 1.0082238912582397  | Generator Loss: 0.045751139521598816
+Training on Batch 423
+Discriminator Loss: 1.0082199573516846  | Generator Loss: 0.045711878687143326
+Saving checkpoint for epoch 2
+Time for epoch 2/100 is 5461.552893638611 sec
+
+Training on Batch 0
+Discriminator Loss: 1.008376121520996  | Generator Loss: 0.0694565698504448
+Training on Batch 1
+Discriminator Loss: 1.0074818134307861  | Generator Loss: 0.05050317198038101
+Training on Batch 2
+Discriminator Loss: 1.0072016716003418  | Generator Loss: 0.04944011569023132
+Training on Batch 3
+Discriminator Loss: 1.007083773612976  | Generator Loss: 0.04566147178411484
+Training on Batch 4
+Discriminator Loss: 1.0069807767868042  | Generator Loss: 0.04199637100100517
+Training on Batch 5
+Discriminator Loss: 1.0069113969802856  | Generator Loss: 0.041269514709711075
+Training on Batch 6
+Discriminator Loss: 1.006852626800537  | Generator Loss: 0.03937873989343643
+Training on Batch 7
+Discriminator Loss: 1.006847620010376  | Generator Loss: 0.03988111764192581
+Training on Batch 8
+Discriminator Loss: 1.0068268775939941  | Generator Loss: 0.04058154299855232
+Training on Batch 9
+Discriminator Loss: 1.0068050622940063  | Generator Loss: 0.04098890349268913
+Training on Batch 10
+Discriminator Loss: 1.0067965984344482  | Generator Loss: 0.0410907007753849
+Training on Batch 11
+Discriminator Loss: 1.0067815780639648  | Generator Loss: 0.040947459638118744
+Training on Batch 12
+Discriminator Loss: 1.006772756576538  | Generator Loss: 0.04159986600279808
+Training on Batch 13
+Discriminator Loss: 1.006771206855774  | Generator Loss: 0.04157038405537605
+Training on Batch 14
+Discriminator Loss: 1.0067675113677979  | Generator Loss: 0.04271167144179344
+Training on Batch 15
+Discriminator Loss: 1.0067546367645264  | Generator Loss: 0.041628461331129074
+Training on Batch 16
+Discriminator Loss: 1.006745457649231  | Generator Loss: 0.04109865799546242
+Training on Batch 17
+Discriminator Loss: 1.0067362785339355  | Generator Loss: 0.040558379143476486
+Training on Batch 18
+Discriminator Loss: 1.0067325830459595  | Generator Loss: 0.040576301515102386
+Training on Batch 19
+Discriminator Loss: 1.0067294836044312  | Generator Loss: 0.04021864011883736
+Training on Batch 20
+Discriminator Loss: 1.0067274570465088  | Generator Loss: 0.039699237793684006
+Training on Batch 21
+Discriminator Loss: 1.0067192316055298  | Generator Loss: 0.03970237448811531
+Training on Batch 22
+Discriminator Loss: 1.0067126750946045  | Generator Loss: 0.03928126022219658
+Training on Batch 23
+Discriminator Loss: 1.0067087411880493  | Generator Loss: 0.03968488797545433
+Training on Batch 24
+Discriminator Loss: 1.0067074298858643  | Generator Loss: 0.03982630372047424
+Training on Batch 25
+Discriminator Loss: 1.0067028999328613  | Generator Loss: 0.03994131088256836
+Training on Batch 26
+Discriminator Loss: 1.0066990852355957  | Generator Loss: 0.03943382948637009
+Training on Batch 27
+Discriminator Loss: 1.0066930055618286  | Generator Loss: 0.03926409035921097
+Training on Batch 28
+Discriminator Loss: 1.0066876411437988  | Generator Loss: 0.03924338147044182
+Training on Batch 29
+Discriminator Loss: 1.0066876411437988  | Generator Loss: 0.03878629580140114
+Training on Batch 30
+Discriminator Loss: 1.0066841840744019  | Generator Loss: 0.03903461620211601
+Training on Batch 31
+Discriminator Loss: 1.0066843032836914  | Generator Loss: 0.03916041553020477
+Training on Batch 32
+Discriminator Loss: 1.0066804885864258  | Generator Loss: 0.03899630904197693
+Training on Batch 33
+Discriminator Loss: 1.0066767930984497  | Generator Loss: 0.0388745553791523
+Training on Batch 34
+Discriminator Loss: 1.006674885749817  | Generator Loss: 0.03886157274246216
+Training on Batch 35
+Discriminator Loss: 1.006670594215393  | Generator Loss: 0.03866077587008476
+Training on Batch 36
+Discriminator Loss: 1.006667137145996  | Generator Loss: 0.03832870349287987
+Training on Batch 37
+Discriminator Loss: 1.0066684484481812  | Generator Loss: 0.03846689313650131
+Training on Batch 38
+Discriminator Loss: 1.0066657066345215  | Generator Loss: 0.038488127291202545
+Training on Batch 39
+Discriminator Loss: 1.006662368774414  | Generator Loss: 0.038307540118694305
+Training on Batch 40
+Discriminator Loss: 1.0066583156585693  | Generator Loss: 0.03806985914707184
+Training on Batch 41
+Discriminator Loss: 1.0066555738449097  | Generator Loss: 0.03829449787735939
+Training on Batch 42
+Discriminator Loss: 1.0066523551940918  | Generator Loss: 0.03835301473736763
+Training on Batch 43
+Discriminator Loss: 1.006649136543274  | Generator Loss: 0.038030948489904404
+Training on Batch 44
+Discriminator Loss: 1.0066462755203247  | Generator Loss: 0.038009002804756165
+Training on Batch 45
+Discriminator Loss: 1.0066431760787964  | Generator Loss: 0.0380532443523407
+Training on Batch 46
+Discriminator Loss: 1.0066441297531128  | Generator Loss: 0.03862971067428589
+Training on Batch 47
+Discriminator Loss: 1.0066430568695068  | Generator Loss: 0.0386655330657959
+Training on Batch 48
+Discriminator Loss: 1.0066413879394531  | Generator Loss: 0.03844320401549339
+Training on Batch 49
+Discriminator Loss: 1.0066395998001099  | Generator Loss: 0.03850424289703369
+Training on Batch 50
+Discriminator Loss: 1.0066412687301636  | Generator Loss: 0.038397714495658875
+Training on Batch 51
+Discriminator Loss: 1.006641149520874  | Generator Loss: 0.03864258527755737
+Training on Batch 52
+Discriminator Loss: 1.0066405534744263  | Generator Loss: 0.0388406477868557
+Training on Batch 53
+Discriminator Loss: 1.0066386461257935  | Generator Loss: 0.03887712582945824
+Training on Batch 54
+Discriminator Loss: 1.0066370964050293  | Generator Loss: 0.038751449435949326
+Training on Batch 55
+Discriminator Loss: 1.0066347122192383  | Generator Loss: 0.0384770967066288
+Training on Batch 56
+Discriminator Loss: 1.0066360235214233  | Generator Loss: 0.0385432131588459
+Training on Batch 57
+Discriminator Loss: 1.0066347122192383  | Generator Loss: 0.03848859667778015
+Training on Batch 58
+Discriminator Loss: 1.0066347122192383  | Generator Loss: 0.03866119682788849
+Training on Batch 59
+Discriminator Loss: 1.0066334009170532  | Generator Loss: 0.03847328945994377
+Training on Batch 60
+Discriminator Loss: 1.006631851196289  | Generator Loss: 0.0383383072912693
+Training on Batch 61
+Discriminator Loss: 1.0066311359405518  | Generator Loss: 0.038339994847774506
+Training on Batch 62
+Discriminator Loss: 1.006629467010498  | Generator Loss: 0.03839082270860672
+Training on Batch 63
+Discriminator Loss: 1.0066285133361816  | Generator Loss: 0.03836333751678467
+Training on Batch 64
+Discriminator Loss: 1.0066310167312622  | Generator Loss: 0.038397058844566345
+Training on Batch 65
+Discriminator Loss: 1.006629467010498  | Generator Loss: 0.038323357701301575
+Training on Batch 66
+Discriminator Loss: 1.0066308975219727  | Generator Loss: 0.03837858512997627
+Training on Batch 67
+Discriminator Loss: 1.0066293478012085  | Generator Loss: 0.03836441785097122
+Training on Batch 68
+Discriminator Loss: 1.006628155708313  | Generator Loss: 0.03837698698043823
+Training on Batch 69
+Discriminator Loss: 1.0066264867782593  | Generator Loss: 0.03829829767346382
+Training on Batch 70
+Discriminator Loss: 1.006624698638916  | Generator Loss: 0.03829118236899376
+Training on Batch 71
+Discriminator Loss: 1.0066231489181519  | Generator Loss: 0.038186926394701004
+Training on Batch 72
+Discriminator Loss: 1.0066221952438354  | Generator Loss: 0.038098063319921494
+Training on Batch 73
+Discriminator Loss: 1.006621241569519  | Generator Loss: 0.03815637528896332
+Training on Batch 74
+Discriminator Loss: 1.0066215991973877  | Generator Loss: 0.03811420872807503
+Training on Batch 75
+Discriminator Loss: 1.0066205263137817  | Generator Loss: 0.038142770528793335
+Training on Batch 76
+Discriminator Loss: 1.0066196918487549  | Generator Loss: 0.0381552055478096
+Training on Batch 77
+Discriminator Loss: 1.006618618965149  | Generator Loss: 0.03816615790128708
+Training on Batch 78
+Discriminator Loss: 1.0066170692443848  | Generator Loss: 0.038078803569078445
+Training on Batch 79
+Discriminator Loss: 1.0066155195236206  | Generator Loss: 0.03797147423028946
+Training on Batch 80
+Discriminator Loss: 1.006615400314331  | Generator Loss: 0.03803461417555809
+Training on Batch 81
+Discriminator Loss: 1.006615161895752  | Generator Loss: 0.038103800266981125
+Training on Batch 82
+Discriminator Loss: 1.006614089012146  | Generator Loss: 0.03799644112586975
+Training on Batch 83
+Discriminator Loss: 1.0066136121749878  | Generator Loss: 0.03806546330451965
+Training on Batch 84
+Discriminator Loss: 1.0066125392913818  | Generator Loss: 0.03794998675584793
+Training on Batch 85
+Discriminator Loss: 1.0066113471984863  | Generator Loss: 0.0377926230430603
+Training on Batch 86
+Discriminator Loss: 1.0066101551055908  | Generator Loss: 0.03765304014086723
+Training on Batch 87
+Discriminator Loss: 1.006609320640564  | Generator Loss: 0.037607356905937195
+Training on Batch 88
+Discriminator Loss: 1.006611943244934  | Generator Loss: 0.03751305863261223
+Training on Batch 89
+Discriminator Loss: 1.0066109895706177  | Generator Loss: 0.03739779070019722
+Training on Batch 90
+Discriminator Loss: 1.00661039352417  | Generator Loss: 0.03731469437479973
+Training on Batch 91
+Discriminator Loss: 1.006609559059143  | Generator Loss: 0.03726263716816902
+Training on Batch 92
+Discriminator Loss: 1.0066100358963013  | Generator Loss: 0.037291020154953
+Training on Batch 93
+Discriminator Loss: 1.0066092014312744  | Generator Loss: 0.03731337934732437
+Training on Batch 94
+Discriminator Loss: 1.0066089630126953  | Generator Loss: 0.03717832639813423
+Training on Batch 95
+Discriminator Loss: 1.006609559059143  | Generator Loss: 0.03708870708942413
+Training on Batch 96
+Discriminator Loss: 1.0066120624542236  | Generator Loss: 0.037322334945201874
+Training on Batch 97
+Discriminator Loss: 1.0066125392913818  | Generator Loss: 0.03728793188929558
+Training on Batch 98
+Discriminator Loss: 1.0066114664077759  | Generator Loss: 0.03719163313508034
+Training on Batch 99
+Discriminator Loss: 1.00661039352417  | Generator Loss: 0.03721834719181061
+Training on Batch 100
+Discriminator Loss: 1.0066111087799072  | Generator Loss: 0.037195511162281036
+Training on Batch 101
+Discriminator Loss: 1.0066100358963013  | Generator Loss: 0.03718854486942291
+Training on Batch 102
+Discriminator Loss: 1.006609320640564  | Generator Loss: 0.03714148700237274
+Training on Batch 103
+Discriminator Loss: 1.0066081285476685  | Generator Loss: 0.037000544369220734
+Training on Batch 104
+Discriminator Loss: 1.0066077709197998  | Generator Loss: 0.03702519088983536
+Training on Batch 105
+Discriminator Loss: 1.0066076517105103  | Generator Loss: 0.03701072558760643
+Training on Batch 106
+Discriminator Loss: 1.0066068172454834  | Generator Loss: 0.036947257816791534
+Training on Batch 107
+Discriminator Loss: 1.006607174873352  | Generator Loss: 0.03691598400473595
+Training on Batch 108
+Discriminator Loss: 1.0066066980361938  | Generator Loss: 0.03685574233531952
+Training on Batch 109
+Discriminator Loss: 1.0066065788269043  | Generator Loss: 0.0369606614112854
+Training on Batch 110
+Discriminator Loss: 1.0066057443618774  | Generator Loss: 0.03693976253271103
+Training on Batch 111
+Discriminator Loss: 1.0066053867340088  | Generator Loss: 0.0369359627366066
+Training on Batch 112
+Discriminator Loss: 1.0066057443618774  | Generator Loss: 0.036888495087623596
+Training on Batch 113
+Discriminator Loss: 1.0066059827804565  | Generator Loss: 0.03696657344698906
+Training on Batch 114
+Discriminator Loss: 1.0066049098968506  | Generator Loss: 0.0368933267891407
+Training on Batch 115
+Discriminator Loss: 1.0066039562225342  | Generator Loss: 0.036816034466028214
+Training on Batch 116
+Discriminator Loss: 1.0066030025482178  | Generator Loss: 0.036862682551145554
+Training on Batch 117
+Discriminator Loss: 1.0066028833389282  | Generator Loss: 0.03687496855854988
+Training on Batch 118
+Discriminator Loss: 1.0066025257110596  | Generator Loss: 0.03694348409771919
+Training on Batch 119
+Discriminator Loss: 1.0066027641296387  | Generator Loss: 0.036875054240226746
+Training on Batch 120
+Discriminator Loss: 1.0066022872924805  | Generator Loss: 0.03692518174648285
+Training on Batch 121
+Discriminator Loss: 1.0066022872924805  | Generator Loss: 0.0369994193315506
+Training on Batch 122
+Discriminator Loss: 1.0066016912460327  | Generator Loss: 0.036948297172784805
+Training on Batch 123
+Discriminator Loss: 1.0066008567810059  | Generator Loss: 0.03685030713677406
+Training on Batch 124
+Discriminator Loss: 1.0066007375717163  | Generator Loss: 0.03677145391702652
+Training on Batch 125
+Discriminator Loss: 1.006601333618164  | Generator Loss: 0.03688456863164902
+Training on Batch 126
+Discriminator Loss: 1.0066012144088745  | Generator Loss: 0.036847371608018875
+Training on Batch 127
+Discriminator Loss: 1.0066003799438477  | Generator Loss: 0.036789391189813614
+Training on Batch 128
+Discriminator Loss: 1.0065999031066895  | Generator Loss: 0.036884699016809464
+Training on Batch 129
+Discriminator Loss: 1.0065993070602417  | Generator Loss: 0.03687809035181999
+Training on Batch 130
+Discriminator Loss: 1.0065988302230835  | Generator Loss: 0.03684946894645691
+Training on Batch 131
+Discriminator Loss: 1.006597876548767  | Generator Loss: 0.03679948300123215
+Training on Batch 132
+Discriminator Loss: 1.0065993070602417  | Generator Loss: 0.03688935562968254
+Training on Batch 133
+Discriminator Loss: 1.0065994262695312  | Generator Loss: 0.036879412829875946
+Training on Batch 134
+Discriminator Loss: 1.0065985918045044  | Generator Loss: 0.036813199520111084
+Training on Batch 135
+Discriminator Loss: 1.006597876548767  | Generator Loss: 0.03681458905339241
+Training on Batch 136
+Discriminator Loss: 1.0066111087799072  | Generator Loss: 0.03680702671408653
+Training on Batch 137
+Discriminator Loss: 1.0066107511520386  | Generator Loss: 0.036860134452581406
+Training on Batch 138
+Discriminator Loss: 1.0066100358963013  | Generator Loss: 0.03682533651590347
+Training on Batch 139
+Discriminator Loss: 1.0066096782684326  | Generator Loss: 0.036874547600746155
+Training on Batch 140
+Discriminator Loss: 1.0066090822219849  | Generator Loss: 0.036915216594934464
+Training on Batch 141
+Discriminator Loss: 1.0066087245941162  | Generator Loss: 0.03687480092048645
+Training on Batch 142
+Discriminator Loss: 1.0066086053848267  | Generator Loss: 0.03683958575129509
+Training on Batch 143
+Discriminator Loss: 1.006608486175537  | Generator Loss: 0.036776088178157806
+Training on Batch 144
+Discriminator Loss: 1.0066109895706177  | Generator Loss: 0.036818359047174454
+Training on Batch 145
+Discriminator Loss: 1.0066125392913818  | Generator Loss: 0.03682945296168327
+Training on Batch 146
+Discriminator Loss: 1.0066132545471191  | Generator Loss: 0.03685345873236656
+Training on Batch 147
+Discriminator Loss: 1.0066134929656982  | Generator Loss: 0.03681553900241852
+Training on Batch 148
+Discriminator Loss: 1.006622552871704  | Generator Loss: 0.03677051141858101
+Training on Batch 149
+Discriminator Loss: 1.006624698638916  | Generator Loss: 0.03685590252280235
+Training on Batch 150
+Discriminator Loss: 1.0066272020339966  | Generator Loss: 0.036901600658893585
+Training on Batch 151
+Discriminator Loss: 1.0066263675689697  | Generator Loss: 0.03687397018074989
+Training on Batch 152
+Discriminator Loss: 1.0066256523132324  | Generator Loss: 0.03684830665588379
+Training on Batch 153
+Discriminator Loss: 1.0066255331039429  | Generator Loss: 0.03680989518761635
+Training on Batch 154
+Discriminator Loss: 1.0066248178482056  | Generator Loss: 0.036755677312612534
+Training on Batch 155
+Discriminator Loss: 1.0066245794296265  | Generator Loss: 0.036697499454021454
+Training on Batch 156
+Discriminator Loss: 1.006624460220337  | Generator Loss: 0.03671512007713318
+Training on Batch 157
+Discriminator Loss: 1.0066237449645996  | Generator Loss: 0.036707766354084015
+Training on Batch 158
+Discriminator Loss: 1.0066239833831787  | Generator Loss: 0.03669189289212227
+Training on Batch 159
+Discriminator Loss: 1.0066239833831787  | Generator Loss: 0.03666005656123161
+Training on Batch 160
+Discriminator Loss: 1.0066241025924683  | Generator Loss: 0.03658644109964371
+Training on Batch 161
+Discriminator Loss: 1.006623387336731  | Generator Loss: 0.03650051727890968
+Training on Batch 162
+Discriminator Loss: 1.006622552871704  | Generator Loss: 0.036428384482860565
+Training on Batch 163
+Discriminator Loss: 1.006624460220337  | Generator Loss: 0.0364660918712616
+Training on Batch 164
+Discriminator Loss: 1.0066237449645996  | Generator Loss: 0.036399733275175095
+Training on Batch 165
+Discriminator Loss: 1.0066230297088623  | Generator Loss: 0.036326415836811066
+Training on Batch 166
+Discriminator Loss: 1.0066221952438354  | Generator Loss: 0.03627490997314453
+Training on Batch 167
+Discriminator Loss: 1.0066218376159668  | Generator Loss: 0.03620050475001335
+Training on Batch 168
+Discriminator Loss: 1.0066214799880981  | Generator Loss: 0.03615276515483856
+Training on Batch 169
+Discriminator Loss: 1.006621241569519  | Generator Loss: 0.03611639142036438
+Training on Batch 170
+Discriminator Loss: 1.0066206455230713  | Generator Loss: 0.03609021380543709
+Training on Batch 171
+Discriminator Loss: 1.0066200494766235  | Generator Loss: 0.03608967363834381
+Training on Batch 172
+Discriminator Loss: 1.0066194534301758  | Generator Loss: 0.03602100908756256
+Training on Batch 173
+Discriminator Loss: 1.0066187381744385  | Generator Loss: 0.0359656885266304
+Training on Batch 174
+Discriminator Loss: 1.0066182613372803  | Generator Loss: 0.035964809358119965
+Training on Batch 175
+Discriminator Loss: 1.0066184997558594  | Generator Loss: 0.035947155207395554
+Training on Batch 176
+Discriminator Loss: 1.006617784500122  | Generator Loss: 0.03594743832945824
+Training on Batch 177
+Discriminator Loss: 1.0066173076629639  | Generator Loss: 0.03592448681592941
+Training on Batch 178
+Discriminator Loss: 1.0066169500350952  | Generator Loss: 0.03592381998896599
+Training on Batch 179
+Discriminator Loss: 1.0066165924072266  | Generator Loss: 0.03595554083585739
+Training on Batch 180
+Discriminator Loss: 1.0066158771514893  | Generator Loss: 0.03590262308716774
+Training on Batch 181
+Discriminator Loss: 1.006615400314331  | Generator Loss: 0.03592502325773239
+Training on Batch 182
+Discriminator Loss: 1.0066155195236206  | Generator Loss: 0.035875655710697174
+Training on Batch 183
+Discriminator Loss: 1.006616473197937  | Generator Loss: 0.03585505858063698
+Training on Batch 184
+Discriminator Loss: 1.0066157579421997  | Generator Loss: 0.035806141793727875
+Training on Batch 185
+Discriminator Loss: 1.0066156387329102  | Generator Loss: 0.03581516817212105
+Training on Batch 186
+Discriminator Loss: 1.006615161895752  | Generator Loss: 0.03578091785311699
+Training on Batch 187
+Discriminator Loss: 1.0066149234771729  | Generator Loss: 0.0357711985707283
+Training on Batch 188
+Discriminator Loss: 1.006614327430725  | Generator Loss: 0.03578139469027519
+Training on Batch 189
+Discriminator Loss: 1.006613850593567  | Generator Loss: 0.03577045351266861
+Training on Batch 190
+Discriminator Loss: 1.0066134929656982  | Generator Loss: 0.03572681173682213
+Training on Batch 191
+Discriminator Loss: 1.0066128969192505  | Generator Loss: 0.0356610007584095
+Training on Batch 192
+Discriminator Loss: 1.0066132545471191  | Generator Loss: 0.03571926802396774
+Training on Batch 193
+Discriminator Loss: 1.0066142082214355  | Generator Loss: 0.03576207533478737
+Training on Batch 194
+Discriminator Loss: 1.0066139698028564  | Generator Loss: 0.03576325997710228
+Training on Batch 195
+Discriminator Loss: 1.0066136121749878  | Generator Loss: 0.03573571518063545
+Training on Batch 196
+Discriminator Loss: 1.0066131353378296  | Generator Loss: 0.035703472793102264
+Training on Batch 197
+Discriminator Loss: 1.006612777709961  | Generator Loss: 0.03569238632917404
+Training on Batch 198
+Discriminator Loss: 1.0066124200820923  | Generator Loss: 0.03568557649850845
+Training on Batch 199
+Discriminator Loss: 1.0066120624542236  | Generator Loss: 0.03570286184549332
+Training on Batch 200
+Discriminator Loss: 1.006611704826355  | Generator Loss: 0.03571246191859245
+Training on Batch 201
+Discriminator Loss: 1.0066111087799072  | Generator Loss: 0.03564618527889252
+Training on Batch 202
+Discriminator Loss: 1.0066105127334595  | Generator Loss: 0.03560673072934151
+Training on Batch 203
+Discriminator Loss: 1.00661039352417  | Generator Loss: 0.03558728098869324
+Training on Batch 204
+Discriminator Loss: 1.0066097974777222  | Generator Loss: 0.03555632010102272
+Training on Batch 205
+Discriminator Loss: 1.006609320640564  | Generator Loss: 0.035494137555360794
+Training on Batch 206
+Discriminator Loss: 1.0066088438034058  | Generator Loss: 0.03551201522350311
+Training on Batch 207
+Discriminator Loss: 1.0066086053848267  | Generator Loss: 0.0354788713157177
+Training on Batch 208
+Discriminator Loss: 1.0066081285476685  | Generator Loss: 0.03551841527223587
+Training on Batch 209
+Discriminator Loss: 1.0066076517105103  | Generator Loss: 0.03550908342003822
+Training on Batch 210
+Discriminator Loss: 1.0066075325012207  | Generator Loss: 0.03552272915840149
+Training on Batch 211
+Discriminator Loss: 1.0066070556640625  | Generator Loss: 0.035528771579265594
+Training on Batch 212
+Discriminator Loss: 1.0066066980361938  | Generator Loss: 0.03553576022386551
+Training on Batch 213
+Discriminator Loss: 1.0066068172454834  | Generator Loss: 0.035531893372535706
+Training on Batch 214
+Discriminator Loss: 1.0066063404083252  | Generator Loss: 0.035502031445503235
+Training on Batch 215
+Discriminator Loss: 1.0066059827804565  | Generator Loss: 0.03546958789229393
+Training on Batch 216
+Discriminator Loss: 1.006605863571167  | Generator Loss: 0.035425808280706406
+Training on Batch 217
+Discriminator Loss: 1.0066053867340088  | Generator Loss: 0.03539372235536575
+Training on Batch 218
+Discriminator Loss: 1.0066053867340088  | Generator Loss: 0.03535608947277069
+Training on Batch 219
+Discriminator Loss: 1.0066051483154297  | Generator Loss: 0.03534742444753647
+Training on Batch 220
+Discriminator Loss: 1.006604552268982  | Generator Loss: 0.03531082347035408
+Training on Batch 221
+Discriminator Loss: 1.0066039562225342  | Generator Loss: 0.03528866171836853
+Training on Batch 222
+Discriminator Loss: 1.006603717803955  | Generator Loss: 0.035277292132377625
+Training on Batch 223
+Discriminator Loss: 1.006603479385376  | Generator Loss: 0.03526147082448006
+Training on Batch 224
+Discriminator Loss: 1.0066031217575073  | Generator Loss: 0.03528585284948349
+Training on Batch 225
+Discriminator Loss: 1.0066027641296387  | Generator Loss: 0.03527122735977173
+Training on Batch 226
+Discriminator Loss: 1.0066030025482178  | Generator Loss: 0.0352308414876461
+Training on Batch 227
+Discriminator Loss: 1.0066030025482178  | Generator Loss: 0.03526969254016876
+Training on Batch 228
+Discriminator Loss: 1.0066025257110596  | Generator Loss: 0.03525634855031967
+Training on Batch 229
+Discriminator Loss: 1.0066025257110596  | Generator Loss: 0.0352196991443634
+Training on Batch 230
+Discriminator Loss: 1.006604552268982  | Generator Loss: 0.035288069397211075
+Training on Batch 231
+Discriminator Loss: 1.0066043138504028  | Generator Loss: 0.035303011536598206
+Training on Batch 232
+Discriminator Loss: 1.0066043138504028  | Generator Loss: 0.035310376435518265
+Training on Batch 233
+Discriminator Loss: 1.0066043138504028  | Generator Loss: 0.03531695902347565
+Training on Batch 234
+Discriminator Loss: 1.006604552268982  | Generator Loss: 0.03533874824643135
+Training on Batch 235
+Discriminator Loss: 1.0066041946411133  | Generator Loss: 0.03531596064567566
+Training on Batch 236
+Discriminator Loss: 1.0066039562225342  | Generator Loss: 0.03532545641064644
+Training on Batch 237
+Discriminator Loss: 1.006603479385376  | Generator Loss: 0.03534228727221489
+Training on Batch 238
+Discriminator Loss: 1.0066030025482178  | Generator Loss: 0.03532532975077629
+Training on Batch 239
+Discriminator Loss: 1.006603479385376  | Generator Loss: 0.035292621701955795
+Training on Batch 240
+Discriminator Loss: 1.0066030025482178  | Generator Loss: 0.035256993025541306
+Training on Batch 241
+Discriminator Loss: 1.0066027641296387  | Generator Loss: 0.035246483981609344
+Training on Batch 242
+Discriminator Loss: 1.00660240650177  | Generator Loss: 0.03522368520498276
+Training on Batch 243
+Discriminator Loss: 1.0066027641296387  | Generator Loss: 0.03519044443964958
+Training on Batch 244
+Discriminator Loss: 1.00660240650177  | Generator Loss: 0.035180576145648956
+Training on Batch 245
+Discriminator Loss: 1.0066026449203491  | Generator Loss: 0.03514842689037323
+Training on Batch 246
+Discriminator Loss: 1.006602168083191  | Generator Loss: 0.03512232378125191
+Training on Batch 247
+Discriminator Loss: 1.0066016912460327  | Generator Loss: 0.03510216996073723
+Training on Batch 248
+Discriminator Loss: 1.006601333618164  | Generator Loss: 0.035073038190603256
+Training on Batch 249
+Discriminator Loss: 1.006601095199585  | Generator Loss: 0.03506908565759659
+Training on Batch 250
+Discriminator Loss: 1.0066007375717163  | Generator Loss: 0.03505411371588707
+Training on Batch 251
+Discriminator Loss: 1.0066041946411133  | Generator Loss: 0.03507448360323906
+Training on Batch 252
+Discriminator Loss: 1.0066040754318237  | Generator Loss: 0.035088684409856796
+Training on Batch 253
+Discriminator Loss: 1.006603717803955  | Generator Loss: 0.03505227714776993
+Training on Batch 254
+Discriminator Loss: 1.0066033601760864  | Generator Loss: 0.035006534308195114
+Training on Batch 255
+Discriminator Loss: 1.0066028833389282  | Generator Loss: 0.03496063873171806
+Training on Batch 256
+Discriminator Loss: 1.0066027641296387  | Generator Loss: 0.034959521144628525
+Training on Batch 257
+Discriminator Loss: 1.0066022872924805  | Generator Loss: 0.03495549038052559
+Training on Batch 258
+Discriminator Loss: 1.0066019296646118  | Generator Loss: 0.03492997959256172
+Training on Batch 259
+Discriminator Loss: 1.0066019296646118  | Generator Loss: 0.03493756055831909
+Training on Batch 260
+Discriminator Loss: 1.0066015720367432  | Generator Loss: 0.03492341563105583
+Training on Batch 261
+Discriminator Loss: 1.006601333618164  | Generator Loss: 0.034899547696113586
+Training on Batch 262
+Discriminator Loss: 1.0066020488739014  | Generator Loss: 0.034909505397081375
+Training on Batch 263
+Discriminator Loss: 1.0066018104553223  | Generator Loss: 0.03491341322660446
+Training on Batch 264
+Discriminator Loss: 1.0066018104553223  | Generator Loss: 0.0348893478512764
+Training on Batch 265

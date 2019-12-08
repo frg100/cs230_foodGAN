@@ -1,0 +1,2 @@
+Epoch [0] Batch [1] Disc Loss [1.4475491046905518] Gen Loss [0.5387777090072632]
+Epoch [0] Batch [2] Disc Loss [1.426065444946289] Gen Loss [0.4910762906074524]
