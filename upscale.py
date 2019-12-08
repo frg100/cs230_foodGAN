@@ -36,7 +36,7 @@ B = 4
 
 from subpixel import SubpixelConv2D, Subpixel
 
-def make_sr_generator_model():
+def make_sr_generator_model(name):
     lr_img = layers.Input(shape=(None, None, NUM_CHANNELS))
     #lr_img = layers.Input(shape=(1080, 1080, NUM_CHANNELS))  
     ################################################################################                                                                                      
@@ -88,7 +88,7 @@ def make_sr_generator_model():
     generated_sr_image = layers.Convolution2D(3, (9,9), (1,1), padding='same')(x)
     output_shape = generated_sr_image.get_shape().as_list()
     #assert output_shape == [None, HR_IMG_HEIGHT, HR_IMG_WIDTH, NUM_CHANNELS]
-    return Model(inputs=lr_img, outputs=generated_sr_image, name='generator')
+    return Model(inputs=lr_img, outputs=generated_sr_image, name=name)
 
 def make_sr_discriminator_model():
     inputs = layers.Input(shape=(HR_IMG_HEIGHT, HR_IMG_WIDTH, NUM_CHANNELS))
@@ -149,8 +149,7 @@ def make_sr_discriminator_model():
 discriminator = make_sr_discriminator_model()
 generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
-generator = make_sr_generator_model()
-vgg_generator = make_sr_generator_model()
+generator = make_sr_generator_model('generator')
 #generator.summary()
 
 checkpoint_dir = './training_checkpoints'
@@ -161,9 +160,16 @@ checkpoint = tf.train.Checkpoint(generator_optimizer=generator_optimizer,
                                   discriminator=discriminator)
 status = checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 
+vgg_generator_optimizer = tf.keras.optimizers.Adam(1e-4)
+vgg_discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
+vgg_generator = make_sr_generator_model('vgg_generator')
+
 vgg_checkpoint_dir = './vgg_training_checkpoints'
-vgg_checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
-vgg_checkpoint = tf.train.Checkpoint(generator=vgg_generator)
+vgg_checkpoint_prefix = os.path.join(vgg_checkpoint_dir, "ckpt")
+vgg_checkpoint = tf.train.Checkpoint(generator_optimizer=vgg_generator_optimizer,
+                                  discriminator_optimizer=vgg_discriminator_optimizer,
+                                  generator=vgg_generator,
+                                  discriminator=discriminator)
 vgg_status = vgg_checkpoint.restore(tf.train.latest_checkpoint(vgg_checkpoint_dir))
 
 models = [generator, vgg_generator]
