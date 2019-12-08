@@ -298,7 +298,20 @@ for i in range(1,11):
 		plt.imsave("results/model_{}_gen_cropped_{}.png".format(m,i), np.array(generated_images[0], dtype=np.float32))
 
 		#print(generated_images.shape, lr_images_input.shape)
-		s = measure.compare_ssim(np.array(lr_images_input[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
-		d = measure.compare_ssim(np.array(ds_size[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
-		print("[Model {}] Structural similarity between original image {} and output of model is:".format(m,i) + str(s))
-		print("[Model {}] Structural similarity between downsampled img {} and output of model is:".format(m,i) + str(d))
+		out_orig = measure.compare_ssim(np.array(lr_images_input[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
+		inp_out = measure.compare_ssim(np.array(ds_size[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
+		inp_orig = measure.compare_ssim(np.array(ds_size[0], dtype=np.float32), np.array(lr_images_input[0], dtype=np.float32), multichannel = True)
+		print("[Model {}] Structural similarity between original image {} and output of model is: ".format(m,i) + str(out_orig))
+		print("[Model {}] Structural similarity between downsampled img {} and output of model is: ".format(m,i) + str(inp_out))
+		print("[Model {}] Structural similarity between original image and downsampled img {} is: ".format(m,i) + str(inp_orig))
+		print("[Model {}] Structural similarity difference to original image () is: ".format(m,i) + str(out_orig - inp_orig))
+                
+		psnr_orig = tf.image.psnr(lr_images_input[0], generated_images[0], max_val = 255)
+		psnr_inp = tf.image.psnr(ds_size[0], lr_images_input[0], max_val = 255)
+		tf.print("[Model {}] PSNR between original image {} and output of model is: ".format(m,i) + str(psnr_orig.numpy()))
+		tf.print("[Model {}] PSNR between downsampled img {} and output of model is: ".format(m,i) + str(psnr_ds.numpy()))
+		tf.print("[Model {}] PSNR between original image and downsampled img {} is: ".format(m,i) + str(psnr_inp.numpy()))
+		tf.print("[Model {}] PSNR difference to original image {} is: ".format(m,i) + str(psnr_orig.numpy() - psnr_inp.numpy()))
+        
+                
+                

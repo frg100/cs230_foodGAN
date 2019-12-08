@@ -277,7 +277,7 @@ def generator_loss(generated_images, hr_images, real_output=None, fake_output=No
       g_gan_loss = 1e-3 * tl.cost.sigmoid_cross_entropy(fake_output, tf.ones_like(fake_output))
       mse_loss = tl.cost.mean_squared_error(generated_images, hr_images, is_mean=True)
       vgg_loss = 2e-6 * tl.cost.mean_squared_error(fake_image_features, real_image_features, is_mean=True)
-      ssim_loss = tf.reduce_sum(tf.image.ssim(generated_images, hr_images, 1))
+      ssim_loss = -tf.reduce_sum(tf.image.ssim(generated_images, hr_images, 1))
       g_loss = mse_loss + vgg_loss + g_gan_loss + ssim_loss
       return g_loss
 
