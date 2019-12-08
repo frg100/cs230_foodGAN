@@ -1,106 +1,336 @@
-ing TensorFlow backend.
-2019-12-08 01:45:08.778595: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2019-12-08 01:45:08.784289: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
-2019-12-08 01:45:08.784533: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562509e21520 executing computations on platform Host. Devices:
-2019-12-08 01:45:08.784559: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+ubuntu@ip-172-31-23-39:~/CS230$ python upscale.py 
+Using TensorFlow backend.
+2019-12-08 06:50:40.808636: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-08 06:50:40.818867: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
+2019-12-08 06:50:40.819182: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d4474943d0 executing computations on platform Host. Devices:
+2019-12-08 06:50:40.819277: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
 Reading in image 
 Generating image 1 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 1 and output of model is:0.7741568570541973
-[Model 0] Structural similarity between downsampled img 1 and output of model is:0.8539074602657043
+[Model 0] Structural similarity between original image 1 and output of model is: 0.7741568570541973
+[Model 0] Structural similarity between downsampled img 1 and output of model is: 0.8539074602657043
+[Model 0] Structural similarity between original image and downsampled img 1 is: 0.8281813773516941
+[Model 0] Structural similarity difference to original image 1 is: -0.054024520297496714
+[Model 0] PSNR between original image 1 and output of model is: 66.114975
+[Model 0] PSNR between downsampled img 1 and output of model is: 66.82663
+[Model 0] PSNR between original image and downsampled img 1 is: 72.49427
+[Model 0] PSNR difference to original image 1 is: -6.3792953
 Reading in image 
 Generating image 1 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 1 and output of model is:0.7433420023664463
-[Model 1] Structural similarity between downsampled img 1 and output of model is:0.8308203623096267
+[Model 1] Structural similarity between original image 1 and output of model is: 0.7433420023664463
+[Model 1] Structural similarity between downsampled img 1 and output of model is: 0.8308203623096267
+[Model 1] Structural similarity between original image and downsampled img 1 is: 0.8281813773516941
+[Model 1] Structural similarity difference to original image 1 is: -0.08483937498524774
+[Model 1] PSNR between original image 1 and output of model is: 65.38707
+[Model 1] PSNR between downsampled img 1 and output of model is: 66.11188
+[Model 1] PSNR between original image and downsampled img 1 is: 72.49427
+[Model 1] PSNR difference to original image 1 is: -7.1072006
+Reading in image 
+Generating image 1 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 1 and output of model is: 0.7320620378440202
+[Model 2] Structural similarity between downsampled img 1 and output of model is: 0.8964895246026555
+[Model 2] Structural similarity between original image and downsampled img 1 is: 0.8281813773516941
+[Model 2] Structural similarity difference to original image 1 is: -0.09611933950767382
+[Model 2] PSNR between original image 1 and output of model is: 65.5201
+[Model 2] PSNR between downsampled img 1 and output of model is: 66.704834
+[Model 2] PSNR between original image and downsampled img 1 is: 72.49427
+[Model 2] PSNR difference to original image 1 is: -6.974167
 Reading in image 
 Generating image 2 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 2 and output of model is:0.7732502981095247
-[Model 0] Structural similarity between downsampled img 2 and output of model is:0.8184607279183492
+[Model 0] Structural similarity between original image 2 and output of model is: 0.7732502981095247
+[Model 0] Structural similarity between downsampled img 2 and output of model is: 0.8184607279183492
+[Model 0] Structural similarity between original image and downsampled img 2 is: 0.9122630026468662
+[Model 0] Structural similarity difference to original image 2 is: -0.1390127045373415
+[Model 0] PSNR between original image 2 and output of model is: 65.70807
+[Model 0] PSNR between downsampled img 2 and output of model is: 66.001724
+[Model 0] PSNR between original image and downsampled img 2 is: 76.175476
+[Model 0] PSNR difference to original image 2 is: -10.467407
 Reading in image 
 Generating image 2 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 2 and output of model is:0.70434093767764
-[Model 1] Structural similarity between downsampled img 2 and output of model is:0.7480244028129667
+[Model 1] Structural similarity between original image 2 and output of model is: 0.70434093767764
+[Model 1] Structural similarity between downsampled img 2 and output of model is: 0.7480244028129667
+[Model 1] Structural similarity between original image and downsampled img 2 is: 0.9122630026468662
+[Model 1] Structural similarity difference to original image 2 is: -0.20792206496922616
+[Model 1] PSNR between original image 2 and output of model is: 63.500107
+[Model 1] PSNR between downsampled img 2 and output of model is: 63.69497
+[Model 1] PSNR between original image and downsampled img 2 is: 76.175476
+[Model 1] PSNR difference to original image 2 is: -12.675369
+Reading in image 
+Generating image 2 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 2 and output of model is: 0.7946243522305934
+[Model 2] Structural similarity between downsampled img 2 and output of model is: 0.8820152194730676
+[Model 2] Structural similarity between original image and downsampled img 2 is: 0.9122630026468662
+[Model 2] Structural similarity difference to original image 2 is: -0.11763865041627286
+[Model 2] PSNR between original image 2 and output of model is: 65.474625
+[Model 2] PSNR between downsampled img 2 and output of model is: 66.06304
+[Model 2] PSNR between original image and downsampled img 2 is: 76.175476
+[Model 2] PSNR difference to original image 2 is: -10.700851
 Reading in image 
 Generating image 3 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 3 and output of model is:0.7893753070641324
-[Model 0] Structural similarity between downsampled img 3 and output of model is:0.8668194651308888
+[Model 0] Structural similarity between original image 3 and output of model is: 0.7893753070641324
+[Model 0] Structural similarity between downsampled img 3 and output of model is: 0.8668194651308888
+[Model 0] Structural similarity between original image and downsampled img 3 is: 0.8522962381476136
+[Model 0] Structural similarity difference to original image 3 is: -0.06292093108348118
+[Model 0] PSNR between original image 3 and output of model is: 65.9583
+[Model 0] PSNR between downsampled img 3 and output of model is: 66.96576
+[Model 0] PSNR between original image and downsampled img 3 is: 71.86005
+[Model 0] PSNR difference to original image 3 is: -5.9017487
 Reading in image 
 Generating image 3 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 3 and output of model is:0.7376265415935829
-[Model 1] Structural similarity between downsampled img 3 and output of model is:0.820312935765247
+[Model 1] Structural similarity between original image 3 and output of model is: 0.7376265415935829
+[Model 1] Structural similarity between downsampled img 3 and output of model is: 0.820312935765247
+[Model 1] Structural similarity between original image and downsampled img 3 is: 0.8522962381476136
+[Model 1] Structural similarity difference to original image 3 is: -0.1146696965540307
+[Model 1] PSNR between original image 3 and output of model is: 63.836254
+[Model 1] PSNR between downsampled img 3 and output of model is: 64.56793
+[Model 1] PSNR between original image and downsampled img 3 is: 71.86005
+[Model 1] PSNR difference to original image 3 is: -8.023792
+Reading in image 
+Generating image 3 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 3 and output of model is: 0.740748002179522
+[Model 2] Structural similarity between downsampled img 3 and output of model is: 0.8810897073720326
+[Model 2] Structural similarity between original image and downsampled img 3 is: 0.8522962381476136
+[Model 2] Structural similarity difference to original image 3 is: -0.1115482359680916
+[Model 2] PSNR between original image 3 and output of model is: 62.702225
+[Model 2] PSNR between downsampled img 3 and output of model is: 63.50423
+[Model 2] PSNR between original image and downsampled img 3 is: 71.86005
+[Model 2] PSNR difference to original image 3 is: -9.157822
 Reading in image 
 Generating image 4 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 4 and output of model is:0.7893753070641324
-[Model 0] Structural similarity between downsampled img 4 and output of model is:0.8668194651308888
+[Model 0] Structural similarity between original image 4 and output of model is: 0.6582788844019621
+[Model 0] Structural similarity between downsampled img 4 and output of model is: 0.7547691073115838
+[Model 0] Structural similarity between original image and downsampled img 4 is: 0.8105956944605929
+[Model 0] Structural similarity difference to original image 4 is: -0.15231681005863074
+[Model 0] PSNR between original image 4 and output of model is: 63.65371
+[Model 0] PSNR between downsampled img 4 and output of model is: 64.37458
+[Model 0] PSNR between original image and downsampled img 4 is: 71.49155
+[Model 0] PSNR difference to original image 4 is: -7.837837
 Reading in image 
 Generating image 4 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 4 and output of model is:0.7376265415935829
-[Model 1] Structural similarity between downsampled img 4 and output of model is:0.820312935765247
+[Model 1] Structural similarity between original image 4 and output of model is: 0.5994872874850548
+[Model 1] Structural similarity between downsampled img 4 and output of model is: 0.7016924950949868
+[Model 1] Structural similarity between original image and downsampled img 4 is: 0.8105956944605929
+[Model 1] Structural similarity difference to original image 4 is: -0.21110840697553812
+[Model 1] PSNR between original image 4 and output of model is: 61.820293
+[Model 1] PSNR between downsampled img 4 and output of model is: 62.380314
+[Model 1] PSNR between original image and downsampled img 4 is: 71.49155
+[Model 1] PSNR difference to original image 4 is: -9.671253
+Reading in image 
+Generating image 4 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 4 and output of model is: 0.6000156453916061
+[Model 2] Structural similarity between downsampled img 4 and output of model is: 0.7693369307218895
+[Model 2] Structural similarity between original image and downsampled img 4 is: 0.8105956944605929
+[Model 2] Structural similarity difference to original image 4 is: -0.21058004906898675
+[Model 2] PSNR between original image 4 and output of model is: 62.397156
+[Model 2] PSNR between downsampled img 4 and output of model is: 63.321934
+[Model 2] PSNR between original image and downsampled img 4 is: 71.49155
+[Model 2] PSNR difference to original image 4 is: -9.094391
 Reading in image 
 Generating image 5 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 5 and output of model is:0.8214534994559832
-[Model 0] Structural similarity between downsampled img 5 and output of model is:0.8549370286773842
+[Model 0] Structural similarity between original image 5 and output of model is: 0.8214534994559832
+[Model 0] Structural similarity between downsampled img 5 and output of model is: 0.8549370286773842
+[Model 0] Structural similarity between original image and downsampled img 5 is: 0.9179775736566747
+[Model 0] Structural similarity difference to original image 5 is: -0.09652407420069142
+[Model 0] PSNR between original image 5 and output of model is: 65.665794
+[Model 0] PSNR between downsampled img 5 and output of model is: 65.84613
+[Model 0] PSNR between original image and downsampled img 5 is: 77.1757
+[Model 0] PSNR difference to original image 5 is: -11.509903
 Reading in image 
 Generating image 5 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 5 and output of model is:0.8024896389814286
-[Model 1] Structural similarity between downsampled img 5 and output of model is:0.8372705809863309
+[Model 1] Structural similarity between original image 5 and output of model is: 0.8024896389814286
+[Model 1] Structural similarity between downsampled img 5 and output of model is: 0.8372705809863309
+[Model 1] Structural similarity between original image and downsampled img 5 is: 0.9179775736566747
+[Model 1] Structural similarity difference to original image 5 is: -0.1154879346752461
+[Model 1] PSNR between original image 5 and output of model is: 64.663826
+[Model 1] PSNR between downsampled img 5 and output of model is: 64.85848
+[Model 1] PSNR between original image and downsampled img 5 is: 77.1757
+[Model 1] PSNR difference to original image 5 is: -12.511871
+Reading in image 
+Generating image 5 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 5 and output of model is: 0.7844751639455314
+[Model 2] Structural similarity between downsampled img 5 and output of model is: 0.8554474875466446
+[Model 2] Structural similarity between original image and downsampled img 5 is: 0.9179775736566747
+[Model 2] Structural similarity difference to original image 5 is: -0.13350240971114324
+[Model 2] PSNR between original image 5 and output of model is: 65.000275
+[Model 2] PSNR between downsampled img 5 and output of model is: 65.42416
+[Model 2] PSNR between original image and downsampled img 5 is: 77.1757
+[Model 2] PSNR difference to original image 5 is: -12.175423
 Reading in image 
 Generating image 6 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 6 and output of model is:0.8477649564204217
-[Model 0] Structural similarity between downsampled img 6 and output of model is:0.8989898756470036
+[Model 0] Structural similarity between original image 6 and output of model is: 0.8477649564204217
+[Model 0] Structural similarity between downsampled img 6 and output of model is: 0.8989898756470036
+[Model 0] Structural similarity between original image and downsampled img 6 is: 0.9155854719718217
+[Model 0] Structural similarity difference to original image 6 is: -0.0678205155514
+[Model 0] PSNR between original image 6 and output of model is: 71.52305
+[Model 0] PSNR between downsampled img 6 and output of model is: 72.33006
+[Model 0] PSNR between original image and downsampled img 6 is: 78.10429
+[Model 0] PSNR difference to original image 6 is: -6.581238
 Reading in image 
 Generating image 6 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 6 and output of model is:0.7946203616639648
-[Model 1] Structural similarity between downsampled img 6 and output of model is:0.8494651735758958
+[Model 1] Structural similarity between original image 6 and output of model is: 0.7946203616639648
+[Model 1] Structural similarity between downsampled img 6 and output of model is: 0.8494651735758958
+[Model 1] Structural similarity between original image and downsampled img 6 is: 0.9155854719718217
+[Model 1] Structural similarity difference to original image 6 is: -0.12096511030785695
+[Model 1] PSNR between original image 6 and output of model is: 67.52537
+[Model 1] PSNR between downsampled img 6 and output of model is: 67.960815
+[Model 1] PSNR between original image and downsampled img 6 is: 78.10429
+[Model 1] PSNR difference to original image 6 is: -10.578918
+Reading in image 
+Generating image 6 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 6 and output of model is: 0.839545127685997
+[Model 2] Structural similarity between downsampled img 6 and output of model is: 0.9231025734560158
+[Model 2] Structural similarity between original image and downsampled img 6 is: 0.9155854719718217
+[Model 2] Structural similarity difference to original image 6 is: -0.07604034428582473
+[Model 2] PSNR between original image 6 and output of model is: 69.15938
+[Model 2] PSNR between downsampled img 6 and output of model is: 69.98344
+[Model 2] PSNR between original image and downsampled img 6 is: 78.10429
+[Model 2] PSNR difference to original image 6 is: -8.944908
 Reading in image 
 Generating image 7 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 7 and output of model is:0.8477649564204217
-[Model 0] Structural similarity between downsampled img 7 and output of model is:0.8989898756470036
+[Model 0] Structural similarity between original image 7 and output of model is: 0.9006527082529251
+[Model 0] Structural similarity between downsampled img 7 and output of model is: 0.9524252977938304
+[Model 0] Structural similarity between original image and downsampled img 7 is: 0.9244168395759803
+[Model 0] Structural similarity difference to original image 7 is: -0.023764131323055215
+[Model 0] PSNR between original image 7 and output of model is: 73.01289
+[Model 0] PSNR between downsampled img 7 and output of model is: 74.00726
+[Model 0] PSNR between original image and downsampled img 7 is: 78.489426
+[Model 0] PSNR difference to original image 7 is: -5.476532
 Reading in image 
 Generating image 7 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 7 and output of model is:0.7946203616639648
-[Model 1] Structural similarity between downsampled img 7 and output of model is:0.8494651735758958
+[Model 1] Structural similarity between original image 7 and output of model is: 0.87520257947594
+[Model 1] Structural similarity between downsampled img 7 and output of model is: 0.9266915361113335
+[Model 1] Structural similarity between original image and downsampled img 7 is: 0.9244168395759803
+[Model 1] Structural similarity difference to original image 7 is: -0.049214260100040264
+[Model 1] PSNR between original image 7 and output of model is: 69.48673
+[Model 1] PSNR between downsampled img 7 and output of model is: 69.966286
+[Model 1] PSNR between original image and downsampled img 7 is: 78.489426
+[Model 1] PSNR difference to original image 7 is: -9.002693
+Reading in image 
+Generating image 7 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 7 and output of model is: 0.8837852775584203
+[Model 2] Structural similarity between downsampled img 7 and output of model is: 0.9575943296623061
+[Model 2] Structural similarity between original image and downsampled img 7 is: 0.9244168395759803
+[Model 2] Structural similarity difference to original image 7 is: -0.04063156201756002
+[Model 2] PSNR between original image 7 and output of model is: 69.63888
+[Model 2] PSNR between downsampled img 7 and output of model is: 70.41286
+[Model 2] PSNR between original image and downsampled img 7 is: 78.489426
+[Model 2] PSNR difference to original image 7 is: -8.850548
 Reading in image 
 Generating image 8 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 8 and output of model is:0.934579623008093
-[Model 0] Structural similarity between downsampled img 8 and output of model is:0.9689737131208402
+[Model 0] Structural similarity between original image 8 and output of model is: 0.934579623008093
+[Model 0] Structural similarity between downsampled img 8 and output of model is: 0.9689737131208402
+[Model 0] Structural similarity between original image and downsampled img 8 is: 0.9388713049918178
+[Model 0] Structural similarity difference to original image 8 is: -0.00429168198372476
+[Model 0] PSNR between original image 8 and output of model is: 74.06084
+[Model 0] PSNR between downsampled img 8 and output of model is: 74.8205
+[Model 0] PSNR between original image and downsampled img 8 is: 79.557175
+[Model 0] PSNR difference to original image 8 is: -5.496338
 Reading in image 
 Generating image 8 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 8 and output of model is:0.9036253142069971
-[Model 1] Structural similarity between downsampled img 8 and output of model is:0.9363507358455365
+[Model 1] Structural similarity between original image 8 and output of model is: 0.9036253142069971
+[Model 1] Structural similarity between downsampled img 8 and output of model is: 0.9363507358455365
+[Model 1] Structural similarity between original image and downsampled img 8 is: 0.9388713049918178
+[Model 1] Structural similarity difference to original image 8 is: -0.03524599078482071
+[Model 1] PSNR between original image 8 and output of model is: 70.56946
+[Model 1] PSNR between downsampled img 8 and output of model is: 70.924446
+[Model 1] PSNR between original image and downsampled img 8 is: 79.557175
+[Model 1] PSNR difference to original image 8 is: -8.987717
+Reading in image 
+Generating image 8 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 8 and output of model is: 0.9023386957372163
+[Model 2] Structural similarity between downsampled img 8 and output of model is: 0.9638444990773912
+[Model 2] Structural similarity between original image and downsampled img 8 is: 0.9388713049918178
+[Model 2] Structural similarity difference to original image 8 is: -0.036532609254601556
+[Model 2] PSNR between original image 8 and output of model is: 69.896645
+[Model 2] PSNR between downsampled img 8 and output of model is: 70.66678
+[Model 2] PSNR between original image and downsampled img 8 is: 79.557175
+[Model 2] PSNR difference to original image 8 is: -9.66053
 Reading in image 
 Generating image 9 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 9 and output of model is:0.865267220536971
-[Model 0] Structural similarity between downsampled img 9 and output of model is:0.9114703899655606
+[Model 0] Structural similarity between original image 9 and output of model is: 0.865267220536971
+[Model 0] Structural similarity between downsampled img 9 and output of model is: 0.9114703899655606
+[Model 0] Structural similarity between original image and downsampled img 9 is: 0.9056062340009077
+[Model 0] Structural similarity difference to original image 9 is: -0.040339013463936646
+[Model 0] PSNR between original image 9 and output of model is: 69.302216
+[Model 0] PSNR between downsampled img 9 and output of model is: 69.84483
+[Model 0] PSNR between original image and downsampled img 9 is: 76.80555
+[Model 0] PSNR difference to original image 9 is: -7.503334
 Reading in image 
 Generating image 9 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 9 and output of model is:0.821715271680698
-[Model 1] Structural similarity between downsampled img 9 and output of model is:0.8706129196554132
+[Model 1] Structural similarity between original image 9 and output of model is: 0.821715271680698
+[Model 1] Structural similarity between downsampled img 9 and output of model is: 0.8706129196554132
+[Model 1] Structural similarity between original image and downsampled img 9 is: 0.9056062340009077
+[Model 1] Structural similarity difference to original image 9 is: -0.08389096232020965
+[Model 1] PSNR between original image 9 and output of model is: 67.521324
+[Model 1] PSNR between downsampled img 9 and output of model is: 67.9575
+[Model 1] PSNR between original image and downsampled img 9 is: 76.80555
+[Model 1] PSNR difference to original image 9 is: -9.284225
+Reading in image 
+Generating image 9 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 9 and output of model is: 0.8218743954331521
+[Model 2] Structural similarity between downsampled img 9 and output of model is: 0.9117404977508551
+[Model 2] Structural similarity between original image and downsampled img 9 is: 0.9056062340009077
+[Model 2] Structural similarity difference to original image 9 is: -0.08373183856775557
+[Model 2] PSNR between original image 9 and output of model is: 68.11666
+[Model 2] PSNR between downsampled img 9 and output of model is: 68.970146
+[Model 2] PSNR between original image and downsampled img 9 is: 76.80555
+[Model 2] PSNR difference to original image 9 is: -8.688889
 Reading in image 
 Generating image 10 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 10 and output of model is:0.8588460627114802
-[Model 0] Structural similarity between downsampled img 10 and output of model is:0.8764864048785483
+[Model 0] Structural similarity between original image 10 and output of model is: 0.8588460627114802
+[Model 0] Structural similarity between downsampled img 10 and output of model is: 0.8764864048785483
+[Model 0] Structural similarity between original image and downsampled img 10 is: 0.9510597699975755
+[Model 0] Structural similarity difference to original image 10 is: -0.09221370728609524
+[Model 0] PSNR between original image 10 and output of model is: 66.65993
+[Model 0] PSNR between downsampled img 10 and output of model is: 66.82414
+[Model 0] PSNR between original image and downsampled img 10 is: 79.30807
+[Model 0] PSNR difference to original image 10 is: -12.64814
 Reading in image 
 Generating image 10 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 10 and output of model is:0.8272804426940686
-[Model 1] Structural similarity between downsampled img 10 and output of model is:0.8506203540751599
-vgg_generator = make_sr_generator_model('vgg_generator')
+[Model 1] Structural similarity between original image 10 and output of model is: 0.8272804426940686
+[Model 1] Structural similarity between downsampled img 10 and output of model is: 0.8506203540751599
+[Model 1] Structural similarity between original image and downsampled img 10 is: 0.9510597699975755
+[Model 1] Structural similarity difference to original image 10 is: -0.12377932730350683
+[Model 1] PSNR between original image 10 and output of model is: 65.69113
+[Model 1] PSNR between downsampled img 10 and output of model is: 65.90945
+[Model 1] PSNR between original image and downsampled img 10 is: 79.30807
+[Model 1] PSNR difference to original image 10 is: -13.616936
+Reading in image 
+Generating image 10 with model 2
+Image Generated
+[Model 2] Structural similarity between original image 10 and output of model is: 0.8332888375203945
+[Model 2] Structural similarity between downsampled img 10 and output of model is: 0.8849555131147676
+[Model 2] Structural similarity between original image and downsampled img 10 is: 0.9510597699975755
+[Model 2] Structural similarity difference to original image 10 is: -0.11777093247718096
+[Model 2] PSNR between original image 10 and output of model is: 63.544785
+[Model 2] PSNR between downsampled img 10 and output of model is: 63.79074
+[Model 2] PSNR between original image and downsampled img 10 is: 79.30807
+[Model 2] PSNR difference to original image 10 is: -15.763283= [generator, vgg_generator]
