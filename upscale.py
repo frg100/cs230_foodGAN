@@ -150,15 +150,23 @@ discriminator = make_sr_discriminator_model()
 generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
 generator = make_sr_generator_model()
+vgg_generator = make_sr_generator_model()
 #generator.summary()
 
-checkpoint_dir = './vggan_training_checkpoints'
+checkpoint_dir = './training_checkpoints'
 checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
 checkpoint = tf.train.Checkpoint(generator_optimizer=generator_optimizer,
                                   discriminator_optimizer=discriminator_optimizer,
                                   generator=generator,
                                   discriminator=discriminator)
-#status = checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
+status = checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
+
+vgg_checkpoint_dir = './vgg_training_checkpoints'
+vgg_checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt")
+vgg_checkpoint = tf.train.Checkpoint(generator=vgg_generator)
+vgg_status = vgg_checkpoint.restore(tf.train.latest_checkpoint(vgg_checkpoint_dir))
+
+models = [generator, vgg_generator]
 
 #generator.summary()
 #print(generator.layers[0])
@@ -240,42 +248,49 @@ blur_layer.trainable = False  # the weights should not change during training
 
 
 
-path = 'dataset/dev/Orig/5_orig.jpg'
+path_template = 'dataset/dev/Orig/{}_orig.jpg'
 
-lr_images = process_path(path)
-lr_images_input = tf.expand_dims(lr_images, 0)
-lr_images_input =  tf.image.crop_to_bounding_box(lr_images_input, 0, 0, 1080, 1080)
+for i in range(1,11):
+	for m in range(len(models)):
+		print("Reading in image ".format(i))
+		lr_images = process_path(path_template.format(i))
+		lr_images_input = tf.expand_dims(lr_images, 0)
+		lr_images_input =  tf.image.crop_to_bounding_box(lr_images_input, 0, 0, 1080, 1080)
 
-print(lr_images_input)
+		#print(lr_images_input)
 
-lr_images = downsampler(lr_images_input, training = False)
-print(lr_images)
+		lr_images = downsampler(lr_images_input, training = False)
+		#print(lr_images)
 
-#PIL.Image.fromarray(np.asarray(lr_images)).show()
+		#PIL.Image.fromarray(np.asarray(lr_images)).show()
 
 
-#plt.imsave("lr_images2.png", np.array(lr_images, dtype=np.float32))
-#uint8
+		#plt.imsave("lr_images2.png", np.array(lr_images, dtype=np.float32))
+		#uint8
 
-print("Generating image")
+		print("Generating image {} with model {}".format(i, m))
+	
+		#lr_images_input = tf.expand_dims(lr_images, 0)
+		generated_images = None
+		if m == 0:
+			generated_images = generator(lr_images, training=False)
+		elif m == 1:
+			generated_images = vgg_generator(lr_images, training=False)
+		generated_images = normalize(generated_images)
 
-#lr_images_input = tf.expand_dims(lr_images, 0)
-generated_images = generator(lr_images, training=False)
-generated_images = normalize(generated_images)
+		print("Image Generated")
 
-print("Image Generated")
+		plt.imsave("results/model_{}_original_cropped_{}.png".format(m,i), np.array(lr_images_input[0], dtype=np.float32))
+		#print(generated_images)
+		plt.imsave("results/model_{}_downsample_cropped_{}.png".format(m,i), np.array(lr_images[0], dtype=np.float32))
+		ds_size = tf.image.resize(lr_images, (1080, 1080))
+		#print(ds_size.shape)
+		plt.imsave("results/model_{}_downsample_resized_{}.png".format(m,i), np.array(ds_size[0], dtype=np.float32))
+		generated_images = tf.image.adjust_saturation(generated_images, 0.5)
+		plt.imsave("results/model_{}_gen_cropped_{}.png".format(m,i), np.array(generated_images[0], dtype=np.float32))
 
-plt.imsave("original_cropped.png", np.array(lr_images_input[0], dtype=np.float32))
-#print(generated_images)
-plt.imsave("downsample_cropped.png", np.array(lr_images[0], dtype=np.float32))
-ds_size = tf.image.resize(lr_images, (1080, 1080))
-print(ds_size.shape)
-plt.imsave("downsample_resized.png", np.array(ds_size[0], dtype=np.float32))
-generated_images = tf.image.adjust_saturation(generated_images, 0.5)
-plt.imsave("gen_cropped.png", np.array(generated_images[0], dtype=np.float32))
-
-print(generated_images.shape, lr_images_input.shape)
-s = measure.compare_ssim(np.array(lr_images_input[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
-d = measure.compare_ssim(np.array(ds_size[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
-print("structural similarity between input and output of model is:" + str(s))
-print("structural similarity between input and output of model is:" + str(d))
+		#print(generated_images.shape, lr_images_input.shape)
+		s = measure.compare_ssim(np.array(lr_images_input[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
+		d = measure.compare_ssim(np.array(ds_size[0], dtype=np.float32), np.array(generated_images[0], dtype=np.float32), multichannel = True)
+		print("[Model {}] Structural similarity between original image {} and output of model is:".format(m,i) + str(s))
+		print("[Model {}] Structural similarity between downsampled img {} and output of model is:".format(m,i) + str(d))
