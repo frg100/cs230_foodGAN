@@ -165,7 +165,7 @@ checkpoint = tf.train.Checkpoint(generator_optimizer=generator_optimizer,
                                   discriminator=discriminator)
 #status = checkpoint.restore(tf.train.latest_checkpoint(checkpoint_dir))
 status = checkpoint.restore('./training_checkpoints/ckpt-15')
-#print(tf.train.latest_checkpoint(checkpoint_dir))
+print(tf.train.latest_checkpoint(checkpoint_dir))
 
 vgg_generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 vgg_discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
@@ -178,7 +178,8 @@ vgg_checkpoint = tf.train.Checkpoint(generator_optimizer=vgg_generator_optimizer
                                   generator=vgg_generator,
                                   discriminator=discriminator)
 #vgg_status = vgg_checkpoint.restore(tf.train.latest_checkpoint(vgg_checkpoint_dir))
-vgg_status = checkpoint.restore('./vggan_training_checkpoints/ckpt-15')
+vgg_status = vgg_checkpoint.restore('./vggan_training_checkpoints/ckpt-15')
+print(tf.train.latest_checkpoint(vgg_checkpoint_dir))
 
 ssim_generator_optimizer = tf.keras.optimizers.Adam(1e-4)
 ssim_discriminator_optimizer = tf.keras.optimizers.Adam(1e-4)
@@ -191,7 +192,8 @@ ssim_checkpoint = tf.train.Checkpoint(generator_optimizer=ssim_generator_optimiz
                                   generator=ssim_generator,
                                   discriminator=discriminator)
 #ssim_status = ssim_checkpoint.restore(tf.train.latest_checkpoint(ssim_checkpoint_dir))
-ssim_status = checkpoint.restore('./ssim_training_checkpoints/ckpt-15')
+ssim_status = ssim_checkpoint.restore('./ssim_training_checkpoints/ckpt-15')
+print(tf.train.latest_checkpoint(ssim_checkpoint_dir))
 
 models = [generator, vgg_generator, ssim_generator]
 

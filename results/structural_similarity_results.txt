@@ -1,427 +1,429 @@
 ubuntu@ip-172-31-23-39:~/CS230$ python upscale.py 
 Using TensorFlow backend.
-2019-12-08 22:47:19.031494: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2019-12-08 22:47:19.040648: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
-2019-12-08 22:47:19.040920: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556d0c889e40 executing computations on platform Host. Devices:
-2019-12-08 22:47:19.040951: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-12-08 23:04:42.413357: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-08 23:04:42.434888: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
+2019-12-08 23:04:42.435196: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e5d761c2c0 executing computations on platform Host. Devices:
+2019-12-08 23:04:42.435233: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+./training_checkpoints/ckpt-57
+./vggan_training_checkpoints/ckpt-15
+./ssim_training_checkpoints/ckpt-15
 Reading in image 
 Generating image 1 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 1 and output of model is: 0.7933885677633601
-[Model 0] Structural similarity between downsampled img 1 and output of model is: 0.8685061159205154
+[Model 0] Structural similarity between original image 1 and output of model is: 0.7466038394644219
+[Model 0] Structural similarity between downsampled img 1 and output of model is: 0.8427521335709404
 [Model 0] Structural similarity between original image and downsampled img 1 is: 0.8281813773516941
-[Model 0] Structural similarity difference to original image 1 is: -0.03479280958833397
-[Model 0] PSNR between original image 1 and output of model is: 66.56578
-[Model 0] PSNR between downsampled img 1 and output of model is: 67.319405
+[Model 0] Structural similarity difference to original image 1 is: -0.08157753788727218
+[Model 0] PSNR between original image 1 and output of model is: 65.68596
+[Model 0] PSNR between downsampled img 1 and output of model is: 66.48099
 [Model 0] PSNR between original image and downsampled img 1 is: 72.49427
-[Model 0] PSNR difference to original image 1 is: -5.9284897
+[Model 0] PSNR difference to original image 1 is: -6.8083115
 [Model 0] Focus Measure of original image 1 is: 926.2301
 [Model 0] Focus Measure of downsampled image 1 is: 14.590346
-[Model 0] Focus Measure of output of model is: 53.21552
+[Model 0] Focus Measure of output of model is: 201.33676
 Reading in image 
 Generating image 1 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 1 and output of model is: 0.19849047685040436
-[Model 1] Structural similarity between downsampled img 1 and output of model is: 0.25103640826562507
+[Model 1] Structural similarity between original image 1 and output of model is: 0.7433420023664463
+[Model 1] Structural similarity between downsampled img 1 and output of model is: 0.8308203623096267
 [Model 1] Structural similarity between original image and downsampled img 1 is: 0.8281813773516941
-[Model 1] Structural similarity difference to original image 1 is: -0.6296909005012897
-[Model 1] PSNR between original image 1 and output of model is: 57.57772
-[Model 1] PSNR between downsampled img 1 and output of model is: 57.855694
+[Model 1] Structural similarity difference to original image 1 is: -0.08483937498524774
+[Model 1] PSNR between original image 1 and output of model is: 65.38707
+[Model 1] PSNR between downsampled img 1 and output of model is: 66.11188
 [Model 1] PSNR between original image and downsampled img 1 is: 72.49427
-[Model 1] PSNR difference to original image 1 is: -14.91655
+[Model 1] PSNR difference to original image 1 is: -7.1072006
 [Model 1] Focus Measure of original image 1 is: 926.2301
 [Model 1] Focus Measure of downsampled image 1 is: 14.590346
-[Model 1] Focus Measure of output of model is: 12356.566
+[Model 1] Focus Measure of output of model is: 236.03648
 Reading in image 
 Generating image 1 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 1 and output of model is: 0.2300275297139327
-[Model 2] Structural similarity between downsampled img 1 and output of model is: 0.29534273606510225
+[Model 2] Structural similarity between original image 1 and output of model is: 0.7933885677633601
+[Model 2] Structural similarity between downsampled img 1 and output of model is: 0.8685061159205154
 [Model 2] Structural similarity between original image and downsampled img 1 is: 0.8281813773516941
-[Model 2] Structural similarity difference to original image 1 is: -0.5981538476377614
-[Model 2] PSNR between original image 1 and output of model is: 57.5328
-[Model 2] PSNR between downsampled img 1 and output of model is: 57.807995
+[Model 2] Structural similarity difference to original image 1 is: -0.03479280958833397
+[Model 2] PSNR between original image 1 and output of model is: 66.56578
+[Model 2] PSNR between downsampled img 1 and output of model is: 67.319405
 [Model 2] PSNR between original image and downsampled img 1 is: 72.49427
-[Model 2] PSNR difference to original image 1 is: -14.961472
+[Model 2] PSNR difference to original image 1 is: -5.9284897
 [Model 2] Focus Measure of original image 1 is: 926.2301
 [Model 2] Focus Measure of downsampled image 1 is: 14.590346
-[Model 2] Focus Measure of output of model is: 5442.1406
+[Model 2] Focus Measure of output of model is: 53.21552
 Reading in image 
 Generating image 2 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 2 and output of model is: 0.8381104057162823
-[Model 0] Structural similarity between downsampled img 2 and output of model is: 0.8715998532900927
+[Model 0] Structural similarity between original image 2 and output of model is: 0.7830562027674247
+[Model 0] Structural similarity between downsampled img 2 and output of model is: 0.8360796474333455
 [Model 0] Structural similarity between original image and downsampled img 2 is: 0.9122630026468662
-[Model 0] Structural similarity difference to original image 2 is: -0.07415259693058396
-[Model 0] PSNR between original image 2 and output of model is: 67.67961
-[Model 0] PSNR between downsampled img 2 and output of model is: 67.9635
+[Model 0] Structural similarity difference to original image 2 is: -0.1292067998794415
+[Model 0] PSNR between original image 2 and output of model is: 66.62657
+[Model 0] PSNR between downsampled img 2 and output of model is: 67.08223
 [Model 0] PSNR between original image and downsampled img 2 is: 76.175476
-[Model 0] PSNR difference to original image 2 is: -8.495865
+[Model 0] PSNR difference to original image 2 is: -9.548904
 [Model 0] Focus Measure of original image 2 is: 327.11682
 [Model 0] Focus Measure of downsampled image 2 is: 8.123236
-[Model 0] Focus Measure of output of model is: 29.866266
+[Model 0] Focus Measure of output of model is: 112.7982
 Reading in image 
 Generating image 2 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 2 and output of model is: 0.26673699292798786
-[Model 1] Structural similarity between downsampled img 2 and output of model is: 0.2936602506858984
+[Model 1] Structural similarity between original image 2 and output of model is: 0.70434093767764
+[Model 1] Structural similarity between downsampled img 2 and output of model is: 0.7480244028129667
 [Model 1] Structural similarity between original image and downsampled img 2 is: 0.9122630026468662
-[Model 1] Structural similarity difference to original image 2 is: -0.6455260097188784
-[Model 1] PSNR between original image 2 and output of model is: 56.311554
-[Model 1] PSNR between downsampled img 2 and output of model is: 56.41874
+[Model 1] Structural similarity difference to original image 2 is: -0.20792206496922616
+[Model 1] PSNR between original image 2 and output of model is: 63.500107
+[Model 1] PSNR between downsampled img 2 and output of model is: 63.69497
 [Model 1] PSNR between original image and downsampled img 2 is: 76.175476
-[Model 1] PSNR difference to original image 2 is: -19.863922
+[Model 1] PSNR difference to original image 2 is: -12.675369
 [Model 1] Focus Measure of original image 2 is: 327.11682
 [Model 1] Focus Measure of downsampled image 2 is: 8.123236
-[Model 1] Focus Measure of output of model is: 6051.1714
+[Model 1] Focus Measure of output of model is: 127.24609
 Reading in image 
 Generating image 2 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 2 and output of model is: 0.2909286676949126
-[Model 2] Structural similarity between downsampled img 2 and output of model is: 0.32327739894328383
+[Model 2] Structural similarity between original image 2 and output of model is: 0.8381104057162823
+[Model 2] Structural similarity between downsampled img 2 and output of model is: 0.8715998532900927
 [Model 2] Structural similarity between original image and downsampled img 2 is: 0.9122630026468662
-[Model 2] Structural similarity difference to original image 2 is: -0.6213343349519536
-[Model 2] PSNR between original image 2 and output of model is: 56.240124
-[Model 2] PSNR between downsampled img 2 and output of model is: 56.345802
+[Model 2] Structural similarity difference to original image 2 is: -0.07415259693058396
+[Model 2] PSNR between original image 2 and output of model is: 67.67961
+[Model 2] PSNR between downsampled img 2 and output of model is: 67.9635
 [Model 2] PSNR between original image and downsampled img 2 is: 76.175476
-[Model 2] PSNR difference to original image 2 is: -19.935352
+[Model 2] PSNR difference to original image 2 is: -8.495865
 [Model 2] Focus Measure of original image 2 is: 327.11682
 [Model 2] Focus Measure of downsampled image 2 is: 8.123236
-[Model 2] Focus Measure of output of model is: 2601.7654
+[Model 2] Focus Measure of output of model is: 29.866266
 Reading in image 
 Generating image 3 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 3 and output of model is: 0.7861867622985663
-[Model 0] Structural similarity between downsampled img 3 and output of model is: 0.8687028586673854
+[Model 0] Structural similarity between original image 3 and output of model is: 0.7625587808884083
+[Model 0] Structural similarity between downsampled img 3 and output of model is: 0.8577828933663829
 [Model 0] Structural similarity between original image and downsampled img 3 is: 0.8522962381476136
-[Model 0] Structural similarity difference to original image 3 is: -0.06610947584904725
-[Model 0] PSNR between original image 3 and output of model is: 64.598145
-[Model 0] PSNR between downsampled img 3 and output of model is: 65.38502
+[Model 0] Structural similarity difference to original image 3 is: -0.08973745725920523
+[Model 0] PSNR between original image 3 and output of model is: 65.30847
+[Model 0] PSNR between downsampled img 3 and output of model is: 66.40729
 [Model 0] PSNR between original image and downsampled img 3 is: 71.86005
-[Model 0] PSNR difference to original image 3 is: -7.261902
+[Model 0] PSNR difference to original image 3 is: -6.5515747
 [Model 0] Focus Measure of original image 3 is: 849.70215
 [Model 0] Focus Measure of downsampled image 3 is: 18.051577
-[Model 0] Focus Measure of output of model is: 46.57732
+[Model 0] Focus Measure of output of model is: 202.2494
 Reading in image 
 Generating image 3 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 3 and output of model is: 0.2152754381923434
-[Model 1] Structural similarity between downsampled img 3 and output of model is: 0.25550427764327116
+[Model 1] Structural similarity between original image 3 and output of model is: 0.7376265415935829
+[Model 1] Structural similarity between downsampled img 3 and output of model is: 0.820312935765247
 [Model 1] Structural similarity between original image and downsampled img 3 is: 0.8522962381476136
-[Model 1] Structural similarity difference to original image 3 is: -0.6370207999552702
-[Model 1] PSNR between original image 3 and output of model is: 56.647255
-[Model 1] PSNR between downsampled img 3 and output of model is: 56.93957
+[Model 1] Structural similarity difference to original image 3 is: -0.1146696965540307
+[Model 1] PSNR between original image 3 and output of model is: 63.836254
+[Model 1] PSNR between downsampled img 3 and output of model is: 64.56793
 [Model 1] PSNR between original image and downsampled img 3 is: 71.86005
-[Model 1] PSNR difference to original image 3 is: -15.212791
+[Model 1] PSNR difference to original image 3 is: -8.023792
 [Model 1] Focus Measure of original image 3 is: 849.70215
 [Model 1] Focus Measure of downsampled image 3 is: 18.051577
-[Model 1] Focus Measure of output of model is: 10705.527
+[Model 1] Focus Measure of output of model is: 224.33766
 Reading in image 
 Generating image 3 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 3 and output of model is: 0.2556740074156531
-[Model 2] Structural similarity between downsampled img 3 and output of model is: 0.3048161334023073
+[Model 2] Structural similarity between original image 3 and output of model is: 0.7861867622985663
+[Model 2] Structural similarity between downsampled img 3 and output of model is: 0.8687028586673854
 [Model 2] Structural similarity between original image and downsampled img 3 is: 0.8522962381476136
-[Model 2] Structural similarity difference to original image 3 is: -0.5966222307319604
-[Model 2] PSNR between original image 3 and output of model is: 57.11566
-[Model 2] PSNR between downsampled img 3 and output of model is: 57.44451
+[Model 2] Structural similarity difference to original image 3 is: -0.06610947584904725
+[Model 2] PSNR between original image 3 and output of model is: 64.598145
+[Model 2] PSNR between downsampled img 3 and output of model is: 65.38502
 [Model 2] PSNR between original image and downsampled img 3 is: 71.86005
-[Model 2] PSNR difference to original image 3 is: -14.744385
+[Model 2] PSNR difference to original image 3 is: -7.261902
 [Model 2] Focus Measure of original image 3 is: 849.70215
 [Model 2] Focus Measure of downsampled image 3 is: 18.051577
-[Model 2] Focus Measure of output of model is: 4562.4863
+[Model 2] Focus Measure of output of model is: 46.57732
 Reading in image 
 Generating image 4 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 4 and output of model is: 0.6993468857460128
-[Model 0] Structural similarity between downsampled img 4 and output of model is: 0.7935025574945115
+[Model 0] Structural similarity between original image 4 and output of model is: 0.6312112933023791
+[Model 0] Structural similarity between downsampled img 4 and output of model is: 0.7432186220185004
 [Model 0] Structural similarity between original image and downsampled img 4 is: 0.8105956944605929
-[Model 0] Structural similarity difference to original image 4 is: -0.1112488087145801
-[Model 0] PSNR between original image 4 and output of model is: 64.26358
-[Model 0] PSNR between downsampled img 4 and output of model is: 65.03491
+[Model 0] Structural similarity difference to original image 4 is: -0.17938440115821375
+[Model 0] PSNR between original image 4 and output of model is: 63.239502
+[Model 0] PSNR between downsampled img 4 and output of model is: 64.004524
 [Model 0] PSNR between original image and downsampled img 4 is: 71.49155
-[Model 0] PSNR difference to original image 4 is: -7.2279663
+[Model 0] PSNR difference to original image 4 is: -8.252045
 [Model 0] Focus Measure of original image 4 is: 1028.0068
 [Model 0] Focus Measure of downsampled image 4 is: 22.09367
-[Model 0] Focus Measure of output of model is: 59.00096
+[Model 0] Focus Measure of output of model is: 296.626
 Reading in image 
 Generating image 4 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 4 and output of model is: 0.18659814980188513
-[Model 1] Structural similarity between downsampled img 4 and output of model is: 0.23772446588389726
+[Model 1] Structural similarity between original image 4 and output of model is: 0.5994872874850548
+[Model 1] Structural similarity between downsampled img 4 and output of model is: 0.7016924950949868
 [Model 1] Structural similarity between original image and downsampled img 4 is: 0.8105956944605929
-[Model 1] Structural similarity difference to original image 4 is: -0.6239975446587077
-[Model 1] PSNR between original image 4 and output of model is: 56.25765
-[Model 1] PSNR between downsampled img 4 and output of model is: 56.5899
+[Model 1] Structural similarity difference to original image 4 is: -0.21110840697553812
+[Model 1] PSNR between original image 4 and output of model is: 61.820293
+[Model 1] PSNR between downsampled img 4 and output of model is: 62.380314
 [Model 1] PSNR between original image and downsampled img 4 is: 71.49155
-[Model 1] PSNR difference to original image 4 is: -15.233898
+[Model 1] PSNR difference to original image 4 is: -9.671253
 [Model 1] Focus Measure of original image 4 is: 1028.0068
 [Model 1] Focus Measure of downsampled image 4 is: 22.09367
-[Model 1] Focus Measure of output of model is: 8007.886
+[Model 1] Focus Measure of output of model is: 295.93784
 Reading in image 
 Generating image 4 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 4 and output of model is: 0.20641341742599453
-[Model 2] Structural similarity between downsampled img 4 and output of model is: 0.2673211539461723
+[Model 2] Structural similarity between original image 4 and output of model is: 0.6993468857460128
+[Model 2] Structural similarity between downsampled img 4 and output of model is: 0.7935025574945115
 [Model 2] Structural similarity between original image and downsampled img 4 is: 0.8105956944605929
-[Model 2] Structural similarity difference to original image 4 is: -0.6041822770345984
-[Model 2] PSNR between original image 4 and output of model is: 56.70081
-[Model 2] PSNR between downsampled img 4 and output of model is: 57.072304
+[Model 2] Structural similarity difference to original image 4 is: -0.1112488087145801
+[Model 2] PSNR between original image 4 and output of model is: 64.26358
+[Model 2] PSNR between downsampled img 4 and output of model is: 65.03491
 [Model 2] PSNR between original image and downsampled img 4 is: 71.49155
-[Model 2] PSNR difference to original image 4 is: -14.790737
+[Model 2] PSNR difference to original image 4 is: -7.2279663
 [Model 2] Focus Measure of original image 4 is: 1028.0068
 [Model 2] Focus Measure of downsampled image 4 is: 22.09367
-[Model 2] Focus Measure of output of model is: 3536.3494
+[Model 2] Focus Measure of output of model is: 59.00096
 Reading in image 
 Generating image 5 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 5 and output of model is: 0.8316694901743485
-[Model 0] Structural similarity between downsampled img 5 and output of model is: 0.8654423395755755
+[Model 0] Structural similarity between original image 5 and output of model is: 0.8031147495136587
+[Model 0] Structural similarity between downsampled img 5 and output of model is: 0.8475084091531139
 [Model 0] Structural similarity between original image and downsampled img 5 is: 0.9179775736566747
-[Model 0] Structural similarity difference to original image 5 is: -0.0863080834823261
-[Model 0] PSNR between original image 5 and output of model is: 65.809555
-[Model 0] PSNR between downsampled img 5 and output of model is: 66.00976
+[Model 0] Structural similarity difference to original image 5 is: -0.11486282414301596
+[Model 0] PSNR between original image 5 and output of model is: 65.20067
+[Model 0] PSNR between downsampled img 5 and output of model is: 65.47513
 [Model 0] PSNR between original image and downsampled img 5 is: 77.1757
-[Model 0] PSNR difference to original image 5 is: -11.366142
+[Model 0] PSNR difference to original image 5 is: -11.975029
 [Model 0] Focus Measure of original image 5 is: 241.4904
 [Model 0] Focus Measure of downsampled image 5 is: 7.763733
-[Model 0] Focus Measure of output of model is: 22.169867
+[Model 0] Focus Measure of output of model is: 107.406975
 Reading in image 
 Generating image 5 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 5 and output of model is: 0.22379455986999686
-[Model 1] Structural similarity between downsampled img 5 and output of model is: 0.24265968942268823
+[Model 1] Structural similarity between original image 5 and output of model is: 0.8024896389814286
+[Model 1] Structural similarity between downsampled img 5 and output of model is: 0.8372705809863309
 [Model 1] Structural similarity between original image and downsampled img 5 is: 0.9179775736566747
-[Model 1] Structural similarity difference to original image 5 is: -0.6941830137866778
-[Model 1] PSNR between original image 5 and output of model is: 57.907475
-[Model 1] PSNR between downsampled img 5 and output of model is: 58.05269
+[Model 1] Structural similarity difference to original image 5 is: -0.1154879346752461
+[Model 1] PSNR between original image 5 and output of model is: 64.663826
+[Model 1] PSNR between downsampled img 5 and output of model is: 64.85848
 [Model 1] PSNR between original image and downsampled img 5 is: 77.1757
-[Model 1] PSNR difference to original image 5 is: -19.268223
+[Model 1] PSNR difference to original image 5 is: -12.511871
 [Model 1] Focus Measure of original image 5 is: 241.4904
 [Model 1] Focus Measure of downsampled image 5 is: 7.763733
-[Model 1] Focus Measure of output of model is: 15625.473
+[Model 1] Focus Measure of output of model is: 134.62997
 Reading in image 
 Generating image 5 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 5 and output of model is: 0.26521710645008634
-[Model 2] Structural similarity between downsampled img 5 and output of model is: 0.2894126396558917
+[Model 2] Structural similarity between original image 5 and output of model is: 0.8316694901743485
+[Model 2] Structural similarity between downsampled img 5 and output of model is: 0.8654423395755755
 [Model 2] Structural similarity between original image and downsampled img 5 is: 0.9179775736566747
-[Model 2] Structural similarity difference to original image 5 is: -0.6527604672065883
-[Model 2] PSNR between original image 5 and output of model is: 58.09299
-[Model 2] PSNR between downsampled img 5 and output of model is: 58.247623
+[Model 2] Structural similarity difference to original image 5 is: -0.0863080834823261
+[Model 2] PSNR between original image 5 and output of model is: 65.809555
+[Model 2] PSNR between downsampled img 5 and output of model is: 66.00976
 [Model 2] PSNR between original image and downsampled img 5 is: 77.1757
-[Model 2] PSNR difference to original image 5 is: -19.082706
+[Model 2] PSNR difference to original image 5 is: -11.366142
 [Model 2] Focus Measure of original image 5 is: 241.4904
 [Model 2] Focus Measure of downsampled image 5 is: 7.763733
-[Model 2] Focus Measure of output of model is: 7329.259
+[Model 2] Focus Measure of output of model is: 22.169867
 Reading in image 
 Generating image 6 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 6 and output of model is: 0.9002682138594823
-[Model 0] Structural similarity between downsampled img 6 and output of model is: 0.9381488898168148
+[Model 0] Structural similarity between original image 6 and output of model is: 0.8311228798368492
+[Model 0] Structural similarity between downsampled img 6 and output of model is: 0.8825364294236596
 [Model 0] Structural similarity between original image and downsampled img 6 is: 0.9155854719718217
-[Model 0] Structural similarity difference to original image 6 is: -0.015317258112339416
-[Model 0] PSNR between original image 6 and output of model is: 73.77163
-[Model 0] PSNR between downsampled img 6 and output of model is: 74.49818
+[Model 0] Structural similarity difference to original image 6 is: -0.08446259213497254
+[Model 0] PSNR between original image 6 and output of model is: 70.88039
+[Model 0] PSNR between downsampled img 6 and output of model is: 71.57895
 [Model 0] PSNR between original image and downsampled img 6 is: 78.10429
-[Model 0] PSNR difference to original image 6 is: -4.332657
+[Model 0] PSNR difference to original image 6 is: -7.2239
 [Model 0] Focus Measure of original image 6 is: 194.68785
 [Model 0] Focus Measure of downsampled image 6 is: 6.254508
-[Model 0] Focus Measure of output of model is: 20.025421
+[Model 0] Focus Measure of output of model is: 95.85274
 Reading in image 
 Generating image 6 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 6 and output of model is: 0.2399287974273645
-[Model 1] Structural similarity between downsampled img 6 and output of model is: 0.2671717982532201
+[Model 1] Structural similarity between original image 6 and output of model is: 0.7946203616639648
+[Model 1] Structural similarity between downsampled img 6 and output of model is: 0.8494651735758958
 [Model 1] Structural similarity between original image and downsampled img 6 is: 0.9155854719718217
-[Model 1] Structural similarity difference to original image 6 is: -0.6756566745444572
-[Model 1] PSNR between original image 6 and output of model is: 57.144634
-[Model 1] PSNR between downsampled img 6 and output of model is: 57.23964
+[Model 1] Structural similarity difference to original image 6 is: -0.12096511030785695
+[Model 1] PSNR between original image 6 and output of model is: 67.52537
+[Model 1] PSNR between downsampled img 6 and output of model is: 67.960815
 [Model 1] PSNR between original image and downsampled img 6 is: 78.10429
-[Model 1] PSNR difference to original image 6 is: -20.959652
+[Model 1] PSNR difference to original image 6 is: -10.578918
 [Model 1] Focus Measure of original image 6 is: 194.68785
 [Model 1] Focus Measure of downsampled image 6 is: 6.254508
-[Model 1] Focus Measure of output of model is: 10223.292
+[Model 1] Focus Measure of output of model is: 82.67241
 Reading in image 
 Generating image 6 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 6 and output of model is: 0.2894288151484155
-[Model 2] Structural similarity between downsampled img 6 and output of model is: 0.32602074421975447
+[Model 2] Structural similarity between original image 6 and output of model is: 0.9002682138594823
+[Model 2] Structural similarity between downsampled img 6 and output of model is: 0.9381488898168148
 [Model 2] Structural similarity between original image and downsampled img 6 is: 0.9155854719718217
-[Model 2] Structural similarity difference to original image 6 is: -0.6261566568234063
-[Model 2] PSNR between original image 6 and output of model is: 57.777634
-[Model 2] PSNR between downsampled img 6 and output of model is: 57.88951
+[Model 2] Structural similarity difference to original image 6 is: -0.015317258112339416
+[Model 2] PSNR between original image 6 and output of model is: 73.77163
+[Model 2] PSNR between downsampled img 6 and output of model is: 74.49818
 [Model 2] PSNR between original image and downsampled img 6 is: 78.10429
-[Model 2] PSNR difference to original image 6 is: -20.326653
+[Model 2] PSNR difference to original image 6 is: -4.332657
 [Model 2] Focus Measure of original image 6 is: 194.68785
 [Model 2] Focus Measure of downsampled image 6 is: 6.254508
-[Model 2] Focus Measure of output of model is: 4185.817
+[Model 2] Focus Measure of output of model is: 20.025421
 Reading in image 
 Generating image 7 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 7 and output of model is: 0.9170058831530196
-[Model 0] Structural similarity between downsampled img 7 and output of model is: 0.9655351550391679
+[Model 0] Structural similarity between original image 7 and output of model is: 0.8922279989936666
+[Model 0] Structural similarity between downsampled img 7 and output of model is: 0.9470166468578037
 [Model 0] Structural similarity between original image and downsampled img 7 is: 0.9244168395759803
-[Model 0] Structural similarity difference to original image 7 is: -0.007410956422960746
-[Model 0] PSNR between original image 7 and output of model is: 71.76458
-[Model 0] PSNR between downsampled img 7 and output of model is: 72.3882
+[Model 0] Structural similarity difference to original image 7 is: -0.03218884058231375
+[Model 0] PSNR between original image 7 and output of model is: 72.53471
+[Model 0] PSNR between downsampled img 7 and output of model is: 73.59274
 [Model 0] PSNR between original image and downsampled img 7 is: 78.489426
-[Model 0] PSNR difference to original image 7 is: -6.724846
+[Model 0] PSNR difference to original image 7 is: -5.954712
 [Model 0] Focus Measure of original image 7 is: 388.03903
 [Model 0] Focus Measure of downsampled image 7 is: 4.005082
-[Model 0] Focus Measure of output of model is: 14.661678
+[Model 0] Focus Measure of output of model is: 64.179886
 Reading in image 
 Generating image 7 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 7 and output of model is: 0.29691087451355647
-[Model 1] Structural similarity between downsampled img 7 and output of model is: 0.31561344153078813
+[Model 1] Structural similarity between original image 7 and output of model is: 0.87520257947594
+[Model 1] Structural similarity between downsampled img 7 and output of model is: 0.9266915361113335
 [Model 1] Structural similarity between original image and downsampled img 7 is: 0.9244168395759803
-[Model 1] Structural similarity difference to original image 7 is: -0.6275059650624238
-[Model 1] PSNR between original image 7 and output of model is: 58.610085
-[Model 1] PSNR between downsampled img 7 and output of model is: 58.69971
+[Model 1] Structural similarity difference to original image 7 is: -0.049214260100040264
+[Model 1] PSNR between original image 7 and output of model is: 69.48673
+[Model 1] PSNR between downsampled img 7 and output of model is: 69.966286
 [Model 1] PSNR between original image and downsampled img 7 is: 78.489426
-[Model 1] PSNR difference to original image 7 is: -19.879341
+[Model 1] PSNR difference to original image 7 is: -9.002693
 [Model 1] Focus Measure of original image 7 is: 388.03903
 [Model 1] Focus Measure of downsampled image 7 is: 4.005082
-[Model 1] Focus Measure of output of model is: 13863.445
+[Model 1] Focus Measure of output of model is: 76.95502
 Reading in image 
 Generating image 7 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 7 and output of model is: 0.3232361626608932
-[Model 2] Structural similarity between downsampled img 7 and output of model is: 0.34917033158868493
+[Model 2] Structural similarity between original image 7 and output of model is: 0.9170058831530196
+[Model 2] Structural similarity between downsampled img 7 and output of model is: 0.9655351550391679
 [Model 2] Structural similarity between original image and downsampled img 7 is: 0.9244168395759803
-[Model 2] Structural similarity difference to original image 7 is: -0.6011806769150871
-[Model 2] PSNR between original image 7 and output of model is: 58.710514
-[Model 2] PSNR between downsampled img 7 and output of model is: 58.805214
+[Model 2] Structural similarity difference to original image 7 is: -0.007410956422960746
+[Model 2] PSNR between original image 7 and output of model is: 71.76458
+[Model 2] PSNR between downsampled img 7 and output of model is: 72.3882
 [Model 2] PSNR between original image and downsampled img 7 is: 78.489426
-[Model 2] PSNR difference to original image 7 is: -19.778912
+[Model 2] PSNR difference to original image 7 is: -6.724846
 [Model 2] Focus Measure of original image 7 is: 388.03903
 [Model 2] Focus Measure of downsampled image 7 is: 4.005082
-[Model 2] Focus Measure of output of model is: 7563.345
+[Model 2] Focus Measure of output of model is: 14.661678
 Reading in image 
 Generating image 8 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 8 and output of model is: 0.9365156458081936
-[Model 0] Structural similarity between downsampled img 8 and output of model is: 0.9670228541238616
+[Model 0] Structural similarity between original image 8 and output of model is: 0.9155892628829897
+[Model 0] Structural similarity between downsampled img 8 and output of model is: 0.9547067515821753
 [Model 0] Structural similarity between original image and downsampled img 8 is: 0.9388713049918178
-[Model 0] Structural similarity difference to original image 8 is: -0.002355659183624237
-[Model 0] PSNR between original image 8 and output of model is: 73.940834
-[Model 0] PSNR between downsampled img 8 and output of model is: 74.45201
+[Model 0] Structural similarity difference to original image 8 is: -0.023282042108828116
+[Model 0] PSNR between original image 8 and output of model is: 72.82515
+[Model 0] PSNR between downsampled img 8 and output of model is: 73.60741
 [Model 0] PSNR between original image and downsampled img 8 is: 79.557175
-[Model 0] PSNR difference to original image 8 is: -5.6163406
+[Model 0] PSNR difference to original image 8 is: -6.732025
 [Model 0] Focus Measure of original image 8 is: 185.52866
 [Model 0] Focus Measure of downsampled image 8 is: 4.2097564
-[Model 0] Focus Measure of output of model is: 15.150787
+[Model 0] Focus Measure of output of model is: 74.144775
 Reading in image 
 Generating image 8 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 8 and output of model is: 0.3104623519594025
-[Model 1] Structural similarity between downsampled img 8 and output of model is: 0.3283226295364717
+[Model 1] Structural similarity between original image 8 and output of model is: 0.9036253142069971
+[Model 1] Structural similarity between downsampled img 8 and output of model is: 0.9363507358455365
 [Model 1] Structural similarity between original image and downsampled img 8 is: 0.9388713049918178
-[Model 1] Structural similarity difference to original image 8 is: -0.6284089530324153
-[Model 1] PSNR between original image 8 and output of model is: 58.830154
-[Model 1] PSNR between downsampled img 8 and output of model is: 58.932343
+[Model 1] Structural similarity difference to original image 8 is: -0.03524599078482071
+[Model 1] PSNR between original image 8 and output of model is: 70.56946
+[Model 1] PSNR between downsampled img 8 and output of model is: 70.924446
 [Model 1] PSNR between original image and downsampled img 8 is: 79.557175
-[Model 1] PSNR difference to original image 8 is: -20.72702
+[Model 1] PSNR difference to original image 8 is: -8.987717
 [Model 1] Focus Measure of original image 8 is: 185.52866
 [Model 1] Focus Measure of downsampled image 8 is: 4.2097564
-[Model 1] Focus Measure of output of model is: 12967.355
+[Model 1] Focus Measure of output of model is: 101.284225
 Reading in image 
 Generating image 8 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 8 and output of model is: 0.3589825347928297
-[Model 2] Structural similarity between downsampled img 8 and output of model is: 0.38256165246088064
+[Model 2] Structural similarity between original image 8 and output of model is: 0.9365156458081936
+[Model 2] Structural similarity between downsampled img 8 and output of model is: 0.9670228541238616
 [Model 2] Structural similarity between original image and downsampled img 8 is: 0.9388713049918178
-[Model 2] Structural similarity difference to original image 8 is: -0.5798887701989881
-[Model 2] PSNR between original image 8 and output of model is: 58.889652
-[Model 2] PSNR between downsampled img 8 and output of model is: 58.994682
+[Model 2] Structural similarity difference to original image 8 is: -0.002355659183624237
+[Model 2] PSNR between original image 8 and output of model is: 73.940834
+[Model 2] PSNR between downsampled img 8 and output of model is: 74.45201
 [Model 2] PSNR between original image and downsampled img 8 is: 79.557175
-[Model 2] PSNR difference to original image 8 is: -20.667522
+[Model 2] PSNR difference to original image 8 is: -5.6163406
 [Model 2] Focus Measure of original image 8 is: 185.52866
 [Model 2] Focus Measure of downsampled image 8 is: 4.2097564
-[Model 2] Focus Measure of output of model is: 6221.7705
+[Model 2] Focus Measure of output of model is: 15.150787
 Reading in image 
 Generating image 9 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 9 and output of model is: 0.877509811318273
-[Model 0] Structural similarity between downsampled img 9 and output of model is: 0.9179180154355318
+[Model 0] Structural similarity between original image 9 and output of model is: 0.8387788543570852
+[Model 0] Structural similarity between downsampled img 9 and output of model is: 0.8929215263907878
 [Model 0] Structural similarity between original image and downsampled img 9 is: 0.9056062340009077
-[Model 0] Structural similarity difference to original image 9 is: -0.02809642268263468
-[Model 0] PSNR between original image 9 and output of model is: 69.590294
-[Model 0] PSNR between downsampled img 9 and output of model is: 70.04746
+[Model 0] Structural similarity difference to original image 9 is: -0.06682737964382246
+[Model 0] PSNR between original image 9 and output of model is: 68.56211
+[Model 0] PSNR between downsampled img 9 and output of model is: 69.123566
 [Model 0] PSNR between original image and downsampled img 9 is: 76.80555
-[Model 0] PSNR difference to original image 9 is: -7.2152557
+[Model 0] PSNR difference to original image 9 is: -8.243439
 [Model 0] Focus Measure of original image 9 is: 315.28415
 [Model 0] Focus Measure of downsampled image 9 is: 7.142903
-[Model 0] Focus Measure of output of model is: 23.244303
+[Model 0] Focus Measure of output of model is: 115.5179
 Reading in image 
 Generating image 9 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 9 and output of model is: 0.3092822050857769
-[Model 1] Structural similarity between downsampled img 9 and output of model is: 0.3376384802123709
+[Model 1] Structural similarity between original image 9 and output of model is: 0.821715271680698
+[Model 1] Structural similarity between downsampled img 9 and output of model is: 0.8706129196554132
 [Model 1] Structural similarity between original image and downsampled img 9 is: 0.9056062340009077
-[Model 1] Structural similarity difference to original image 9 is: -0.5963240289151308
-[Model 1] PSNR between original image 9 and output of model is: 57.039974
-[Model 1] PSNR between downsampled img 9 and output of model is: 57.15173
+[Model 1] Structural similarity difference to original image 9 is: -0.08389096232020965
+[Model 1] PSNR between original image 9 and output of model is: 67.521324
+[Model 1] PSNR between downsampled img 9 and output of model is: 67.9575
 [Model 1] PSNR between original image and downsampled img 9 is: 76.80555
-[Model 1] PSNR difference to original image 9 is: -19.765575
+[Model 1] PSNR difference to original image 9 is: -9.284225
 [Model 1] Focus Measure of original image 9 is: 315.28415
 [Model 1] Focus Measure of downsampled image 9 is: 7.142903
-[Model 1] Focus Measure of output of model is: 6647.946
+[Model 1] Focus Measure of output of model is: 124.57357
 Reading in image 
 Generating image 9 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 9 and output of model is: 0.3551325830434517
-[Model 2] Structural similarity between downsampled img 9 and output of model is: 0.39363241686115896
+[Model 2] Structural similarity between original image 9 and output of model is: 0.877509811318273
+[Model 2] Structural similarity between downsampled img 9 and output of model is: 0.9179180154355318
 [Model 2] Structural similarity between original image and downsampled img 9 is: 0.9056062340009077
-[Model 2] Structural similarity difference to original image 9 is: -0.5504736509574559
-[Model 2] PSNR between original image 9 and output of model is: 57.364162
-[Model 2] PSNR between downsampled img 9 and output of model is: 57.486385
+[Model 2] Structural similarity difference to original image 9 is: -0.02809642268263468
+[Model 2] PSNR between original image 9 and output of model is: 69.590294
+[Model 2] PSNR between downsampled img 9 and output of model is: 70.04746
 [Model 2] PSNR between original image and downsampled img 9 is: 76.80555
-[Model 2] PSNR difference to original image 9 is: -19.441387
+[Model 2] PSNR difference to original image 9 is: -7.2152557
 [Model 2] Focus Measure of original image 9 is: 315.28415
 [Model 2] Focus Measure of downsampled image 9 is: 7.142903
-[Model 2] Focus Measure of output of model is: 2479.9695
+[Model 2] Focus Measure of output of model is: 23.244303
 Reading in image 
 Generating image 10 with model 0
 Image Generated
-[Model 0] Structural similarity between original image 10 and output of model is: 0.8965108996833084
-[Model 0] Structural similarity between downsampled img 10 and output of model is: 0.9076714235831841
+[Model 0] Structural similarity between original image 10 and output of model is: 0.8337800752419297
+[Model 0] Structural similarity between downsampled img 10 and output of model is: 0.8586767368253886
 [Model 0] Structural similarity between original image and downsampled img 10 is: 0.9510597699975755
-[Model 0] Structural similarity difference to original image 10 is: -0.05454887031426703
-[Model 0] PSNR between original image 10 and output of model is: 67.80825
-[Model 0] PSNR between downsampled img 10 and output of model is: 67.988106
+[Model 0] Structural similarity difference to original image 10 is: -0.11727969475564581
+[Model 0] PSNR between original image 10 and output of model is: 66.033775
+[Model 0] PSNR between downsampled img 10 and output of model is: 66.23787
 [Model 0] PSNR between original image and downsampled img 10 is: 79.30807
-[Model 0] PSNR difference to original image 10 is: -11.499817
+[Model 0] PSNR difference to original image 10 is: -13.274292
 [Model 0] Focus Measure of original image 10 is: 55.3828
 [Model 0] Focus Measure of downsampled image 10 is: 7.0161676
-[Model 0] Focus Measure of output of model is: 17.85958
+[Model 0] Focus Measure of output of model is: 114.82134
 Reading in image 
 Generating image 10 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 10 and output of model is: 0.29863228662689006
-[Model 1] Structural similarity between downsampled img 10 and output of model is: 0.31896224067908635
+[Model 1] Structural similarity between original image 10 and output of model is: 0.8272804426940686
+[Model 1] Structural similarity between downsampled img 10 and output of model is: 0.8506203540751599
 [Model 1] Structural similarity between original image and downsampled img 10 is: 0.9510597699975755
-[Model 1] Structural similarity difference to original image 10 is: -0.6524274833706853
-[Model 1] PSNR between original image 10 and output of model is: 57.555527
-[Model 1] PSNR between downsampled img 10 and output of model is: 57.657654
+[Model 1] Structural similarity difference to original image 10 is: -0.12377932730350683
+[Model 1] PSNR between original image 10 and output of model is: 65.69113
+[Model 1] PSNR between downsampled img 10 and output of model is: 65.90945
 [Model 1] PSNR between original image and downsampled img 10 is: 79.30807
-[Model 1] PSNR difference to original image 10 is: -21.75254
+[Model 1] PSNR difference to original image 10 is: -13.616936
 [Model 1] Focus Measure of original image 10 is: 55.3828
 [Model 1] Focus Measure of downsampled image 10 is: 7.0161676
-[Model 1] Focus Measure of output of model is: 8727.243
+[Model 1] Focus Measure of output of model is: 105.44077
 Reading in image 
 Generating image 10 with model 2
 Image Generated
-[Model 2] Structural similarity between original image 10 and output of model is: 0.3284267890648294
-[Model 2] Structural similarity between downsampled img 10 and output of model is: 0.35232178832269406
+[Model 2] Structural similarity between original image 10 and output of model is: 0.8965108996833084
+[Model 2] Structural similarity between downsampled img 10 and output of model is: 0.9076714235831841
 [Model 2] Structural similarity between original image and downsampled img 10 is: 0.9510597699975755
-[Model 2] Structural similarity difference to original image 10 is: -0.622632980932746
-[Model 2] PSNR between original image 10 and output of model is: 57.95283
-[Model 2] PSNR between downsampled img 10 and output of model is: 58.066174
+[Model 2] Structural similarity difference to original image 10 is: -0.05454887031426703
+[Model 2] PSNR between original image 10 and output of model is: 67.80825
+[Model 2] PSNR between downsampled img 10 and output of model is: 67.988106
 [Model 2] PSNR between original image and downsampled img 10 is: 79.30807
-[Model 2] PSNR difference to original image 10 is: -21.355236
+[Model 2] PSNR difference to original image 10 is: -11.499817
 [Model 2] Focus Measure of original image 10 is: 55.3828
 [Model 2] Focus Measure of downsampled image 10 is: 7.0161676
-[Model 2] Focus Measure of output of model is: 3971.1816
-      g_loss = mse_loss + vgg_loss + g_gan_loss
+[Model 2] Focus Measure of output of model is: 17.85958
