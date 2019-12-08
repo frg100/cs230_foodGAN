@@ -16,6 +16,9 @@ import time
 import pathlib
 from matplotlib import pyplot as plt
 from skimage import measure
+from imutils import paths
+import argparse
+import cv2
 
 str_data_dir = './dataset/train'
 AUTOTUNE = tf.data.experimental.AUTOTUNE
@@ -329,5 +332,15 @@ for i in range(1,11):
 		tf.print("[Model {}] PSNR between original image and downsampled img {} is: ".format(m,i) + str(psnr_inp.numpy()))
 		tf.print("[Model {}] PSNR difference to original image {} is: ".format(m,i) + str(psnr_orig.numpy() - psnr_inp.numpy()))
         
-                
-                
+		orig_cropped_img = cv2.imread("results/model_{}_original_cropped_{}.png".format(m,i))
+		orig_cropped_gray = cv2.cvtColor(orig_cropped_img, cv2.COLOR_BGR2GRAY)
+		orig_cropped_fm = cv2.Laplacian(orig_cropped_gray, cv2.CV_32F).var()
+		down_img = cv2.imread("results/model_{}_downsample_resized_{}.png".format(m,i))
+		down_gray = cv2.cvtColor(down_img, cv2.COLOR_BGR2GRAY)
+		down_fm = cv2.Laplacian(down_gray, cv2.CV_32F).var()
+		gen_cropped_img = cv2.imread("results/model_{}_gen_cropped_{}.png".format(m,i))
+		gen_cropped_gray = cv2.cvtColor(gen_cropped_img, cv2.COLOR_BGR2GRAY)
+		gen_cropped_fm = cv2.Laplacian(gen_cropped_gray, cv2.CV_32F).var()
+		print("[Model {}] Focus Measure of original image {} is: ".format(m,i) + str(orig_cropped_fm))
+		print("[Model {}] Focus Measure of downsampled image {} is: ".format(m,i) + str(down_fm))
+		print("[Model {}] Focus Measure of output of model is: ".format(m,i) + str(gen_cropped_fm))
