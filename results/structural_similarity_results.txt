@@ -1,8 +1,8 @@
 ing TensorFlow backend.
-2019-12-08 01:17:40.680841: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-2019-12-08 01:17:40.686365: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
-2019-12-08 01:17:40.686684: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x557320e4a740 executing computations on platform Host. Devices:
-2019-12-08 01:17:40.686709: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+2019-12-08 01:45:08.778595: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-08 01:45:08.784289: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2300035000 Hz
+2019-12-08 01:45:08.784533: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x562509e21520 executing computations on platform Host. Devices:
+2019-12-08 01:45:08.784559: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
 Reading in image 
 Generating image 1 with model 0
 Image Generated
@@ -11,8 +11,8 @@ Image Generated
 Reading in image 
 Generating image 1 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 1 and output of model is:0.22276530542028508
-[Model 1] Structural similarity between downsampled img 1 and output of model is:0.2863607593560651
+[Model 1] Structural similarity between original image 1 and output of model is:0.7433420023664463
+[Model 1] Structural similarity between downsampled img 1 and output of model is:0.8308203623096267
 Reading in image 
 Generating image 2 with model 0
 Image Generated
@@ -21,8 +21,8 @@ Image Generated
 Reading in image 
 Generating image 2 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 2 and output of model is:0.31927659346069603
-[Model 1] Structural similarity between downsampled img 2 and output of model is:0.35209282728290336
+[Model 1] Structural similarity between original image 2 and output of model is:0.70434093767764
+[Model 1] Structural similarity between downsampled img 2 and output of model is:0.7480244028129667
 Reading in image 
 Generating image 3 with model 0
 Image Generated
@@ -31,8 +31,8 @@ Image Generated
 Reading in image 
 Generating image 3 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 3 and output of model is:0.24240087633033083
-[Model 1] Structural similarity between downsampled img 3 and output of model is:0.29091033101326125
+[Model 1] Structural similarity between original image 3 and output of model is:0.7376265415935829
+[Model 1] Structural similarity between downsampled img 3 and output of model is:0.820312935765247
 Reading in image 
 Generating image 4 with model 0
 Image Generated
@@ -41,8 +41,8 @@ Image Generated
 Reading in image 
 Generating image 4 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 4 and output of model is:0.24240087633033083
-[Model 1] Structural similarity between downsampled img 4 and output of model is:0.29091033101326125
+[Model 1] Structural similarity between original image 4 and output of model is:0.7376265415935829
+[Model 1] Structural similarity between downsampled img 4 and output of model is:0.820312935765247
 Reading in image 
 Generating image 5 with model 0
 Image Generated
@@ -51,8 +51,8 @@ Image Generated
 Reading in image 
 Generating image 5 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 5 and output of model is:0.24085573817244824
-[Model 1] Structural similarity between downsampled img 5 and output of model is:0.2649129991452905
+[Model 1] Structural similarity between original image 5 and output of model is:0.8024896389814286
+[Model 1] Structural similarity between downsampled img 5 and output of model is:0.8372705809863309
 Reading in image 
 Generating image 6 with model 0
 Image Generated
@@ -61,8 +61,8 @@ Image Generated
 Reading in image 
 Generating image 6 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 6 and output of model is:0.27858989408603546
-[Model 1] Structural similarity between downsampled img 6 and output of model is:0.3138785964598884
+[Model 1] Structural similarity between original image 6 and output of model is:0.7946203616639648
+[Model 1] Structural similarity between downsampled img 6 and output of model is:0.8494651735758958
 Reading in image 
 Generating image 7 with model 0
 Image Generated
@@ -71,8 +71,8 @@ Image Generated
 Reading in image 
 Generating image 7 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 7 and output of model is:0.27858989408603546
-[Model 1] Structural similarity between downsampled img 7 and output of model is:0.3138785964598884
+[Model 1] Structural similarity between original image 7 and output of model is:0.7946203616639648
+[Model 1] Structural similarity between downsampled img 7 and output of model is:0.8494651735758958
 Reading in image 
 Generating image 8 with model 0
 Image Generated
@@ -81,8 +81,8 @@ Image Generated
 Reading in image 
 Generating image 8 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 8 and output of model is:0.33652095121003994
-[Model 1] Structural similarity between downsampled img 8 and output of model is:0.35834738037484265
+[Model 1] Structural similarity between original image 8 and output of model is:0.9036253142069971
+[Model 1] Structural similarity between downsampled img 8 and output of model is:0.9363507358455365
 Reading in image 
 Generating image 9 with model 0
 Image Generated
@@ -91,8 +91,8 @@ Image Generated
 Reading in image 
 Generating image 9 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 9 and output of model is:0.37241354332292476
-[Model 1] Structural similarity between downsampled img 9 and output of model is:0.40718763602932695
+[Model 1] Structural similarity between original image 9 and output of model is:0.821715271680698
+[Model 1] Structural similarity between downsampled img 9 and output of model is:0.8706129196554132
 Reading in image 
 Generating image 10 with model 0
 Image Generated
@@ -101,6 +101,6 @@ Image Generated
 Reading in image 
 Generating image 10 with model 1
 Image Generated
-[Model 1] Structural similarity between original image 10 and output of model is:0.34005607975810737
-[Model 1] Structural similarity between downsampled img 10 and output of model is:0.3634768973672728 
-
+[Model 1] Structural similarity between original image 10 and output of model is:0.8272804426940686
+[Model 1] Structural similarity between downsampled img 10 and output of model is:0.8506203540751599
+vgg_generator = make_sr_generator_model('vgg_generator')
