@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #loss_filename = "losses_1575458071.3440142.txt"
-loss_filename = "losses_vgg_1575624281.130714.txt"
+#loss_filename = "losses_vgg_1575624281.130714.txt"
+loss_filename = "losses_sim_1575773662.7103488.txt"
 
 rgx = r'\[[0-9.]*\]'
 

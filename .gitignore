@@ -2,3 +2,4 @@ dataset/
 training_checkpoints/
 models/
 vggan_training_checkpoints/
+ssim_training_checkpoints/
