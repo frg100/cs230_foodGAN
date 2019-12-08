@@ -25,7 +25,7 @@ for loss_filename in loss_filenames:
         gen_loss.append(gen)
       except IndexError:
         pass
-
+  
   #df=pd.DataFrame({'x_disc': range(len(disc_loss)), 'x_gen': range(len(gen_loss)), 'disc_loss': disc_loss, 'gen_loss': gen_loss})
 
   #plt.plot('x_disc', 'disc_loss', data=df, marker='', color='blue', linewidth=2)
@@ -43,6 +43,8 @@ for loss_filename in loss_filenames:
   plt.plot(range(len(gen_loss)), gen_loss)
   plt.xlabel('iterations')
   plt.ylabel('loss')
+  if loss_filename[7] == 's':
+    plt.ylim(-14, 1)
   plt.title('Generator Model Loss')
   plt.legend(['gen loss'])
   plt.savefig(loss_filename[:-4]+'_generator'+'.png')
